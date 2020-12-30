@@ -1,0 +1,15 @@
+{{ define "main"  }}
+<main aria-role="main">
+  <div class="interests">
+    {{ range (where (where .Site.RegularPages "Type" "interests") "Type" "!=" "casestudy")  }}
+    <a class="interest" href="{{ .Permalink  }}">
+      <div class="interest__thumb">
+        <img src="{{ .Params.imageUrl }}" class="interest__img" alt="{{ .Title }}" loading="lazy" />
+      </div>
+      <h3 class="interest__title"><small>Take up</small> {{ .Title  }}</h3>
+    </a>
+    {{ end  }}
+  </div>
+</main>
+{{ end  }}
+

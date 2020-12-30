@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+languageCode = "en-us"
+title = "Takeup Something - Essential items for any interest"
+theme = "ts"
