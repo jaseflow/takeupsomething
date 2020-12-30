@@ -21,7 +21,8 @@ html {
 
 h1,
 h2,
-h3 {
+h3,
+p {
   margin-bottom: 1rem;
 }
 
@@ -53,8 +54,12 @@ h3 {
   opacity: 1;
 }
 
-.title {
+h1 {
   font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
 }
 
 .header {
@@ -105,7 +110,6 @@ h3 {
 }
 
 .interest__title {
-  font-size: 1.15rem;
   transition: color 375ms ease;
 }
 
@@ -133,10 +137,6 @@ h3 {
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 2rem;
-}
-
-.single__intro {
-  font-size: 125%;
 }
 
 .single__hero img {
