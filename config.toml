@@ -2,3 +2,9 @@ baseURL = "https://takeupsomething.com/"
 languageCode = "en-us"
 title = "Takeup Something - Essential items for any interest"
 theme = "ts"
+[related]
+  toLower = false
+
+  [[related.indices]]
+      name = "categories"
+          weight = 100

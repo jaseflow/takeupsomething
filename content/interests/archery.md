@@ -14,7 +14,7 @@ items:
     itemName: "Quiver"
     price: 48.67
     productName: "Trophy Ridge Lite-1 5 Arrow Quiver, Black "
-  - link: "https://www.amazon.com/KRATARC-Adjustable-Protective-Accessory-Lightweight/dp/B08M6767F4/ref=zg_bs_3395601_1?_encoding=UTF8&psc=1&refRID=CQ4NTGFHH1WK124Q735F"
+  - link: "https://amzn.to/3aXhERg"
     itemName: "Arm Guards"
     price: 9.09
     productName: "KRATARC Archery Arm Guard Adjustable Protective 3-Strap Accessory Lightweight Hunting Target Shooting Adult Unisex"

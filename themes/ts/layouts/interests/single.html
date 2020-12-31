@@ -1,7 +1,10 @@
 {{ define "main"  }}
 <main aria-role="main" class="single">
   <div class="container">
-    <h1 class="title">Take up {{ .Title }}</h1>
+    <header class="single__header">
+      <h1 class="flat title">The must-have items for taking up {{ .Title }}</h1>
+      <p>Updated 12 January 2021</p>
+    </header>
     <div class="single__grid">
       <div class="single__sidebar">
         <!-- Note that the content for index.html, as a sort of list page, will pull from content/_index.md -->
@@ -11,22 +14,24 @@
         <div class="single__intro">
           <p>Consectetur nemo dolor unde amet quasi voluptates Reiciendis officiis illo labore sint quae voluptates? Possimus ad quasi dolore sit repellendus. Excepturi deleniti molestias ex ad dignissimos Fuga totam repudiandae consectetur?</p>
         </div>
+        <h3>Interested related to {{ .Title }}</h3>
+        {{- partial "related.html" . -}}
       </div>
       <div>
         {{ if .Params.items }}
-        <h2>Must have items for {{ .Title }}</h2>
         {{ $list := (.Params.items) }}
         <ol class="unstyled items">
           {{ range $list }}
-            <li class="item">
-              <h3 class="item__title flat">{{ .itemName }}</h3>
-              <p>{{ .productName }}</p>
-              <a href="{{ .link }}" class="item__link">
-                <span>${{ .price }}</span>
-                - 
-                <span>Check on Amazon</span>
-              </a>
-            </li>
+          <li class="item">
+            <h2 class="item__title">{{ .itemName }}</h2>
+            <h3 class="flat">We recommend</h3>
+            <p>{{ .productName }}</p>
+            <a href="{{ .link }}" class="item__link">
+              <span>${{ .price }}</span>
+              - 
+              <span>Check on Amazon</span>
+            </a>
+          </li>
           {{ end }}
         </ol>
         {{ end }}
