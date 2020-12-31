@@ -119,6 +119,7 @@ h2 {
 }
 
 .interest__title {
+  line-height: 1.3;
   transition: color 375ms ease;
 }
 
