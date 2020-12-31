@@ -26,6 +26,23 @@ p {
   margin-bottom: 1rem;
 }
 
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.25rem;
+}
+
+.unstyled {
+  margin-left: 0;
+  list-style: none;
+}
+
+.flat {
+  margin-bottom: 0 !important;
+}
+
 .logo {
   display: block;
   color: #111;
@@ -52,14 +69,6 @@ p {
 
 .logo:hover p {
   opacity: 1;
-}
-
-h1 {
-  font-size: 2rem;
-}
-
-h2 {
-  font-size: 1.25rem;
 }
 
 .header {
@@ -148,9 +157,41 @@ h2 {
   object-fit: cover;
 }
 
+.items {
+  margin-left: -1rem;
+  margin-right: -1rem;
+}
+
+.item {
+  transition: background 375ms ease;
+  display: block;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 1rem;
+}
+
+.item__link {
+  color: #E34614;
+  text-decoration: none;
+}
+
+.item:hover {
+  background: #f2f2f2;
+}
+
 @media(min-width: 768px) {
-  html {
-    font-size: 20px;
+
+  .container {
+    padding: 0 4rem;
+  }
+
+  h1 {
+    font-size: 4rem;
+    margin-bottom: 2rem;
+  }
+
+  h2 {
+    font-size: 2rem;
   }
 
   .interests {
@@ -160,8 +201,18 @@ h2 {
   .single__grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
-    grid-column-gap: 2rem;
+    grid-column-gap: 4rem;
   }
+
+  .items {
+    margin-left: -2rem;
+    margin-right: -2rem;
+  }
+
+  .item {
+    padding: 1rem 2rem;
+  }
+
 }
 
 @media(min-width: 1100px) {
