@@ -33,12 +33,10 @@
         </div>
       {{ end }}
       </div>
-      {{ if .Params.items }}
-        <div class="single__related">
-          <h3>Interested related to {{ .Title }}</h3>
-          {{- partial "related.html" . -}}
-        </div>
-      {{ end }}
+      <div class="single__related">
+        <h3>Interested related to {{ .Title }}</h3>
+        {{- partial "related.html" . -}}
+      </div>
     </div>
   </div>
 </main>
