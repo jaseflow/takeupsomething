@@ -31,11 +31,11 @@ h1 {
 }
 
 h2 {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
 }
 
 h3 {
-  font-size: 1.15rem;
+  font-size: 1rem;
 }
 
 .unstyled {
@@ -53,6 +53,7 @@ h3 {
 
 .title {
   font-weight: 500;
+  line-height: 1.2;
 }
 
 .logo {
@@ -143,6 +144,7 @@ h3 {
 .interest__title {
   line-height: 1.3;
   transition: color 375ms ease;
+  font-weight: 700;
 }
 
 .interest__title small {
@@ -171,6 +173,14 @@ h3 {
   margin-bottom: 2rem;
 }
 
+.single__date {
+  margin-top: 0.5rem;
+}
+
+.single__intro {
+  margin-bottom: 2rem;
+}
+
 .single__hero img {
   position: absolute;
   top: 0;
@@ -185,8 +195,6 @@ h3 {
 }
 
 .items {
-  margin-left: -1rem;
-  margin-right: -1rem;
   margin-bottom: 2rem;
 }
 
@@ -195,7 +203,9 @@ h3 {
   display: block;
   border-radius: 10px;
   overflow: hidden;
-  padding: 1rem;
+  padding: 1rem 0;
+  margin-bottom: 1rem;
+  border-top: 1px solid #ddd;
 }
 
 .item__link {
@@ -205,10 +215,6 @@ h3 {
 
 .item__link:hover {
   text-decoration: underline;
-}
-
-.item:hover {
-  background: #f2f2f2;
 }
 
 @media(min-width: 768px) {
@@ -226,29 +232,39 @@ h3 {
     font-size: 2rem;
   }
 
+  h3 {
+    font-size: 1.25rem;
+  }
+
   .interests {
     grid-template-columns: repeat(4, 1fr);
   }
 
   .single__grid {
     display: grid;
-    grid-template-columns: 1fr 1.75fr;
+    grid-template-columns: 2fr 1fr;
+    grid-auto-rows: auto;
     grid-column-gap: 4rem;
   }
 
   .single__intro {
-    font-size: 110%;
-  }
-
-  .items {
-    margin-left: -2rem;
-    margin-right: -2rem;
+    font-size: 125%;
   }
 
   .item {
-    padding: 1rem 2rem;
+    padding: 1rem 0;
   }
 
+}
+
+@media(max-width: 767px) {
+  .single__related {
+    margin: -2rem;
+    margin-top: 2rem;
+    padding: 2rem;
+    background: #222;
+    color: #fff;
+  }
 }
 
 @media(min-width: 1100px) {

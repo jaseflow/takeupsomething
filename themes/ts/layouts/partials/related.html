@@ -1,4 +1,4 @@
-{{ $related := .Site.RegularPages.RelatedIndices . "categories" | first 5 }}
+{{ $related := .Site.RegularPages.RelatedIndices . "categories" | first 4 }}
 {{ with $related }}
 <ul class="related">
   {{ range . }}
@@ -7,7 +7,7 @@
       <div class="interest__thumb">
         <div class="interest__img" style="background-image: url({{ .Params.imageUrl }})"></div>
       </div>
-      <h3 class="interest__title"><small>Take up</small> {{ .Title  }}</h3>
+      <p class="interest__title"><small>Take up</small> {{ .Title  }}</p>
     </a>
   </li>
   {{ end }}
