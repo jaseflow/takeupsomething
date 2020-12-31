@@ -1,6 +1,6 @@
 baseURL = "https://takeupsomething.com/"
 languageCode = "en-us"
-title = "Takeup Something - Essential items for any interest"
+title = "Takeup - Must-have items for anybody to take up anything"
 theme = "ts"
 [related]
   toLower = false
