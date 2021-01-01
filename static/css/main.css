@@ -236,6 +236,10 @@ a:hover {
   padding: 0.25rem 0;
 }
 
+.single__content {
+  margin-bottom: 2rem;
+}
+
 .single__content h2 {
   margin-bottom: 0;
 }
