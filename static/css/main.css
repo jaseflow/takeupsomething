@@ -165,7 +165,7 @@ a:hover {
 
 .unrelated a {
   display: inline-block;
-  padding: 0.5rem 0;
+  padding: 0.25rem 0;
 }
 
 .unrelated span {
@@ -236,7 +236,6 @@ a:hover {
 .single__content h2 {
   border-bottom: 1px solid;
   padding-bottom: 0.5em;
-  font-weight: 500;
 }
 
 .single__content h3 {
@@ -349,7 +348,7 @@ a:hover {
   }
 
   h3 {
-    font-size: 1.5rem;
+    font-size: 1.25rem;
   }
 
   .interests {
