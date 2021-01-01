@@ -15,8 +15,8 @@
           <div class="author__wrap">
             <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
             <div class="author__content">
-              <h3 class="small-caps">Written by</h3>
-              <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+              <h3 class="small-caps">Recommendations by</h3>
+              <p class="flat"><strong>{{ .Params.author.name }}</strong> @{{ .Params.author.handle }}</p>
               {{ if .Params.author.description }}
                 <p class="pressed hide-mobile">{{ .Params.author.description }}</p>
               {{ end }}
