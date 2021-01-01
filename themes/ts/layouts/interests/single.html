@@ -7,12 +7,25 @@
     </header>
     <div class="single__grid">
       <div>
-        <div class="single__intro">
-          <div class="single__hero">
-            <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Title }}" loading="lazy" />
+        <div class="single__hero">
+          <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Title }}" loading="lazy" />
+        </div>
+        {{ if .Params.author }}
+        <div class="author">
+          <div class="author__wrap">
+            <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
+            <div class="author__content">
+              <h3 class="flat">Meet the author</h3>
+              <p>{{ .Params.author.handle }} is one of the best the business at {{ .Title }}. They spend most their time focussing on growing and improvement the {{ .Title }} community.</p>
+              <p class="flat"><a href="https://instagram.com/{{ .Params.author.handle }}">View on Instagram</a></p>
+            </div>
           </div>
+        </div>
+        {{ end }}
+        <div class="single__intro">
           <p>Consectetur nemo dolor unde amet quasi voluptates Reiciendis officiis illo labore sint quae voluptates? Possimus ad quasi dolore sit repellendus. Excepturi deleniti molestias ex ad dignissimos Fuga totam repudiandae consectetur?</p>
         </div>
+        {{ .Content }}
         {{ if .Params.items }}
         {{ $list := (.Params.items) }}
         <div class="single__items">
@@ -34,8 +47,10 @@
       {{ end }}
       </div>
       <div class="single__related">
-        <h3>Interested related to {{ .Title }}</h3>
+        <h3>Interests similar to {{ .Title }}</h3>
         {{- partial "related.html" . -}}
+        <h3>Other kind of interests</h3>
+        {{- partial "unrelated.html" . -}}
       </div>
     </div>
   </div>

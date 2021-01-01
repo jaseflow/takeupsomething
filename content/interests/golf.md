@@ -5,4 +5,8 @@ url: "/golf"
 imageUrl: "/interests/golf.jpg"
 categories:
   - sport
+author:
+  image: "/jcobley.jpg"
+  name: "James Cobley"
+  handle: "cobley19"
 ---

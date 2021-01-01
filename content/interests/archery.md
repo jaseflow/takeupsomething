@@ -3,6 +3,10 @@ title: "Archery"
 date: 2020-12-30T11:10:26+10:00
 url: "/archery"
 imageUrl: "/interests/archery.jpg"
+author:
+  image: "/author-image.jpg"
+  name: "Moss Man"
+  handle: "kohenmosser"
 categories:
   - sport
 items:
@@ -35,3 +39,10 @@ items:
     price: 99.00
     productName: "IQ Bowsights 5-Pin Micro Bowsight with Retina Lock Technology,Right Hand, Black "
 ---
+
+## Bow
+
+### We recommend
+Spyder and Spyder XL Takedown Recurve Bow - Ready 2 Shoot Archery Set | Includes Bow, Premium Carbon Arrows, Recurve Bow Case, Stringer Tool, Armguard
+
+$299.95 - [Check price on Amazon](https://amzn.to/3htsbF1)
