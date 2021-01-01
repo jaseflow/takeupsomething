@@ -51,7 +51,8 @@ a:hover {
   background: #F5501C;
   color: #fff;
   font-weight: 700;
-  padding: 0.5rem 1rem;
+  padding: 0.4rem 1rem;
+  font-size: 0.875rem;
   border-radius: 10px;
   text-decoration: none;
 }
@@ -120,7 +121,7 @@ a:hover {
 }
 
 .header {
-  padding: 3rem 0 2rem 0;
+  padding: 3rem 0 1rem 0;
 }
 
 .container {
@@ -222,6 +223,8 @@ a:hover {
 
 .contents {
   margin-bottom: 2rem;
+  border-bottom: 1px solid;
+  padding-bottom: 2rem;
 }
 
 .contents ol {
@@ -234,8 +237,7 @@ a:hover {
 }
 
 .single__content h2 {
-  border-bottom: 1px solid;
-  padding-bottom: 0.5em;
+  margin-bottom: 0;
 }
 
 .single__content h3 {
@@ -256,6 +258,7 @@ a:hover {
 
 .single__date {
   margin-top: 0.5rem;
+  opacity: 0.7;
 }
 
 .single__intro {
@@ -290,12 +293,14 @@ a:hover {
 }
 
 .author {
+  margin-bottom: 1.5rem;
+  margin-left: -2rem;
+  margin-right: -2rem;
   padding: 1rem;
-  border-bottom: 1px solid #ddd;
-  margin-bottom: 1rem;
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.085);
 }
 
 .author__wrap {
@@ -317,16 +322,28 @@ a:hover {
   margin-right: 1rem;
 }
 
+.author__desc {
+  margin-top: 0.5rem;
+}
+
 @media(min-width: 768px) {
 
+  .single__hero {
+    margin-bottom: 1rem;
+  }
+
   .author {
-    padding: 1rem 0 2rem 0;
+    margin: 0;
     margin-bottom: 2rem;
+    align-items: center;
+    padding-right: 2rem;
+    border-radius: 10px;
+    border: 1px solid #eee;
   }
 
   .author__thumb {
-    width: 100px;
-    height: 100px;
+    width: 120px;
+    height: 120px;
     margin-right: 2rem;
   }
 
@@ -381,17 +398,10 @@ a:hover {
     display: none;
   }
 
-  .single__related {
-    margin: -2rem;
-    margin-top: 2rem;
-    padding: 2rem;
-    background: #f9f9f9;
-  }
-
-  .author,
   .single__hero {
-    margin-left: -1rem;
-    margin-right: -1rem;
+    margin-left: -2rem;
+    margin-right: -2rem;
+    border-radius: 0;
   }
 }
 

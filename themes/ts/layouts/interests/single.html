@@ -2,8 +2,8 @@
 <main aria-role="main" class="single">
   <div class="container">
     <header class="single__header">
-      <h1 class="flat title">The must-have items for taking up {{ .Title }}</h1>
-      <p class="single__date">Updated on {{ .PublishDate.Format "January, 2006" }}</p>
+      <h1 class="title flat">The must-have items for taking up {{ .Title }}</h1>
+      <p class="single__date"><i>Updated on {{ .PublishDate.Format "January, 2006" }}</i></p>
     </header>
     <div class="single__grid">
       <div>
@@ -16,11 +16,11 @@
             <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
             <div class="author__content">
               <h3 class="small-caps">Recommendations by</h3>
-              <p class="flat"><strong>{{ .Params.author.name }}</strong> @{{ .Params.author.handle }}</p>
+              <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+              <p class="flat">@{{ .Params.author.handle }}</p>
               {{ if .Params.author.description }}
-                <p class="pressed hide-mobile">{{ .Params.author.description }}</p>
+                <p class="pressed hide-mobile author__desc">{{ .Params.author.description }}</p>
               {{ end }}
-              <p class="flat"><small>Brisbane, Australia</small></p>
             </div>
           </div>
           <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn">Follow</a>
@@ -31,7 +31,7 @@
             <p>{{ .Description }}</p>
           </div>
           <aside class="contents">
-            <h3 class="pressed">Table of contents</h3>
+            <h3 class="pressed">Must-haves</h3>
             {{ .TableOfContents }}
           </aside>
         </div>
