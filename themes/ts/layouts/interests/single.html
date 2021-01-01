@@ -15,17 +15,29 @@
           <div class="author__wrap">
             <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
             <div class="author__content">
-              <h3 class="flat">Meet the author</h3>
-              <p>{{ .Params.author.handle }} is one of the best the business at {{ .Title }}. They spend most their time focussing on growing and improvement the {{ .Title }} community.</p>
-              <p class="flat"><a href="https://instagram.com/{{ .Params.author.handle }}">View on Instagram</a></p>
+              <h3 class="small-caps">Written by</h3>
+              <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+              {{ if .Params.author.description }}
+                <p class="pressed hide-mobile">{{ .Params.author.description }}</p>
+              {{ end }}
+              <p class="flat"><small>Brisbane, Australia</small></p>
             </div>
           </div>
+          <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn">Follow</a>
         </div>
         {{ end }}
-        <div class="single__intro">
-          <p>Consectetur nemo dolor unde amet quasi voluptates Reiciendis officiis illo labore sint quae voluptates? Possimus ad quasi dolore sit repellendus. Excepturi deleniti molestias ex ad dignissimos Fuga totam repudiandae consectetur?</p>
+        <div class="single__subhero">
+          <div class="single__intro">
+            <p>{{ .Description }}</p>
+          </div>
+          <aside class="contents">
+            <h3 class="pressed">Table of contents</h3>
+            {{ .TableOfContents }}
+          </aside>
         </div>
-        {{ .Content }}
+        <div class="single__content">
+          {{ .Content }}
+        </div>
         {{ if .Params.items }}
         {{ $list := (.Params.items) }}
         <div class="single__items">

@@ -7,6 +7,7 @@ author:
   image: "/author-image.jpg"
   name: "Moss Man"
   handle: "kohenmosser"
+  description: "A leader in the community. They spend majority of their time fostering and growing the community."
 categories:
   - sport
 items:

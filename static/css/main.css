@@ -47,6 +47,28 @@ a:hover {
   text-decoration: underline;
 }
 
+.btn {
+  background: #F5501C;
+  color: #fff;
+  font-weight: 700;
+  padding: 0.5rem 1rem;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  text-decoration: none;
+}
+
+.small-caps {
+  font-size: 0.75rem;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 0;
+  line-height: 2;
+  opacity: 0.6;
+}
+
 .unstyled {
   margin-left: 0;
   list-style: none;
@@ -54,6 +76,10 @@ a:hover {
 
 .flat {
   margin-bottom: 0 !important;
+}
+
+.pressed {
+  margin-bottom: 0.5rem !important;
 }
 
 .light {
@@ -119,6 +145,10 @@ a:hover {
   color: inherit;
 }
 
+.interest:hover {
+  text-decoration: none;
+}
+
 .related {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -134,7 +164,7 @@ a:hover {
 }
 
 .unrelated a {
-  display: block;
+  display: inline-block;
   padding: 0.5rem 0;
 }
 
@@ -190,11 +220,38 @@ a:hover {
   transform: scale(1.025);
 }
 
+.contents {
+  margin-bottom: 2rem;
+}
+
+.contents ol {
+  margin-left: 1rem;
+}
+
+.contents a {
+  display: inline-block;
+  padding: 0.25rem 0;
+}
+
+.single__content h2 {
+  border-bottom: 1px solid;
+  padding-bottom: 0.5em;
+  font-weight: 500;
+}
+
+.single__content h3 {
+  margin-bottom: 0;
+}
+
+.single__content a {
+  display: inline-block;
+  margin-top: 0.5rem;
+}
+
 .single__hero {
   padding-bottom: 56.25%;
   position: relative;
   border-radius: 10px;
-  margin-bottom: 2rem;
   overflow: hidden;
 }
 
@@ -234,12 +291,12 @@ a:hover {
 }
 
 .author {
-  display: none;
-  padding: 1.5rem;
-  border-radius: 0 0 10px 10px;
-  border: 1px solid #ddd;
-  margin-bottom: 2rem;
-  border-top: 0;
+  padding: 1rem;
+  border-bottom: 1px solid #ddd;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .author__wrap {
@@ -249,25 +306,33 @@ a:hover {
 
 .author__content {
   flex: 1;
+  line-height: 1.2;
 }
 
 .author__thumb {
-  width: 120px;
-  height: 120px;
+  width: 60px;
+  height: 60px;
   min-width: 60px;
   border-radius: 10px;
   overflow: hidden;
-  margin-right: 2rem;
+  margin-right: 1rem;
 }
 
 @media(min-width: 768px) {
 
   .author {
-    display: block;
-    margin-top: calc(-2rem - 10px);
-    position: relative;
-    z-index: 10;
-    background: #fff;
+    padding: 1rem 0 2rem 0;
+    margin-bottom: 2rem;
+  }
+
+  .author__thumb {
+    width: 100px;
+    height: 100px;
+    margin-right: 2rem;
+  }
+
+  .author__content {
+    padding-right: 4rem;
   }
 
   .container {
@@ -313,11 +378,21 @@ a:hover {
 }
 
 @media(max-width: 767px) {
+  .hide-mobile {
+    display: none;
+  }
+
   .single__related {
     margin: -2rem;
     margin-top: 2rem;
     padding: 2rem;
     background: #f9f9f9;
+  }
+
+  .author,
+  .single__hero {
+    margin-left: -1rem;
+    margin-right: -1rem;
   }
 }
 
