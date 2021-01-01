@@ -17,6 +17,11 @@ html {
   overflow-y: scroll;
   min-height: 100%;
   font-size: 100%;
+  background: #242424;
+}
+
+body {
+  background: #fff;
 }
 
 h1,
