@@ -2,6 +2,7 @@ baseURL = "https://takeupsomething.com/"
 languageCode = "en-us"
 title = "Takeup - Must-have items for anybody to take up anything"
 theme = "ts"
+googleAnalytics = "G-4KZWM8KHSB"
 [related]
   toLower = false
 
