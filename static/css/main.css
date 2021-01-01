@@ -120,7 +120,7 @@ a:hover {
 }
 
 .header {
-  padding: 4rem 0 2rem 0;
+  padding: 3rem 0 2rem 0;
 }
 
 .container {
@@ -225,7 +225,7 @@ a:hover {
 }
 
 .contents ol {
-  margin-left: 1rem;
+  margin-left: 1em;
 }
 
 .contents a {
@@ -260,7 +260,7 @@ a:hover {
 }
 
 .single__intro {
-  margin-bottom: 2rem;
+  margin-bottom: 1rem;
 }
 
 .single__hero img {
