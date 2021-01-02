@@ -14,3 +14,6 @@ googleAnalytics = "G-4KZWM8KHSB"
     startLevel = 2
     endLevel = 2
     ordered = true
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true

@@ -1,0 +1,17 @@
+{{/* DEFAULTS */}}
+{{ $title := "" }}
+{{ $body := "" }}
+{{ $linkUrl := "" }}
+{{ $imageUrl := "" }}
+
+<div class="product">
+  <img src='{{ .Get "imageUrl"}}' alt="" />
+  <div>
+    <a href='{{ .Get "linkUrl" }}'><h4 class="product__title pressed">{{ .Get "title" }}</h4></a>
+    <p>{{ .Get "body" }}</p>
+    <footer class="product__footer">
+      <span class="product__price"><i>$</i>{{ .Get "price" }}</span> 
+      <a class="btn product__action" href='{{ .Get "linkUrl" }}'>Check on Amazon</a>
+    </footer>
+  </div>
+</div>
