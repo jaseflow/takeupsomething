@@ -13,6 +13,7 @@
     {{ end  }}
     <!-- More shared code, perhaps a footer but that can be overridden if need be in  -->
     {{- partial "footer.html" . -}}
+    {{ template "_internal/google_analytics_async.html" .  }}
   </body>
 </html>
 
