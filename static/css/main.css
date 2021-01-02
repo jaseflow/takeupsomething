@@ -235,8 +235,6 @@ a:hover {
 
 .contents {
   margin-bottom: 2rem;
-  border-bottom: 1px solid #999;
-  padding-bottom: 2rem;
 }
 
 .contents ol {
@@ -253,7 +251,6 @@ a:hover {
 }
 
 .single__content h2 {
-  margin-bottom: 0;
   margin-top: 2rem;
 }
 
@@ -265,6 +262,7 @@ a:hover {
 
 .single__content h3 {
   margin-top: 2rem;
+  margin-bottom: 0.5rem;
 }
 
 .single__hero {
@@ -280,7 +278,9 @@ a:hover {
 }
 
 .single__intro {
-  margin-bottom: 1rem;
+  margin-bottom: 2rem;
+  border-bottom: 1px solid #999;
+  padding-bottom: 1rem;
 }
 
 .single__hero img {

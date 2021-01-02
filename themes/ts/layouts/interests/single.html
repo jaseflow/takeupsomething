@@ -2,7 +2,7 @@
 <main aria-role="main" class="main single">
   <div class="container">
     <header class="single__header">
-      <h1 class="title flat">The must-have items for taking up {{ .Title }}</h1>
+      <h1 class="title flat">Take up {{ .Title }}</h1>
       <p class="single__date"><i>Updated on {{ .PublishDate.Format "January, 2006" }}</i></p>
     </header>
     <div class="single__grid">
@@ -28,10 +28,10 @@
         {{ end }}
         <div class="single__subhero">
           <div class="single__intro">
-            <h2>Getting started with {{ .Title }}</h2>
+            <h2 class="hide-mobile">How to get started with {{ .Title }}</h2>
             <p>{{ .Description }}</p>
           </div>
-          <aside class="contents">
+          <aside class="contents" hidden>
             <h3 class="pressed">Must-have items</h3>
             {{ .TableOfContents }}
           </aside>
