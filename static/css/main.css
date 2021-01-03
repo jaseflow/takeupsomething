@@ -205,6 +205,7 @@ a:hover {
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1rem;
   grid-row-gap: 1rem;
+  margin-bottom: 2rem;
 }
 
 .home {
@@ -310,6 +311,10 @@ a:hover {
 .contents a {
   display: inline-block;
   padding: 0.25rem 0;
+}
+
+.taxonomy {
+  padding-bottom: 4rem;
 }
 
 .single__content {
@@ -582,9 +587,9 @@ a:hover {
   }
 
   .main {
-    min-height: calc(100vh - 214px);
     padding-top: 2rem;
     padding-bottom: 4rem;
+    min-height: calc(100vh - 214px);
   }
 
   .single__grid {

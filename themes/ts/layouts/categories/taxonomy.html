@@ -1,5 +1,5 @@
 {{ define "main" }}
-<main class="main">
+<main class="main taxonomy">
   <div class="container">
     <h1>Category: {{ .Title }}</h1>
     <div class="interests">
@@ -12,6 +12,8 @@
       </a>
       {{ end  }}
     </div>
+    <h2>Other categories</h2>
+    {{- partial "unrelated.html" . -}}
   </div>
 </main>
 {{ end }}
