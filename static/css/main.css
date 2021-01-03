@@ -245,6 +245,10 @@ a:hover {
   color: #111;
 }
 
+.interest {
+  position: relative;
+}
+
 .interest__thumb {
   display: block;
   padding-bottom: 100%;
@@ -544,10 +548,6 @@ a:hover {
 
   .container {
     padding: 0 4rem;
-  }
-
-  .single {
-    padding-top: 2rem;
   }
 
   .single__sidebar {
