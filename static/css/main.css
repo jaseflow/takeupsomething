@@ -583,6 +583,7 @@ a:hover {
 
   .main {
     min-height: calc(100vh - 214px);
+    padding-top: 2rem;
     padding-bottom: 4rem;
   }
 

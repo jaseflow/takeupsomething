@@ -1,7 +1,7 @@
 {{ define "main" }}
 <main class="main">
   <div class="container">
-    <h1>{{ .Title }}</h1>
+    <h1>Category: {{ .Title }}</h1>
     <div class="interests">
       {{ range .Paginator.Pages }}
       <a class="interest" href="{{ .Permalink  }}">
