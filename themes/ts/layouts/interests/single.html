@@ -1,14 +1,14 @@
 {{ define "main"  }}
-<main aria-role="main" class="main single">
+<main aria-role="main" class="main single" id="single">
   <div class="container">
-    <header class="single__header">
-      <h1 class="title flat">How to start {{ .Title }}</h1>
-      <p class="single__date"><i>Updated on {{ .PublishDate.Format "January, 2006" }}</i></p>
-    </header>
     <div class="single__grid">
       <div>
         <div class="single__hero">
           <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Title }}" loading="lazy" />
+          <header class="single__header">
+            <h1 class="title flat">How to start {{ .Title }}</h1>
+            <p class="single__date flat"><small>Published {{ .PublishDate.Format "January, 2006" }}</small></p>
+          </header>
         </div>
         {{ if .Params.author }}
         <div class="author">
@@ -28,11 +28,15 @@
         {{ end }}
         <div class="single__subhero">
           <div class="single__intro">
+            {{ if .Params.subtitle }}
+            <h2>{{ .Params.subtitle }}</h2>
+            {{ else }}
             <h2>Getting started</h2>
+            {{ end }}
             <p>{{ .Description }}</p>
           </div>
           <aside class="contents">
-            <h3 class="pressed">Must-have items</h3>
+            <h4 class="pressed">What you will need</h4>
             {{ .TableOfContents }}
           </aside>
         </div>
@@ -59,14 +63,20 @@
         </div>
       {{ end }}
       </div>
-      <div class="single__related">
+      <div class="single__sidebar">
+        <div class="single__related">
         <h3>Interests similar to {{ .Title }}</h3>
         {{- partial "related.html" . -}}
         <h3>Different interests</h3>
         {{- partial "unrelated.html" . -}}
+        </div>
       </div>
     </div>
   </div>
 </main>
 {{ end  }}
-
+{{ define "footer" }}
+<script>
+  const wrapper = document.getElementById('single')
+</script>
+{{ end  }}

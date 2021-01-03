@@ -1,5 +1,6 @@
 ---
 title: "Archery"
+subtitle: "Getting ready for the range"
 date: 2020-12-30T11:10:26+10:00
 url: "/archery"
 imageUrl: "/interests/archery.jpg"
@@ -11,40 +12,31 @@ author:
   description: "A leader in the community. They spend majority of their time fostering and growing the community."
 categories:
   - sport
-items:
-  - link: "https://www.amazon.com/dp/B01CLXD5HS?tag=targetcrazy-p41-20&linkCode=ogi&th=1&psc=1"
-    itemName: "Bow"
-    price: 299.95
-    productName: "Spyder and Spyder XL Takedown Recurve Bow - Ready 2 Shoot Archery Set | Includes Bow, Premium Carbon Arrows, Recurve Bow Case, Stringer Tool, Armguard"
-  - link: "https://www.amazon.com/dp/B00GGPGFLG?tag=targetcrazy-p19-20&linkCode=ogi&th=1&psc=1"
-    itemName: "Quiver"
-    price: 48.67
-    productName: "Trophy Ridge Lite-1 5 Arrow Quiver, Black "
-  - link: "https://amzn.to/3aXhERg"
-    itemName: "Arm Guards"
-    price: 9.09
-    productName: "KRATARC Archery Arm Guard Adjustable Protective 3-Strap Accessory Lightweight Hunting Target Shooting Adult Unisex"
-  - link: "https://www.amazon.com/gp/product/B000IES5RI/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B000IES5RI&linkCode=as2&tag=pickabow-20&linkId=DFG2GWZRPTE4UVA6"
-    itemName: "Release Aid (Compound Bow)"
-    price: 104.99
-    productName: "TruFire Hurricane Extreme Buckle Web Archery Compound Bow Release - Adjustable Camo Buckle Wrist Strap"
-  - link: "https://www.amazon.com/SAS-Adjustable-Archery-Release-Aid/dp/B00K3SG1HU"
-    itemName: "Release Aid (Recurve Bow)"
-    price: 19.99
-    productName: "SAS Adjustable Archery Release Aid"
-  - link: "https://www.amazon.com/gp/product/B000P9WFF4/ref=as_li_tl?ie=UTF8&tag=archery30k-20&camp=1789&creative=9325&linkCode=as2&creativeASIN=B000P9WFF4&linkId=c5bd1ce93d3835c1cc164fa8c437e5b9"
-    itemName: "Shooting Glove"
-    price: 17.54
-    productName: "Damascus Doeskin Shooting Glove Large RH/LH"
-  - link: "https://www.amazon.com/gp/product/B00CQ8K2U2/ref=as_li_qf_sp_asin_il_tl?ie=UTF8&camp=1789&creative=9325&creativeASIN=B00CQ8K2U2&linkCode=as2&tag=pickabow-20&linkId=SG4HKJSNL56KWTFJ"
-    itemName: "Sight"
-    price: 99.00
-    productName: "IQ Bowsights 5-Pin Micro Bowsight with Retina Lock Technology,Right Hand, Black "
 ---
 
-## Bow
+## Bows
+This may seem obvious, but it’s also the most important, and many times it’s not the easiest decision to make. There are countless bow options at a number of different price-points.
 
-### We recommend
-Spyder and Spyder XL Takedown Recurve Bow - Ready 2 Shoot Archery Set | Includes Bow, Premium Carbon Arrows, Recurve Bow Case, Stringer Tool, Armguard
+#### Recommendations
+<div class="products">
+{{% product price="129" title="Samick Sage Takedown Recurve Bow" imageUrl="https://www.apexhunting.com.au/assets/full/SS-SAGE.jpg?20190621054545" linkUrl="https://amzn.to/388IV1m" %}}
+{{% product price="129" title="Samick Sage Takedown Recurve Bow" imageUrl="https://www.apexhunting.com.au/assets/full/SS-SAGE.jpg?20190621054545" linkUrl="https://amzn.to/388IV1m" %}}
+</div>
 
-$299.95 - [Check price on Amazon](https://amzn.to/3htsbF1)
+## Arrows
+Another no-brainer, but finding the right arrow for your bow is important. Try to buy you bow and arrow together to make sure you find the perfect match. If you’re not sure, have an associate help you find the perfect arrows for your bow.
+
+#### Recommendations
+<div class="products">
+{{% product price="129" title="32-Inch Carbon Arrows 4-Inch Feather Fletching Replaceable Points Hunting Arrows Targeting Arrows Spine 400 Recurve Bow Longbow Hunting Bow(Pack of 6)" imageUrl="https://canary.contestimg.wish.com/api/webimage/5e7846baeb8e2abdc326601d-large.jpg?cache_buster=4280d53ec76e70e5f61119461ed14abe" linkUrl="https://amzn.to/3ob2lrI" %}}
+{{% product price="129" title="Samick Sage Takedown Recurve Bow" imageUrl="https://www.apexhunting.com.au/assets/full/SS-SAGE.jpg?20190621054545" linkUrl="https://amzn.to/388IV1m" %}}
+</div>
+
+## Release
+Also an aide for consistency, picking up a release, mechanical or otherwise, can greatly help you with your aracy. Do a little research first. Try a couple different types of releases. Then come in-store when you have a better idea of what you’re looking for.
+## Arrow rest
+This is  a device used to hold the arrow against the handle until it’s released.
+## Sight
+Mounted on the riser of your bow, a sight helps you aim your arrow.
+## Targets
+Now that you’ve got the basics out of the way, it’s time to get in some practice. Targets can be as simple or intricate as you prefer. Just keep in mind you’ll need some sort of a backstop (or block) to stop the arrow.
