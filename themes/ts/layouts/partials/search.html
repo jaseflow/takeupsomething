@@ -1,16 +1,14 @@
 <div class="search">
   <form action="" id="search" role="search">
-    <input type="search" class="input" id="search-input" placeholder="Find an interest">
+    <input type="search" autocomplete="off" class="input" id="search-input" placeholder="Search by name or category">
     <div class="search__results" id="search-results">
-      <template id="search-result">
-        <article class="content post">
-          <h2 class="post-title"><a class="summary-title-link"></a></h2>
-          <summary class="summary"></summary>
-          <div class="read-more-container">
-            <a class="read-more-link">Read More »</a>
-          </div>
-        </article>
-      </template>
+      <ol id="search-list" class="search__list">
+        <template id="search-result">
+          <li>
+            <a class="summary-title-link search__result"></a>
+          </li>
+        </template>
+      </ol>
     </div>
   </form>
 </div>

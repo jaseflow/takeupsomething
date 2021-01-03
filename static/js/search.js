@@ -7,22 +7,30 @@ window.addEventListener("DOMContentLoaded", function(event)
   var form = document.getElementById("search");
   var input = document.getElementById("search-input");
 
+
+  const results = document.querySelector("#search-results");
+  const target = document.querySelector("#search-list");
   const template = document.getElementById("search-result");
 
-  form.addEventListener("submit", function(event)
+  input.addEventListener("keyup", function(event)
     {
-      event.preventDefault();
-
       var term = input.value.trim();
-      if (!term)
-        return;
-
-      startSearch(term);
+      if (term.length > 2) {
+        startSearch(term);
+      } else if (term.length === 0) {
+        results.classList.remove('search__results--searching');
+      }
     }, false);
+
+  //input.addEventListener("blur", function(event)
+   // {
+   //   results.classList.remove('search__results--searching');
+    //}, false);
 
   function startSearch(term)
   {
     form.setAttribute("data-running", "true");
+    results.classList.add('search__results--searching');
 
     if (index)
     {
@@ -80,14 +88,12 @@ window.addEventListener("DOMContentLoaded", function(event)
   {
     var results = index.search(term);
 
-    let target = document.querySelector("#search-results");
-
     while (target.firstChild)
       target.removeChild(target.firstChild);
 
     var title = document.createElement("h4");
     title.id = "search-results";
-    title.className = "search__title";
+    title.className = "search__title small-caps";
 
     if (results.length == 0)
       title.textContent = `No results found for “${term}”`;
@@ -103,10 +109,8 @@ window.addEventListener("DOMContentLoaded", function(event)
       var doc = lookup[result.ref];
 
       var element = template.content.cloneNode(true);
-      element.querySelector(".summary-title-link").href =
-        element.querySelector(".read-more-link").href = doc.uri;
+      element.querySelector(".summary-title-link").href = doc.uri
       element.querySelector(".summary-title-link").textContent = doc.title;
-      element.querySelector(".summary").textContent = truncate(doc.content, 70);
       target.appendChild(element);
     }
     title.scrollIntoView(true);
