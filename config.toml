@@ -17,3 +17,11 @@ googleAnalytics = "G-4KZWM8KHSB"
   [markup.goldmark]
     [markup.goldmark.renderer]
       unsafe = true
+
+[outputFormats.SearchIndex]
+  baseName = "search"
+  mediaType = "application/json"
+
+[outputs]
+  home = [ "HTML", "RSS", "SearchIndex" ]
+
