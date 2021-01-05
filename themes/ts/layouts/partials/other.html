@@ -1,6 +1,6 @@
-{{ $related := .Site.RegularPages.RelatedIndices . "categories" | first 4 }}
+{{ $related := .Site.RegularPages | first 4 }}
 {{ with $related }}
-<ul class="related related--row">
+<ul class="related">
   {{ range . }}
   <li class="interest">
     <a href="{{ .RelPermalink }}">

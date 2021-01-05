@@ -36,37 +36,18 @@
             <p>{{ .Description }}</p>
           </div>
           <aside class="contents">
-            <h4 class="pressed">What you will need</h4>
+            <h3>What you will need</h3>
             {{ .TableOfContents }}
           </aside>
         </div>
         <div class="single__content">
           {{ .Content }}
         </div>
-        {{ if .Params.items }}
-        {{ $list := (.Params.items) }}
-        <div class="single__items">
-          <ol class="unstyled items">
-            {{ range $list }}
-            <li class="item">
-              <h2 class="item__title">{{ .itemName }}</h2>
-              <h3 class="flat">We recommend</h3>
-              <p>{{ .productName }}</p>
-              <a href="{{ .link }}" class="item__link">
-                <span>${{ .price }}</span>
-                - 
-                <span>Check on Amazon</span>
-              </a>
-            </li>
-            {{ end }}
-          </ol>
-        </div>
-      {{ end }}
       </div>
       <div class="single__sidebar">
         <div class="single__related">
-        <h3>Interests similar to {{ .Title }}</h3>
-        {{- partial "related.html" . -}}
+        <h3>Other interests</h3>
+        {{- partial "other.html" . -}}
         <h3>Different interests</h3>
         {{- partial "unrelated.html" . -}}
         </div>
