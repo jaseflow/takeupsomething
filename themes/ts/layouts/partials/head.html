@@ -10,7 +10,7 @@
     gtag('config', 'G-4KZWM8KHSB');
   </script>
   <title>{{ block "title" .  }}
-    {{- .Title | default .Site.Title -}}
+    {{ .Title }}{{ if .IsHome }} - {{ .Site.Params.Tagline }}{{ else }} - {{ .Site.Title }}{{ end }}
     {{ end  }}</title>
   <meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Description }}{{ end }}"/>
   <meta name="robots" content="noodp"/>
