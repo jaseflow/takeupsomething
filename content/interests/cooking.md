@@ -1,9 +1,8 @@
 ---
-title: "How to Start Cooking - Must-have Items For The kitchen | Takeup"
+title: "How to Start Cooking - Must-have Items For The Kitchen | Takeup"
 interest: "Cooking"
 subtitle: "Getting started in the kitchen"
-date: 2020-12-30T11:10:26+10:00
-url: "/cooking"
+date: 2020-12-30T11:10:26+10:00K
 imageUrl: "/interests/cooking.jpg"
 categories:
   - food
@@ -12,7 +11,6 @@ author:
   name: "Jason Corbett"
   handle: "jsncbt"
   description: "A leader in the community. They spend majority of their time fostering and growing the community."
-description: "To get started in cooking you will need to first have some where to cook. Once you have that, you don't need much more to get a good meal out. The most important piece of equipment is a good knife to chop your ingredients, quality pots and pans to cook with as well as the odd tool to get things done faster."
 books:
   - name: "The Food Lab Better Home Cooking Through Science"
     imageUrl: "https://images-na.ssl-images-amazon.com/images/I/41ufhLxL-TL._SX387_BO1,204,203,200_.jpg"
