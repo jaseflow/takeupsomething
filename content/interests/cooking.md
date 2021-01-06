@@ -3,7 +3,7 @@ title: "How to Start Cooking - Must-have Items For The Kitchen | Takeup"
 interest: "Cooking"
 subtitle: "Getting started in the kitchen"
 url: "/cooking"
-date: 2020-12-30T11:10:26+10:00K
+date: 2020-12-30T11:10:26+10:00
 imageUrl: "/interests/cooking.jpg"
 categories:
   - food
