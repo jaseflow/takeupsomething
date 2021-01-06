@@ -1,5 +1,5 @@
 ---
-title: "The Must-have Items For Taking Up Cooking | Takeup"
+title: "Take Up Cooking"
 interest: "Cooking"
 subtitle: "Getting started in the kitchen"
 url: "/cooking"

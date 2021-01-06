@@ -1,6 +1,7 @@
 baseURL = "https://takeupsomething.com/"
+description = ""
 languageCode = "en-us"
-title = "Takeup - Must-have items for anybody to take up anything"
+title = "Takeup | Must-have items to get started in anything"
 theme = "ts"
 googleAnalytics = "G-4KZWM8KHSB"
 [related]
