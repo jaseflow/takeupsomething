@@ -576,6 +576,10 @@ a:hover {
   text-decoration: none;
 }
 
+.book:hover .book__title {
+  color: #E34614;
+}
+
 @media(min-width: 960px) {
 
   body {
@@ -629,6 +633,30 @@ a:hover {
 
   .author__content {
     padding-right: 4rem;
+  }
+
+  .books__list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 2rem;
+    grid-row-gap: 2rem;
+    margin: 0;
+  }
+
+  .book a {
+    display: flex;
+    gap: 1rem;
+  }
+
+  .book {
+    width: auto;
+    margin: 0 !important;
+  }
+
+  .book img {
+    width: 50px;
+    height: 63px;
+    height: auto;
   }
 
   .container {
