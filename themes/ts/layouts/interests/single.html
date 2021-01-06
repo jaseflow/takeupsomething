@@ -43,6 +43,23 @@
         <div class="single__content">
           {{ .Content }}
         </div>
+        {{ if .Params.books }}
+          <div class="books">
+            <h2 class="books__title">Recommended reading</h2>
+            {{ with .Params.books }}
+            <ul class="books__list">
+              {{ range . }}
+                <li class="book">
+                  <a href="{{ .link }}">
+                    <img class="book__cover"src="{{ .imageUrl }}" />
+                    <span class="book__title">{{ .name }}</span>
+                  </a>
+                </li>
+              {{ end }}
+            </ul>
+            {{ end }}
+          </div>
+        {{ end }}
       </div>
       <div class="single__sidebar">
         <div class="single__related">

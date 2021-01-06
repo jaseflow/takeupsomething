@@ -13,6 +13,19 @@ author:
   handle: "jsncbt"
   description: "A leader in the community. They spend majority of their time fostering and growing the community."
 description: "To get started in cooking you will need to first have some where to cook. Once you have that, you don't need much more to get a good meal out. The most important piece of equipment is a good knife to chop your ingredients, quality pots and pans to cook with as well as the odd tool to get things done faster."
+books:
+  - name: "The Food Lab Better Home Cooking Through Science"
+    imageUrl: "https://images-na.ssl-images-amazon.com/images/I/41ufhLxL-TL._SX387_BO1,204,203,200_.jpg"
+    link: "https://amzn.to/2JOWOs5"
+  - name: "The New Vegetarian Cooking for Everyone"
+    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1607745534&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
+    linK: "https://amzn.to/2L62YVk"
+  - name: "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking"
+    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1476753830&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
+    link: "https://amzn.to/3nlaad4"
+  - name: "Joy of Cooking: 2019 Edition Fully Revised and Updated"
+    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00AK78VTA&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
+    link: "https://amzn.to/2KWLWsN"
 ---
 
 ## A Chef's knife

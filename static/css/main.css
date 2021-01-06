@@ -530,6 +530,52 @@ a:hover {
   margin-top: -2px;
 }
 
+.books {
+  border-top: 1px solid #999;
+  padding: 3rem 0;
+}
+
+.books__title {
+  margin-bottom: 2rem;
+}
+
+.books__list {
+  white-space: nowrap;
+  margin-left: -2rem;
+  margin-right: -2rem;
+  overflow-x: auto;
+}
+
+.book {
+  display: inline-block;
+  width: 30%;
+  vertical-align: top;
+  margin-left: 0.5rem;
+}
+
+.book:first-child {
+  margin-left: 2rem;
+}
+
+.book:last-child {
+  margin-right: 2rem;
+}
+
+.book__title {
+  display: block;
+  white-space: normal;
+  font-size: 0.875rem;
+  color: initial;
+}
+
+.book__cover {
+  height: 145px;
+}
+
+.book a:hover {
+  text-decoration: none;
+}
+
 @media(min-width: 960px) {
 
   body {
