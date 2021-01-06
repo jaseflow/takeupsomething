@@ -12,7 +12,7 @@ author:
   name: "Jason Corbett"
   handle: "jsncbt"
   description: "A leader in the community. They spend majority of their time fostering and growing the community."
-description: "To get started in cooking you will need to first have some where to cook. Once you have that, you don't much to get a good meal out. Most importantly you will need a good knife to chop stuff, pans to cook with and the odd tool to get things done faster."
+description: "To get started in cooking you will need to first have some where to cook. Once you have that, you don't need much more to get a good meal out. The most important piece of equipment is a good knife to chop your ingredients, quality pots and pans to cook with as well as the odd tool to get things done faster."
 ---
 
 ## A Chef's knife
@@ -26,7 +26,7 @@ When you're just starting out there is no need to go out and get a knife for eve
 </div>
 
 ## Skillet / Frying Pan
-Stainless Steel is the name of the game here. You could get cast iron or non-stick but to start off the Stainless Steel provides variety, durability and is low maintenance.
+Stainless Steel is the name of the game here. You could get cast iron or non-stick but to start off with the Stainless Steel provides variety, durability and is low maintenance.
 
 ### Recommendations
 
@@ -35,7 +35,7 @@ Stainless Steel is the name of the game here. You could get cast iron or non-sti
 </div>
 
 ## Heavy-bottomed Pot
-Heavy-bottomed pots are thicker at the base meaning that they absorb and distribute the heat in a more even fashion compared to a thinner version. This makes for more reliable and consistent cooking.
+Heavy-bottomed pots are thicker at the base meaning that they absorb and distribute the heat in a more even fashion compared to their thinner counterparts. This makes for more controlled and consistent cooking.
 
 ### Recommendations
 
@@ -45,7 +45,7 @@ Heavy-bottomed pots are thicker at the base meaning that they absorb and distrib
 </div>
 
 ## Cutting board
-When it comes to boards, you can't go past a thick, hard, wooden board. Anything else and it's going to wreck your knive and your fingers will slip all over it. You may want to get a cheap plastic one to prepare meat on as it's easier to clean.
+When it comes to boards, you can't go past a thick, hard, wooden board. Glass boards will wreck your knife and your fingers will slip all over it. You may want to get a cheap plastic one to prepare meat on as it's easier to clean.
 
 ### Recommendations
 
@@ -54,7 +54,7 @@ When it comes to boards, you can't go past a thick, hard, wooden board. Anything
 </div>
 
 ## Large Spoon
-Any spoon will do here but I recommend a silcone spoon for the fact that it is much easier to clean, won't harbour nasty growths from over-use and lack of cleaning. It won't scratch your pots and pans but is still strong enough to scrape things off.
+Any spoon will do here but I recommend a silicone spoon for the fact that it is much easier to clean, won't harbour nasty growths from over-use and lack of cleaning. It also won't scratch your pots and pans while still being strong enough to scrape things off the bottom.
 
 ### Recommendations
 
