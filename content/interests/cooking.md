@@ -1,5 +1,6 @@
 ---
-title: "Cooking"
+title: "How to Start Cooking - Must-have Items For The kitchen | Takeup"
+interest: "Cooking"
 subtitle: "Getting started in the kitchen"
 date: 2020-12-30T11:10:26+10:00
 url: "/cooking"
