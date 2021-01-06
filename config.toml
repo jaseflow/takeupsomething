@@ -1,7 +1,7 @@
 baseURL = "https://takeupsomething.com/"
 description = ""
 languageCode = "en-us"
-title = "Takeup | Must-have items to get started in anything"
+title = "Takeup - Getting you started in any activity"
 theme = "ts"
 googleAnalytics = "G-4KZWM8KHSB"
 [related]
@@ -26,3 +26,5 @@ googleAnalytics = "G-4KZWM8KHSB"
 [outputs]
   home = [ "HTML", "RSS", "SearchIndex" ]
 
+[params]
+  tagline = "Must-have items to get started in any activity"

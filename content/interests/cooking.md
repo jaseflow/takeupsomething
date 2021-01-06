@@ -1,5 +1,5 @@
 ---
-title: "How to Start Cooking"
+title: "How To Start Cooking"
 interest: "Cooking"
 subtitle: "Getting started in the kitchen"
 url: "/cooking"
