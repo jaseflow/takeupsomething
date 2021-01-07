@@ -1,5 +1,5 @@
 ---
-title: "Camping"
+title: "Essential Equipment for First Time Campers"
 interest: "Camping"
 subtitle: "Preparing yourself for your stay with nature"
 date: 2020-12-30T11:10:26+10:00
