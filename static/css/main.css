@@ -851,6 +851,11 @@ a:hover {
 }
 
 @media(max-width: 1159px) {
+
+  .header__title {
+    display: none;
+  }
+
   .single__related {
     margin: 0 -2rem;
     padding: 2rem;
