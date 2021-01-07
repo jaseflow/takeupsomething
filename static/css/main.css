@@ -92,6 +92,7 @@ a:hover {
 }
 
 .small-caps {
+  display: block;
   font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: 600;

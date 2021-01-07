@@ -15,7 +15,7 @@
           <div class="author__wrap">
             <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
             <div class="author__content">
-              <h3 class="small-caps">Recommendations by</h3>
+              <small class="small-caps">Recommendations by</small>
               <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
               <p class="flat">@{{ .Params.author.handle }}</p>
               {{ if .Params.author.description }}
@@ -51,7 +51,7 @@
               {{ range . }}
                 <li class="book">
                   <a href="{{ .link }}">
-                    <img class="book__cover"src="{{ .imageUrl }}" />
+                    <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
                     <span class="book__title">{{ .name }}</span>
                   </a>
                 </li>

@@ -19,7 +19,7 @@ books:
     link: "https://amzn.to/2JOWOs5"
   - name: "The New Vegetarian Cooking for Everyone"
     imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1607745534&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
-    linK: "https://amzn.to/2L62YVk"
+    link: "https://amzn.to/2L62YVk"
   - name: "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking"
     imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1476753830&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
     link: "https://amzn.to/3nlaad4"

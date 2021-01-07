@@ -5,7 +5,7 @@
 {{ $imageUrl := "" }}
 
 <a href='{{ .Get "linkUrl" }}' class="product">
-  <img src='{{ .Get "imageUrl"}}' alt="" />
+  <img src='{{ .Get "imageUrl"}}' alt="{{ .Get "title" }}" />
   <div>
     <span class="product__title">{{ .Get "title" }}</span>
     <p class="product__price flat"><i>${{ .Get "price" }}</i> <small class="product__from">from Amazon</small></p> 
