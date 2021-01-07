@@ -725,19 +725,6 @@ a:hover {
     height: auto;
   }
 
-  .container {
-    padding: 0 4rem;
-  }
-
-  .single__sidebar {
-    position: relative;
-  }
-
-  .single__related {
-    position: absolute;
-    width: 320px;
-  }
-
   h1 {
     font-size: 2.75rem;
   }
@@ -757,7 +744,6 @@ a:hover {
 
   .main {
     padding-top: 2rem;
-    padding-bottom: 4rem;
     min-height: calc(100vh - 214px);
   }
 
@@ -767,7 +753,6 @@ a:hover {
 
   .single__header {
     padding-bottom: 2rem;
-    padding-left: calc(240px + 3rem);
   }
 
   .single__header h1 {
@@ -796,12 +781,21 @@ a:hover {
 
 @media(min-width: 1200px) {
 
+  .container {
+    padding: 0 4rem;
+  }
+
   .single__main {
     padding-top: 0;
+    padding-bottom: 4rem;
     padding-left: calc(240px + 3rem);
     display: grid;
     grid-template-columns: 1fr 320px;
     grid-column-gap: 3rem;
+  }
+
+  .single__header {
+    padding-left: calc(240px + 3rem);
   }
 
   .contents {
@@ -818,6 +812,15 @@ a:hover {
 
   .stuck .header__title {
     transform: translateY(0);
+  }
+
+  .single__sidebar {
+    position: relative;
+  }
+
+  .single__related {
+    position: absolute;
+    width: 320px;
   }
 
 
@@ -845,11 +848,19 @@ a:hover {
     border-radius: 0;
   }
 
+}
+
+@media(max-width: 1159px) {
   .single__related {
     margin: 0 -2rem;
     padding: 2rem;
     background: #eee;
   }
-
 }
 
+
+@media(min-width: 600px) and (max-width: 1159px) {
+  .related {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
