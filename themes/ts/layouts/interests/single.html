@@ -1,72 +1,70 @@
 {{ define "main"  }}
 <main aria-role="main" class="main single" id="single">
   <div class="container">
-    <div class="single__grid">
-      <div>
-        <div class="single__hero">
-          <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
-          <header class="single__header">
-            <h1 class="title flat">{{ .Title }}</h1>
-            <p class="single__date flat"><small>Published {{ .PublishDate.Format "January, 2006" }}</small></p>
-          </header>
-        </div>
-        {{ if .Params.author }}
-        <div class="author">
-          <div class="author__wrap">
-            <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
-            <div class="author__content">
-              <small class="small-caps">Recommendations by</small>
-              <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
-              <p class="flat">@{{ .Params.author.handle }}</p>
-              {{ if .Params.author.description }}
-                <p class="pressed hide-mobile author__desc">{{ .Params.author.description }}</p>
-              {{ end }}
+    {{ partial "breadcrumbs.html" . }}
+    <div class="single__hero">
+      <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
+      <header class="single__header">
+        <h1 class="title flat">{{ .Title }}</h1>
+        <p class="single__date flat"><small>Published {{ .PublishDate.Format "January, 2006" }}</small></p>
+      </header>
+    </div>
+    <div class="single__grid" id="stick-target">
+      <aside class="contents">
+        <h3>What you will need</h3>
+        {{ .TableOfContents }}
+      </aside>
+      <div class="single__main">
+        <div>
+          {{ if .Params.author }}
+          <div class="author" hidden>
+            <div class="author__wrap">
+              <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
+              <div class="author__content">
+                <small class="small-caps">Recommendations by</small>
+                <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+                <p class="flat">@{{ .Params.author.handle }}</p>
+                {{ if .Params.author.description }}
+                  <p class="pressed hide-mobile author__desc">{{ .Params.author.description }}</p>
+                {{ end }}
+              </div>
+            </div>
+            <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn">Follow</a>
+          </div>
+          {{ end }}
+          <div class="single__subhero">
+            <div class="single__intro">
+              <p>{{ .Description }}</p>
             </div>
           </div>
-          <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn">Follow</a>
-        </div>
-        {{ end }}
-        <div class="single__subhero">
-          <div class="single__intro">
-            {{ if .Params.subtitle }}
-            <h2>{{ .Params.subtitle }}</h2>
-            {{ else }}
-            <h2>Getting started</h2>
-            {{ end }}
-            <p>{{ .Description }}</p>
+          <div class="single__content">
+            {{ .Content }}
           </div>
-          <aside class="contents">
-            <h3>What you will need</h3>
-            {{ .TableOfContents }}
-          </aside>
-        </div>
-        <div class="single__content">
-          {{ .Content }}
-        </div>
-        {{ if .Params.books }}
-          <div class="books">
-            <h2 class="books__title">Recommended reading</h2>
-            {{ with .Params.books }}
-            <ul class="books__list">
-              {{ range . }}
-                <li class="book">
-                  <a href="{{ .link }}">
-                    <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
-                    <span class="book__title">{{ .name }}</span>
-                  </a>
-                </li>
+          {{ if .Params.books }}
+            <div class="books">
+              <h2 class="books__title">Recommended reading</h2>
+              {{ with .Params.books }}
+              <ul class="books__list">
+                {{ range . }}
+                  <li class="book">
+                    <a href="{{ .link }}">
+                      <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
+                      <span class="book__title">{{ .name }}</span>
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
               {{ end }}
-            </ul>
-            {{ end }}
+            </div>
+          {{ end }}
+        </div>
+        <div class="single__sidebar">
+          <div class="single__related">
+          <h3>Other interests</h3>
+          {{- partial "other.html" . -}}
+          <h3>Different interests</h3>
+          {{- partial "unrelated.html" . -}}
           </div>
-        {{ end }}
-      </div>
-      <div class="single__sidebar">
-        <div class="single__related">
-        <h3>Other interests</h3>
-        {{- partial "other.html" . -}}
-        <h3>Different interests</h3>
-        {{- partial "unrelated.html" . -}}
         </div>
       </div>
     </div>
@@ -74,7 +72,6 @@
 </main>
 {{ end  }}
 {{ define "footer" }}
-<script>
-  const wrapper = document.getElementById('single')
-</script>
+<script src="/js/sticky.js"></script>
+<script src="/js/scrollspy.js"></script>
 {{ end  }}
