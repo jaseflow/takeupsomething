@@ -6,7 +6,7 @@
       <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
       <header class="single__header">
         <h1 class="title flat">{{ .Title }}</h1>
-        <p class="single__date flat"><small>Published {{ .PublishDate.Format "January, 2006" }}</small></p>
+        <p class="single__date flat">Published {{ .PublishDate.Format "January, 2006" }}</p>
       </header>
     </div>
     <div class="single__grid" id="stick-target">
@@ -58,7 +58,7 @@
             </div>
           {{ end }}
         </div>
-        <div class="single__sidebar">
+        <div class="single__sidebar" hidden>
           <div class="single__related">
           <h3>Other interests</h3>
           {{- partial "other.html" . -}}

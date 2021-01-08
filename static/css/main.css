@@ -42,7 +42,7 @@ h3 {
 }
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 
 h2 {
@@ -64,6 +64,10 @@ a {
 
 a:hover {
   text-decoration: underline;
+}
+
+figure {
+  margin: 2rem 0;
 }
 
 .input {
@@ -124,7 +128,7 @@ a:hover {
 
 .title {
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.1;
 }
 
 .logo {
@@ -178,7 +182,7 @@ a:hover {
 }
 
 .header__title h1 {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
 }
 
@@ -232,7 +236,7 @@ a:hover {
 .container {
   padding: 0 2rem;
   margin: auto;
-  max-width: 1400px;
+  max-width: 1200px;
 }
 
 .breadcrumbs {
@@ -250,9 +254,9 @@ a:hover {
 
 .interests {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
+  grid-template-columns: repeat(1, 1fr);
   grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
+  grid-row-gap: 2rem;
 }
 
 .home {
@@ -398,7 +402,7 @@ a:hover {
 }
 
 .single__content h2 {
-  margin-top: 3rem;
+  margin-top: 2rem;
   margin-bottom: 0.5rem;
   font-weight: 700;
 }
@@ -439,6 +443,7 @@ a:hover {
 
 .single__date {
   opacity: 0.7;
+  margin-top: 0.5rem;
 }
 
 .single__hero img {
@@ -651,6 +656,10 @@ a:hover {
     padding-top: 108px;
   }
 
+  .home {
+    min-height: 70vh;
+  }
+
   .header {
     position: fixed;
     top: 0;
@@ -737,7 +746,7 @@ a:hover {
   }
 
   .interests {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-row-gap: 2rem;
   }
 
@@ -772,8 +781,26 @@ a:hover {
     align-items: center;
   }
 
-  .interests {
-    grid-template-columns: repeat(5, 1fr);
+  .single__main {
+    padding-top: 0;
+    padding-bottom: 4rem;
+    padding-left: calc(240px + 3rem);
+  }
+
+  .stuck .contents,
+  .stuck .single__related {
+    position: fixed;
+    top: calc(118px + 1rem);
+  }
+
+  .contents {
+    position: absolute;
+    padding-top: 0;
+    border: 0;
+  }
+
+  .stuck .header__title {
+    transform: translateY(0);
   }
 
 }
@@ -784,33 +811,9 @@ a:hover {
     padding: 0 4rem;
   }
 
-  .single__main {
-    padding-top: 0;
-    padding-bottom: 4rem;
-    padding-left: calc(240px + 3rem);
-    display: grid;
-    grid-template-columns: 1fr 320px;
-    grid-column-gap: 3rem;
-  }
-
   .single__header {
-    padding-left: calc(240px + 3rem);
-  }
-
-  .contents {
-    position: absolute;
-    padding-top: 0;
-    border: 0;
-  }
-
-  .stuck .contents,
-  .stuck .single__related {
-    position: fixed;
-    top: calc(118px + 1rem);
-  }
-
-  .stuck .header__title {
-    transform: translateY(0);
+    padding-left: 4rem;
+    padding-right: 4rem;
   }
 
   .single__sidebar {
