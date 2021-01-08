@@ -65,8 +65,11 @@ Finally, there are two kinds of filling worth looking at:
 ## Camp Chair
 A camp chair allows you to quickly move around the fire or pull up a seat where ever you choose to read a book. They should be light weight but sturdy enough to you be setting up on all kinds of surfaces and holding your weight. It's up to you what kind of features you need in the chair, some come zipped pockets, bottle openers, even cooling departments.
 
+{{< figure src="https://images.unsplash.com/photo-1532137965533-84bbd6f04371?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" >}}
+
 ## Lighting
 One of the things people love about camping is that once the sun is down, it's literally lights out. This sounds fun but can make getting around the camp at night unnecessarily difficult. By simply hanging up some lights at key points of the camp, for example on the way or at the toilet or even wearing a headlamp can make life a lot easier.
+
 
 ## Coffee
 Coffee is not something to comes to mind straight away when you're packing your bags but there really isn't anything quite like a hot cup of coffee while you're out in the wilderness. Not only does it give you that little piece of comfort and an energy kick but it also keeps your bowel movements regulated (while we're on the topic.. pack toiletpaper). which is critical for when you're spending your day out and about, away from camp.
@@ -74,6 +77,7 @@ Coffee is not something to comes to mind straight away when you're packing your 
 ## Cookware
 For cooking, a fry pan and a dutch oven should have you covered when it comes to most foods. A fry pan will take care of things such as cooking meats or eggs and the dutch oven can be used to boil vegetables or slow cook stews. You can also use your dutch oven to bake pbread or pie.
 
+{{< figure src="https://images.unsplash.com/photo-1527667455007-10a82aed3892?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" >}}
 
 ## Stove
 If you are bringing food that needs to be cooked or your somewater without access to fresh water or if your campsite has a ban on fires then you're going to need to bring a stove.
