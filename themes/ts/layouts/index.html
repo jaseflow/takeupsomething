@@ -6,7 +6,11 @@
         {{ range (where (where .Site.RegularPages "Type" "interests") "Type" "!=" "casestudy")  }}
         <a class="interest" href="{{ .Permalink  }}">
           <div class="interest__thumb">
+            {{ if .Params.thumbUrl }}
+            <img src="{{ .Params.thumbUrl }}" class="interest__img" alt="{{ .Title }}" loading="lazy" />
+            {{ else  }}
             <img src="{{ .Params.imageUrl }}" class="interest__img" alt="{{ .Title }}" loading="lazy" />
+            {{ end  }}
           </div>
           <h3 class="interest__title"><small>Take up</small> {{ .Params.interest }}</h3>
         </a>
