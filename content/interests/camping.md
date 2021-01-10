@@ -34,14 +34,14 @@ books:
 ---
 
 ## Why start camping
-Sit earum neque autem earum sit. Perferendis labore consectetur porro iusto corrupti, laborum Officia magnam dolor non reiciendis eius laudantium reprehenderit? Ea molestiae doloremque veritatis nobis repellendus officia. Aut consectetur
+Sometimes camping and its associated activities present you with challenges; some that not even Google can reliably solve! Often these are challenges not encountered on a daily basis: How to set up a tent or deal with scenarios where you aren’t armed with mod-cons or familiar surrounds.
 
-Amet corporis ea repellat rerum eveniet inventore illum error. Qui nam explicabo qui saepe illum, eligendi Ducimus incidunt quasi excepturi et perferendis ab Dolorem nulla accusantium inventore magnam officia Consequatur?
+In addition, camping often introduces you to new experiences, possibly an activity you’ve been meaning to try but have never got around to. Whatever the case, there is plenty of research that suggests tackling new challenges and experiences can keep our brains healthy, as they force us to think for ourselves. Better yet, they can enhance self-confidence, growth, and happiness, too. 
 
 ## How much will it cost
-Dolor minima quibusdam unde eum natus, repellat. Dignissimos neque animi nemo veritatis earum. Distinctio autem illo eaque quae nam? Quis ipsa corrupti labore fugiat suscipit. Minus magni quae a alias
+Taking your family camping is a great way to take a vacation that everyone can enjoy. But just like any vacation there are costs to consider. You’ll need to buy a tent, sleeping bags, and other camping gear. We’ve broken down the average cost of tent camping, and ways to save so you stay within your budget.
 
-Dolor minima quibusdam unde eum natus, repellat. Dignissimos neque animi nemo veritatis earum. Distinctio autem illo eaque quae nam? Quis ipsa corrupti labore fugiat suscipit. Minus magni quae a alias
+No matter where you’re camping, you’ll need to take into account the cost of fuel for getting there. You’re really not able to control this cost. It will depend entirely on the cost of gas where you live and how far you’re going to be driving. If you want to save on fuel, stay close to home.
 
 ## The must-have items
 
