@@ -10,18 +10,15 @@
       </header>
     </div>
     <div class="single__grid" id="stick-target">
-      <aside class="contents">
-        <h3>What you will need</h3>
-        {{ .TableOfContents }}
-      </aside>
       <div class="single__main">
         <div>
+          <h3 class="small-caps hide-mobile" style="margin-bottom: 0.5rem;">Written by</h3>
           {{ if .Params.author }}
-          <div class="author" hidden>
+          <div class="author">
             <div class="author__wrap">
               <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
               <div class="author__content">
-                <small class="small-caps">Recommendations by</small>
+                <h3 class="small-caps hide-desktop flat" style="margin-bottom: 0.5rem;">Written by</h3>
                 <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
                 <p class="flat">@{{ .Params.author.handle }}</p>
                 {{ if .Params.author.description }}
@@ -34,29 +31,34 @@
           {{ end }}
           <div class="single__subhero">
             <div class="single__intro">
-              <p>{{ .Description }}</p>
+              <p class="flat">{{ .Description }}</p>
             </div>
           </div>
+          <aside class="contents">
+            <h3 class="small-caps">Table of contents</h3>
+            {{ .TableOfContents }}
+          </aside>
           <div class="single__content">
             {{ .Content }}
-          </div>
-          {{ if .Params.books }}
-            <div class="books">
-              <h2 class="books__title">Recommended reading</h2>
-              {{ with .Params.books }}
-              <ul class="books__list">
-                {{ range . }}
-                  <li class="book">
-                    <a href="{{ .link }}">
-                      <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
-                      <span class="book__title">{{ .name }}</span>
-                    </a>
-                  </li>
+            {{ if .Params.books }}
+              <div class="books">
+                {{ with .Params.books }}
+                <ul class="books__list">
+                  {{ range . }}
+                    <li class="book">
+                      <a href="{{ .link }}">
+                        <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
+                        <span class="book__title">{{ .name }}</span>
+                      </a>
+                    </li>
+                  {{ end }}
+                </ul>
                 {{ end }}
-              </ul>
-              {{ end }}
-            </div>
-          {{ end }}
+              </div>
+            {{ end }}
+          </div>
+          <h3>Other interests</h3>
+          {{- partial "other.html" . -}}
         </div>
         <div class="single__sidebar" hidden>
           <div class="single__related">

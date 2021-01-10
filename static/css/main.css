@@ -360,12 +360,14 @@ figure {
 
 .contents {
   margin-bottom: 2rem;
-  border-bottom: 1px solid #999;
-  padding: 1rem 0 2rem 0;
 }
 
 .contents .active a {
   font-weight: 700;
+}
+
+.contents .active > ol a {
+  font-weight: normal;
 }
 
 .contents ol {
@@ -403,8 +405,10 @@ figure {
 
 .single__content h2 {
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
   font-weight: 700;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
 }
 
 .single__content h4 {
@@ -418,8 +422,13 @@ figure {
 }
 
 .single__content h3 {
+  font-weight:  700;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
+}
+
+.single__content h2 + h3 {
+  margin-top: 1rem;
 }
 
 .single__hero {
@@ -483,6 +492,12 @@ figure {
 .author__wrap {
   display: flex;
   align-items: center;
+}
+
+.author__desc {
+  font-style: italic;
+  opacity: 0.8;
+  max-width: 25rem;
 }
 
 .author__content {
@@ -600,20 +615,14 @@ figure {
   margin-top: -2px;
 }
 
-.books {
-  border-top: 1px solid #999;
-  padding: 3rem 0;
-}
-
 .books__title {
   margin-bottom: 2rem;
 }
 
 .books__list {
   white-space: nowrap;
-  margin-left: -2rem;
-  margin-right: -2rem;
   overflow-x: auto;
+  margin: 2rem -2rem 0 -2rem !important;
 }
 
 .book {
@@ -660,6 +669,11 @@ figure {
     min-height: 70vh;
   }
 
+  .author__thumb {
+    width: 7rem;
+    height: 7rem;
+  }
+
   .header {
     position: fixed;
     top: 0;
@@ -686,8 +700,8 @@ figure {
   }
 
   .single__hero {
-    margin-bottom: 2rem;
     position: relative;
+    margin-bottom: 1.5rem;
   }
 
   .author {
@@ -699,12 +713,6 @@ figure {
     border: 1px solid #eee;
   }
 
-  .author__thumb {
-    width: 120px;
-    height: 120px;
-    margin-right: 2rem;
-  }
-
   .author__content {
     padding-right: 4rem;
   }
@@ -714,7 +722,7 @@ figure {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
-    margin: 0;
+    margin: 2rem 0 0 0 !important;
   }
 
   .book a {
@@ -767,10 +775,6 @@ figure {
     font-size: 60px;
   }
 
-  .single__intro p {
-    margin-bottom: 2rem;
-  }
-
   .item {
     padding: 1rem 0;
   }
@@ -783,7 +787,7 @@ figure {
 
   .single__main {
     padding-top: 0;
-    padding-bottom: 4rem;
+    padding-bottom: 30vh;
     padding-left: calc(240px + 3rem);
   }
 
@@ -797,6 +801,9 @@ figure {
     position: absolute;
     padding-top: 0;
     border: 0;
+    transform: translateX(calc(-100% - 3rem));
+    width: 240px;
+    top: 0;
   }
 
   .stuck .header__title {
@@ -809,11 +816,6 @@ figure {
 
   .container {
     padding: 0 4rem;
-  }
-
-  .single__header {
-    padding-left: 4rem;
-    padding-right: 4rem;
   }
 
   .single__sidebar {
@@ -862,12 +864,5 @@ figure {
     margin: 0 -2rem;
     padding: 2rem;
     background: #eee;
-  }
-}
-
-
-@media(min-width: 600px) and (max-width: 1159px) {
-  .related {
-    grid-template-columns: repeat(4, 1fr);
   }
 }

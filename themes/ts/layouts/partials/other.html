@@ -1,7 +1,8 @@
+{{ $current := .Params.interest }}
 {{ $related := .Site.RegularPages | first 4 }}
 {{ with $related }}
 <ul class="related">
-  {{ range . }}
+  {{ range where . "Params.interest" "!=" $current }}
   <li class="interest">
     <a href="{{ .RelPermalink }}">
       <div class="interest__thumb">
