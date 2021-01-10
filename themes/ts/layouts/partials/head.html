@@ -16,7 +16,11 @@
   <meta name="robots" content="noodp"/>
   <link rel="canonical" href="{{ .Permalink }}" />
   <meta name="viewport" content="width=device-width, minimum-scale=1.0">
+  <meta name="viewport" content="width=device-width, minimum-scale=1.0">
   <meta name="description" content="{{ .Site.Params.description }}" />
+  {{ if .Params.noindex }}
+  <meta name="robots" content="noindex" /> 
+  {{ end }}
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary" />

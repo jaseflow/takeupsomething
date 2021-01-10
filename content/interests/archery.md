@@ -4,7 +4,7 @@ interest: "Archery"
 subtitle: "Getting ready for the range"
 date: 2020-12-30T11:10:26+10:00
 url: "/archery"
-draft: true
+noindex: true
 imageUrl: "/interests/archery.jpg"
 description: "Archery, like any other sport, can involve a large range of equipment and accessories. However, to get started all you really need are the basics: a bow, a string, some arrows, a bracer, finger tab, a quiver, a bow stand, a bow stringer and a target to shoot at."
 author:

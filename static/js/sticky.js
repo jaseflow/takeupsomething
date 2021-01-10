@@ -7,40 +7,42 @@ window.addEventListener('DOMContentLoaded', function(event) {
   let ticking = false
 
   let isStuck = false
-  let targetTop = Math.floor((target.getBoundingClientRect().top - 140) + document.documentElement.scrollTop)
-
-
-  if (window.scrollY >= targetTop && !isStuck) {
-    document.querySelector('body').classList.add('stuck')
-    isStuck = true
+  let targetTop
+  if(target) {
+    targetTop = Math.floor((target.getBoundingClientRect().top - 140) + document.documentElement.scrollTop)
   }
 
-  const update = () => {
-    console.log('window scroll ', window.scrollY)
-    console.log('target top: ', targetTop)
-    console.log('is stuck: ', isStuck)
+
+  if(window.innerWidth > 959 && target) {
     if (window.scrollY >= targetTop && !isStuck) {
       document.querySelector('body').classList.add('stuck')
       isStuck = true
-    } else if (window.scrollY < targetTop && isStuck) {
-      document.querySelector('body').classList.remove('stuck')
-      isStuck = false
     }
-    ticking = false
-  }
 
-  const requestTick = () => {
-    if (!ticking) {
-      window.requestAnimationFrame(update)
-      ticking: true
+    const update = () => {
+      if (window.scrollY >= targetTop && !isStuck) {
+        document.querySelector('body').classList.add('stuck')
+        isStuck = true
+      } else if (window.scrollY < targetTop && isStuck) {
+        document.querySelector('body').classList.remove('stuck')
+        isStuck = false
+      }
+      ticking = false
     }
-  }
 
-  const onScroll = () => {
-    lastScrollY = window.scrollY
-    requestTick()
-  }
+    const requestTick = () => {
+      if (!ticking) {
+        window.requestAnimationFrame(update)
+        ticking: true
+      }
+    }
 
-  window.addEventListener('scroll', onScroll)
+    const onScroll = () => {
+      lastScrollY = window.scrollY
+      requestTick()
+    }
+
+    window.addEventListener('scroll', onScroll)
+  }
 
 }, false);

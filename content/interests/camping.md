@@ -1,5 +1,5 @@
 ---
-title: "How to Start Camping"
+title: "Taking up Camping"
 interest: "Camping"
 subtitle: "Preparing yourself for your stay with nature"
 date: 2021-01-07T11:10:26+10:00
@@ -15,8 +15,8 @@ author:
   📍 South Australia looking back at old Tassie pics"
 description: "There is no better way to socially distance in 2021 than by
 getting out with nature and camping. Camping is one of those activities that if
-you don't have the right gear then you're really going to have a bad time. So
-enjoy this list of the must-have items for your next camping trip."
+you don't have the right gear then you're really not going to enjoy yourself. So
+make sure you have these essential items for your next camping trip."
 books:
   - name: "The Food Lab Better Home Cooking Through Science"
     imageUrl: "https://images-na.ssl-images-amazon.com/images/I/41ufhLxL-TL._SX387_BO1,204,203,200_.jpg"
@@ -32,10 +32,15 @@ books:
     link: "https://amzn.to/2KWLWsN"
 ---
 
-## How much will it cost
+## Why start camping
 Sit earum neque autem earum sit. Perferendis labore consectetur porro iusto corrupti, laborum Officia magnam dolor non reiciendis eius laudantium reprehenderit? Ea molestiae doloremque veritatis nobis repellendus officia. Aut consectetur
 
 Amet corporis ea repellat rerum eveniet inventore illum error. Qui nam explicabo qui saepe illum, eligendi Ducimus incidunt quasi excepturi et perferendis ab Dolorem nulla accusantium inventore magnam officia Consequatur?
+
+## How much will it cost
+Dolor minima quibusdam unde eum natus, repellat. Dignissimos neque animi nemo veritatis earum. Distinctio autem illo eaque quae nam? Quis ipsa corrupti labore fugiat suscipit. Minus magni quae a alias
+
+Dolor minima quibusdam unde eum natus, repellat. Dignissimos neque animi nemo veritatis earum. Distinctio autem illo eaque quae nam? Quis ipsa corrupti labore fugiat suscipit. Minus magni quae a alias
 
 ## The must-have items
 
@@ -56,6 +61,11 @@ want to make sure it is appropriate for the conditions you will be camping in.
 You also want your tent to be easy to assemble. If you have your eyes on a
 particular tent, make sure to Youtube how to pitch it and see what kind of
 effort is involved.
+
+<h4 class="small-caps">Recommendations</h4>
+<div class="products">
+{{% product price="189.95" title="Kelty Grand Mesa Backpacking Tent (2020 Update)" imageUrl="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B082P6XWN2&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US" linkUrl="https://amzn.to/3bn3atV" %}}
+</div>
 
 ### Sleeping Bag / Pad
 
@@ -78,11 +88,20 @@ Finally, there are two kinds of filling worth looking at:
 
 - **Synthetic** A Synthetic Sleeping Bag is appropriate for wet weather conditions as it is completely water proof. The only downsie is they are often heavier than their down fill counterparts so make sure to consider those extra grams.
 
+<h4 class="small-caps">Recommendations</h4>
+<div class="products">
+{{% product price="145.00" title="Kelty Sleeping-Bags Cosmic 20" imageUrl="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07MD224VW&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US" linkUrl="https://amzn.to/3s7nK7E" %}}
+</div>
 
 ### Camp Chair
 A camp chair allows you to quickly move around the fire or pull up a seat where ever you choose to read a book. They should be light weight but sturdy enough to you be setting up on all kinds of surfaces and holding your weight. It's up to you what kind of features you need in the chair, some come zipped pockets, bottle openers, even cooling departments.
 
 {{< figure src="https://images.unsplash.com/photo-1532137965533-84bbd6f04371?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" >}}
+
+<h4 class="small-caps">Recommendations</h4>
+<div class="products">
+{{% product price="59.31" title="Kijaro Dual Lock Portable Camping and Sports Chair " imageUrl="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004C0QDLO&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US" linkUrl="https://amzn.to/2LxaAjw" %}}
+</div>
 
 ### Lighting
 One of the things people love about camping is that once the sun is down, it's literally lights out. This sounds fun but can make getting around the camp at night unnecessarily difficult. By simply hanging up some lights at key points of the camp, for example on the way or at the toilet or even wearing a headlamp can make life a lot easier.

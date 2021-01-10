@@ -2,11 +2,11 @@
 title: "Makeup"
 interest: "Makeup"
 date: 2020-12-30T11:10:26+10:00
-draft: true
+noindex: true
 url: "/makeup"
 imageUrl: "/interests/makeup.jpg"
 categories:
-  - art
+  - beauty
 author:
   image: "/gizella.jpg"
   name: "Gizella Corbett"

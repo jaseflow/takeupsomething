@@ -1,6 +1,6 @@
 ---
-draft: true
 title: "Painting"
+noindex: true
 interest: "Painting"
 date: 2020-12-30T11:10:26+10:00
 url: "/painting"

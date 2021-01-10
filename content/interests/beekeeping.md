@@ -2,6 +2,7 @@
 title: "How to Start Beekeeping"
 interest: "Beekeeping"
 subtitle: "Learn to love the hum of the bees working in harmony"
+noindex: true
 date: 2021-01-08T11:10:26+10:00
 url: "/beekeeping"
 imageUrl: "/interests/beekeeping.jpg"

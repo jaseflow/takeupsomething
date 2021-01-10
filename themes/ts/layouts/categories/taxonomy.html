@@ -4,7 +4,11 @@
     <h1>Category: {{ .Title }}</h1>
     <div class="interests">
       {{ range .Paginator.Pages }}
-      <a class="interest" href="{{ .Permalink  }}">
+      {{ if .Params.nofollow }}
+        <a class="interest" href="{{ .RelPermalink }}" rel="nofollow">
+        {{ else }}
+        <a class="interest" href="{{ .RelPermalink }}">
+      {{ end }}
         <div class="interest__thumb">
           <img src="{{ .Params.imageUrl }}" class="interest__img" alt="{{ .Title }}" loading="lazy" />
         </div>

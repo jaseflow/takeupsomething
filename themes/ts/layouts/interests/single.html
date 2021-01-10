@@ -2,74 +2,89 @@
 <main aria-role="main" class="main single" id="single">
   <div class="container">
     {{ partial "breadcrumbs.html" . }}
+    {{ if .Params.noindex }}
+    <div class="single__hero single__hero--slim">
+    {{ else }}
     <div class="single__hero">
+    {{ end }}
       <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
       <header class="single__header">
-        <h1 class="title flat">{{ .Title }}</h1>
+        <h1 class="title flat">Taking up {{ .Params.interest }}</h1>
+        {{ if not .Params.noindex }}
         <p class="single__date flat">Published {{ .PublishDate.Format "January, 2006" }}</p>
+        {{ end }}
       </header>
     </div>
-    <div class="single__grid" id="stick-target">
-      <div class="single__main">
-        <div>
-          <h3 class="small-caps hide-mobile">Written by</h3>
-          {{ if .Params.author }}
-          <div class="author">
-            <div class="author__wrap">
-              <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
-              <div class="author__content">
-                <h3 class="small-caps hide-desktop flat" style="margin-bottom: 0.5rem;">Written by</h3>
-                <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
-                <p class="flat">@{{ .Params.author.handle }}</p>
-                {{ if .Params.author.description }}
-                  <p class="pressed hide-mobile author__desc">{{ .Params.author.description }}</p>
-                {{ end }}
+    {{ if .Params.noindex }}
+    <div class="single__placeholder">
+      <h2>Want to write for Takeup?</h2>
+      <p class="double">We are looking for people with experience in {{ .Params.interest }} who enjoy teaching to write articles for the website. If this sounds like you then please get in touch.</p>
+      {{ partial "contact.html" . }}
+    </div>
+    {{ else }}
+      <div class="single__grid" id="stick-target">
+        <div class="single__main">
+          <div>
+            {{ if .Params.author }}
+            <div hidden>
+              <h3 class="small-caps hide-mobile">Written by</h3>
+              <div class="author">
+                <div class="author__wrap">
+                  <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
+                  <div class="author__content">
+                    <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
+                    <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+                    <p class="flat">@{{ .Params.author.handle }}</p>
+                    {{ if .Params.author.description }}
+                      <p class="pressed hide-mobile author__desc">{{ .Params.author.description }}</p>
+                    {{ end }}
+                  </div>
+                </div>
+                <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn">Follow</a>
               </div>
             </div>
-            <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn">Follow</a>
-          </div>
-          {{ end }}
-          <div class="single__subhero">
-            <div class="single__intro">
-              <p class="flat">{{ .Description }}</p>
-            </div>
-          </div>
-          <aside class="contents">
-            <h3 class="small-caps">Table of contents</h3>
-            {{ .TableOfContents }}
-          </aside>
-          <div class="single__content">
-            {{ .Content }}
-            {{ if .Params.books }}
-              <div class="books">
-                {{ with .Params.books }}
-                <ul class="books__list">
-                  {{ range . }}
-                    <li class="book">
-                      <a href="{{ .link }}">
-                        <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
-                        <span class="book__title">{{ .name }}</span>
-                      </a>
-                    </li>
-                  {{ end }}
-                </ul>
-                {{ end }}
-              </div>
             {{ end }}
-            <h2>Other interests</h2>
-            {{- partial "other.html" . -}}
+            <div class="single__subhero">
+              <div class="single__intro">
+                <p class="flat">{{ .Description }}</p>
+              </div>
+            </div>
+            <aside class="contents">
+              <h3>{{ .Params.Title }}</h3>
+              <h4 class="small-caps">Table of contents</h4>
+              {{ .TableOfContents }}
+            </aside>
+            <div class="single__content">
+              {{ .Content }}
+              {{ if .Params.books }}
+                <div class="books">
+                  {{ with .Params.books }}
+                  <ul class="books__list">
+                    {{ range . }}
+                      <li class="book">
+                        <a href="{{ .link }}">
+                          <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
+                          <span class="book__title">{{ .name }}</span>
+                        </a>
+                      </li>
+                    {{ end }}
+                  </ul>
+                  {{ end }}
+                </div>
+              {{ end }}
+            </div>
           </div>
-        </div>
-        <div class="single__sidebar" hidden>
-          <div class="single__related">
-          <h3>Other interests</h3>
-          {{- partial "other.html" . -}}
-          <h3>Different interests</h3>
-          {{- partial "unrelated.html" . -}}
+          <div class="single__sidebar">
+            <div class="single__related">
+            <h3 class="heading">Interests related to {{ .Params.interest }}</h3>
+            {{- partial "related.html" . -}}
+            <h3 class="heading">Different interests</h3>
+            {{- partial "unrelated.html" . -}}
+            </div>
           </div>
         </div>
       </div>
-    </div>
+    {{ end }}
   </div>
 </main>
 {{ end  }}

@@ -1,10 +1,14 @@
 {{ $current := .Params.interest }}
 {{ $related := .Site.RegularPages.RelatedIndices . "categories" | first 4 }}
 {{ with $related }}
-<ul class="related related--row">
+<ul class="related">
   {{ range where . "Params.interest" "!=" $current }}
   <li class="interest">
-    <a href="{{ .RelPermalink }}">
+    {{ if .Params.noindex }}
+      <a href="{{ .RelPermalink }}" rel="nofollow">
+      {{ else }}
+      <a href="{{ .RelPermalink }}">
+    {{ end }}
       <div class="interest__thumb">
         <div class="interest__img" style="background-image: url({{ .Params.imageUrl }})"></div>
       </div>
