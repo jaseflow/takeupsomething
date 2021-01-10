@@ -507,6 +507,7 @@ figure {
   border-radius: 10px;
   overflow: hidden;
   margin-bottom: 1rem;
+  background: rgba(0,0,0,0.15);
 }
 
 .single__hero--slim {
