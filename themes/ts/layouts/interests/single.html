@@ -1,20 +1,21 @@
 {{ define "main"  }}
 <main aria-role="main" class="main single" id="single">
-  <div class="container">
-    {{ partial "breadcrumbs.html" . }}
-    {{ if .Params.noindex }}
-    <div class="single__hero single__hero--slim">
-    {{ else }}
-    <div class="single__hero">
-    {{ end }}
-      <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
-      <header class="single__header">
+  {{ if .Params.noindex }}
+  <div class="single__hero single__hero--slim">
+  {{ else }}
+  <div class="single__hero">
+  {{ end }}
+    <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
+    <header class="single__header">
+      <div class="container">
         <h1 class="title flat">Taking up {{ .Params.interest }}</h1>
         {{ if not .Params.noindex }}
         <p class="single__date flat">Published {{ .PublishDate.Format "January, 2006" }}</p>
         {{ end }}
-      </header>
-    </div>
+      </div>
+    </header>
+  </div>
+  <div class="container">
     {{ if .Params.noindex }}
     <div class="single__placeholder">
       <h2>Want to write for Takeup?</h2>

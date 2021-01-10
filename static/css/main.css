@@ -278,6 +278,7 @@ figure {
 
 .breadcrumbs {
   margin-bottom:1rem;
+  color: #fff;
 }
 
 .breadcrumbs__slash {
@@ -504,7 +505,6 @@ figure {
 .single__hero {
   padding-bottom: 50vh;
   position: relative;
-  border-radius: 10px;
   overflow: hidden;
   margin-bottom: 1rem;
   background: rgba(0,0,0,0.15);
@@ -528,7 +528,7 @@ figure {
   width: 100%;
   background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
   padding-top: 6rem;
   line-height: 1.2;
 }
@@ -855,7 +855,6 @@ figure {
   }
 
   .main {
-    padding-top: 2rem;
     min-height: calc(100vh - 214px);
   }
 
@@ -960,12 +959,6 @@ figure {
 
   .hide-mobile {
     display: none;
-  }
-
-  .single__hero {
-    margin-left: -2rem;
-    margin-right: -2rem;
-    border-radius: 0;
   }
 
   .single__related {
