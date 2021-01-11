@@ -42,7 +42,7 @@ If you are starting from scratch then there will be a decent up front cost. Expe
 
 Other costs to think about is gas to and from the campsite or any fees at the site you're camping at.
 
-## The must-have items
+## Essential Camping items
 
 ### Tent
 When you think camping, you think tents. That's because you wouldn't go camping

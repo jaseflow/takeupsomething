@@ -34,7 +34,7 @@ There are many reasons someone might want to start cooking. Maybe you want to im
 ## How much will it cost
 If you're setting up your kitchen from scratch you can expect to pay between **$400** **and** **$600**. It's important to pay for the quality when it comes to knives, pots and pans. A high quality knife will be upwards of $150, although the Vetroinox brand provides good quality for low price. Pots and pans you should be paying about $100 for each.
 
-## The must-have items
+## Essential Cooking items
 
 ### A Chef's knife
 When you're just starting out there is no need to go out and get a knife for every day of the week. Pick up one quality Chef's knife and you're good to go. You will want the knife to be sharp AND durable. It's also important to make sure the knife feels good to hold, you're going to be spending a lot of time with it.
