@@ -16,8 +16,7 @@ author:
   📍 South Australia looking back at old Tassie pics"
 description: "There is no better way to socially distance this year than by
 getting out with nature and camping. Camping is one of those activities that if
-you don't have the right gear then you're really not going to enjoy yourself. So
-make sure you have these essential items for your next camping trip."
+you turn up unprepared then you're not going have any fun. That's why we've put together this guide on camping to make sure you're as ready as you can be for your next trip."
 books:
   - name: "Bushcraft 101: A Field Guide to the Art of Wilderness Survival "
     imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00MIMHPII&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
