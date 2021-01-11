@@ -1,18 +1,18 @@
 {{ define "main"  }}
 <main aria-role="main" class="main single" id="single">
   {{ if .Params.noindex }}
-  <div class="single__hero single__hero--slim">
+  <div class="single__hero single__hero--full">
   {{ else }}
   <div class="single__hero">
   {{ end }}
+    <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
     {{ if .Params.noindex }}
     <div class="single__placeholder">
-      <h2>Want to write for Takeup?</h2>
-      <p class="double">We are looking for people with experience in {{ .Params.interest }} who enjoy teaching to write articles for the website. If this sounds like you then please get in touch.</p>
+      <h1 class="title">Want to write for Takeup?</h1>
+      <p>We are looking for people with experience in {{ .Params.interest }} who enjoy teaching to write articles for the website. If this sounds like you then please get in touch.</p>
       {{ partial "contact.html" . }}
     </div>
     {{ else }}
-    <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
     {{ if not .Params.noindex }}
     <header class="single__header">
       <div class="container">
