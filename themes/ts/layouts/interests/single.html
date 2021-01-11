@@ -5,11 +5,11 @@
   {{ else }}
   <div class="single__hero">
   {{ end }}
-    <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
+    <img src="{{ .Params.imageUrl }}" class="single__img" alt="{{ .Params.title }}" loading="lazy" />
     {{ if .Params.noindex }}
     <div class="single__placeholder">
-      <h1 class="title">Want to write for Takeup?</h1>
-      <p>We are looking for people with experience in {{ .Params.interest }} who enjoy teaching to write articles for the website. If this sounds like you then please get in touch.</p>
+      <h1 class="title">Know a lot about {{ .Params.interest }}?</h1>
+      <p>We are looking for people with experience in {{ .Params.interest }} who enjoy teaching to write guides for the website. If this sounds like you then please get in touch.</p>
       {{ partial "contact.html" . }}
     </div>
     {{ else }}

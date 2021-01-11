@@ -92,6 +92,12 @@ figure {
 
 .form {
   margin: 1rem 0;
+  width: 100%;
+  max-width: 360px;
+}
+
+.form__group {
+  margin-bottom: 1rem;
 }
 
 .form__label {
@@ -118,6 +124,10 @@ figure {
   width: 100%;
 }
 
+.input--light {
+  background: #fff;
+}
+
 .btn {
   background: #F5501C;
   color: #fff;
@@ -139,6 +149,8 @@ figure {
 .btn--submit {
   height: 50px;
   padding: 0.4rem 2rem;
+  margin-top: 2rem;
+  width: 100%;
 }
 
 .btn--block {
@@ -370,15 +382,34 @@ figure {
   position: relative;
 }
 
-.interest--todo {
-  opacity: 0.5;
+.interest--todo .interest__thumb:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "Looking for writers";
+  background: rgba(10, 7, 28, 0.75);
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: 600;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  color: #fff;
+  transition: opacity 375ms ease;
+  font-size: 13px;
+}
+
+.interest--todo:hover .interest__thumb:after {
+  opacity: 0;
 }
 
 .interest__thumb {
   display: block;
   padding-bottom: 100%;
   background: rgba(0,0,0,0.15);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -520,7 +551,7 @@ figure {
 .single__placeholder {
   padding: 2rem;
   font-size: 125%;
-  background: rgba(0,0,0,0.75);
+  background: rgba(10, 7, 28, 0.93);
   color: #fff;
   position: relative;
 }
@@ -550,6 +581,7 @@ figure {
   margin-bottom: 0;
   padding-bottom: 0 !important;
   border-radius: 0;
+  max-width: none;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -572,7 +604,7 @@ figure {
   margin-top: 0.5rem;
 }
 
-.single__hero img {
+.single__img {
   position: absolute;
   top: 0;
   left: 0;
@@ -834,7 +866,8 @@ figure {
   }
 
   .single__hero--full {
-    height: calc(100vh - 221px);
+    height: calc(100vh - 114px);
+    margin: 0;
   }
 
   .author {
@@ -887,7 +920,7 @@ figure {
   }
 
   .main {
-    min-height: calc(100vh - 220px);
+    min-height: calc(100vh - 114px);
   }
 
   .single__grid {
@@ -967,6 +1000,11 @@ figure {
     box-shadow: 0 8px 12px rgba(0,0,0,0.25);
   }
 
+  .interest--todo .interest__thumb:after {
+    font-size: 1rem;
+    padding: 1rem 2rem;
+  }
+
 }
 
 @media(min-width: 1200px) {
@@ -998,17 +1036,8 @@ figure {
     margin-bottom: 2rem;
   }
 
-  .form__group {
-    margin-bottom: 1rem;
-  }
-
   .footer__copy {
     margin-bottom: 2rem;
-  }
-
-  .btn--submit {
-    margin-top: 1rem;
-    width: 100%;
   }
 
   .hide-mobile {
