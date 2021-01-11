@@ -5,8 +5,9 @@
       <div class="interests">
         {{ $pages := where site.RegularPages "Type" "interests" }}
         {{ range ($pages.ByParam "noindex").Reverse }}
+        {{ $dashedInterest := replace .Params.interest " " "-" }}
         {{ if .Params.noindex }}
-        <a class="interest interest--todo" href="{{ .Permalink  }}">
+        <a class="interest interest--todo interest--{{ lower $dashedInterest }}" href="{{ .Permalink  }}">
         {{ else }}
         <a class="interest" href="{{ .Permalink  }}">
         {{ end }}

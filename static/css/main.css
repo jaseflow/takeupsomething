@@ -15,7 +15,7 @@ img {
 html {
   color: #111;
   font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-  font-weight:400;
+  font-weight: 400;
   scroll-behavior:smooth;
   line-height: 1.5;
   overflow-y: scroll;
@@ -400,6 +400,51 @@ figure {
   transition: opacity 375ms ease;
   font-size: 13px;
 }
+
+.interest--writing .interest__thumb:after { content: "Looking for writers" }
+.interest--surfing .interest__thumb:after { content: "Looking for surfers" }
+.interest--soap-making .interest__thumb:after { content: "Looking for soap makers" }
+.interest--snorkeling .interest__thumb:after { content: "Looking for snorkelers" }
+.interest--slack-lining .interest__thumb:after { content: "Looking for slack liners" }
+.interest--skincare .interest__thumb:after { content: "Looking for skincare experts" }
+.interest--skateboarding .interest__thumb:after { content: "Looking for skaters" }
+.interest--sewing .interest__thumb:after { content: "Looking for sewers" }
+.interest--scrapbooking .interest__thumb:after { content: "Looking for scrapbookers" }
+.interest--running .interest__thumb:after { content: "Looking for runners" }
+.interest--rock-climbing .interest__thumb:after { content: "Looking for climbers" }
+.interest--pottery .interest__thumb:after { content: "Looking for potters" }
+.interest--podcasting .interest__thumb:after { content: "Looking for podcasters" }
+.interest--pickling .interest__thumb:after { content: "Looking for picklers" }
+.interest--photography .interest__thumb:after { content: "Looking for photographers" }
+.interest--pc-gaming .interest__thumb:after { content: "Looking for tech heads" }
+.interest--painting .interest__thumb:after { content: "Looking for painters" }
+.interest--origami .interest__thumb:after { content: "Looking for origamists" }
+.interest--model-building .interest__thumb:after { content: "Looking for builders" }
+.interest--mixology .interest__thumb:after { content: "Looking for mixers" }
+.interest--makeup .interest__thumb:after { content: "Looking for makeup artists" }
+.interest--magic .interest__thumb:after { content: "Looking for magicians" }
+.interest--knitting .interest__thumb:after { content: "Looking for knitters" }
+.interest--juggling .interest__thumb:after { content: "Looking for jugglers" }
+.interest--jewelry-making .interest__thumb:after { content: "Looking for jewelers" }
+.interest--home-workouts .interest__thumb:after { content: "Looking for fitness junkies" }
+.interest--home-improvement .interest__thumb:after { content: "Looking for builders" }
+.interest--hiking .interest__thumb:after { content: "Looking for hikers" }
+.interest--graphic-design .interest__thumb:after { content: "Looking for designers" }
+.interest--graffiti .interest__thumb:after { content: "Looking for artists" }
+.interest--golf .interest__thumb:after { content: "Looking for golfers" }
+.interest--gardening .interest__thumb:after { content: "Looking for gardeners" }
+.interest--fishing .interest__thumb:after { content: "Looking for fishers" }
+.interest--electronics .interest__thumb:after { content: "Looking for engineers" }
+.interest--djing .interest__thumb:after { content: "Looking for DJs" }
+.interest--candle-making .interest__thumb:after { content: "Looking for candle makers" }
+.interest--calligraphy .interest__thumb:after { content: "Looking for calligraphists" }
+.interest--boardgames .interest__thumb:after { content: "Looking for tabletop gamers" }
+.interest--birdwatching .interest__thumb:after { content: "Looking for birdwatchers" }
+.interest--beer-brewing .interest__thumb:after { content: "Looking for brewers" }
+.interest--barbecuing .interest__thumb:after { content: "Looking for chefs" }
+.interest--baking .interest__thumb:after { content: "Looking for bakers" }
+.interest--archery .interest__thumb:after { content: "Looking for archers" }
+.interest--beekeeping .interest__thumb:after { content: "Looking for beekeepers" }
 
 .interest--todo:hover .interest__thumb:after {
   opacity: 0;
@@ -1000,7 +1045,6 @@ figure {
 
   .interest--todo .interest__thumb:after {
     font-size: 1rem;
-    padding: 1rem 2rem;
   }
 
 }
