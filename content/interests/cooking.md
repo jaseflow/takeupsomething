@@ -1,5 +1,5 @@
 ---
-title: "How to Start Cooking"
+title: "Taking up Cooking"
 interest: "Cooking"
 subtitle: "Getting started in the kitchen"
 url: "/cooking"
@@ -12,7 +12,7 @@ author:
   name: "Jason Corbett"
   handle: "jsncbt"
   description: "Jason is a home cook who dreams of one day giving it all up to sell his bean wraps outside the football."
-description: "To get started in cooking you will need to first have some where to cook. Once you have that, you don't need much more to get a good meal out. The most important piece of equipment is a good knife to chop your ingredients, quality pots and pans to cook with as well as the odd tool to get things done faster."
+description: "You don't need much to start getting good meals out the door. The most important pieces of equipment in a kitchen are a good knife, quality pots and pans to cook with and the odd tool to help you get jobs done faster. This guide will provide you with the essential items for your kitchen."
 books:
   - name: "The Food Lab Better Home Cooking Through Science"
     imageUrl: "https://images-na.ssl-images-amazon.com/images/I/41ufhLxL-TL._SX387_BO1,204,203,200_.jpg"
@@ -28,10 +28,11 @@ books:
     link: "https://amzn.to/2KWLWsN"
 ---
 
-## How much will it cost
-Sit earum neque autem earum sit. Perferendis labore consectetur porro iusto corrupti, laborum Officia magnam dolor non reiciendis eius laudantium reprehenderit? Ea molestiae doloremque veritatis nobis repellendus officia. Aut consectetur
+## Why start Cooking?
+There are many reasons someone might want to start cooking. Maybe you want to impress a certain individual, maybe you need to learn since you're out on your own now or perhaps you just find it extremely satisfying? Cooking or food in general brings joy to everybody, so why not learn how to provide that joy in the best way possible.
 
-Amet corporis ea repellat rerum eveniet inventore illum error. Qui nam explicabo qui saepe illum, eligendi Ducimus incidunt quasi excepturi et perferendis ab Dolorem nulla accusantium inventore magnam officia Consequatur?
+## How much will it cost
+If you're setting up your kitchen from scratch you can expect to pay between **$400** **and** **$600**. It's important to pay for the quality when it comes to knives, pots and pans. A high quality knife will be upwards of $150, although the Vetroinox brand provides good quality for low price. Pots and pans you should be paying about $100 for each.
 
 ## The must-have items
 
