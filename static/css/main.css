@@ -472,6 +472,10 @@ figure {
   margin-bottom: 4rem;
 }
 
+.single__content strong {
+  font-weight: 700;
+}
+
 .single__content ul,
 .single__content ol {
   margin-left: 1em;
@@ -852,7 +856,6 @@ figure {
   .book img {
     width: 50px;
     height: 63px;
-    height: auto;
   }
 
   h1 {

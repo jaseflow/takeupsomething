@@ -14,34 +14,34 @@ author:
   handle: "blackpepperabroad"
   description: "Exploring Australia's beautiful places and petfriendly spaces! 🐶🏖️
   📍 South Australia looking back at old Tassie pics"
-description: "There is no better way to socially distance in 2021 than by
+description: "There is no better way to socially distance this year than by
 getting out with nature and camping. Camping is one of those activities that if
 you don't have the right gear then you're really not going to enjoy yourself. So
 make sure you have these essential items for your next camping trip."
 books:
-  - name: "The Food Lab Better Home Cooking Through Science"
-    imageUrl: "https://images-na.ssl-images-amazon.com/images/I/41ufhLxL-TL._SX387_BO1,204,203,200_.jpg"
-    link: "https://amzn.to/2JOWOs5"
-  - name: "The New Vegetarian Cooking for Everyone"
-    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1607745534&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
-    link: "https://amzn.to/2L62YVk"
-  - name: "Salt, Fat, Acid, Heat: Mastering the Elements of Good Cooking"
-    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1476753830&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
-    link: "https://amzn.to/3nlaad4"
-  - name: "Joy of Cooking: 2019 Edition Fully Revised and Updated"
-    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00AK78VTA&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
-    link: "https://amzn.to/2KWLWsN"
+  - name: "Bushcraft 101: A Field Guide to the Art of Wilderness Survival "
+    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00MIMHPII&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
+    link: "https://amzn.to/2XqXpDx"
+  - name: "Primitive Technology: A Survivalist's Guide to Building Tools, Shelters & More in The Wild"
+    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1529105838&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
+    link: "https://amzn.to/3sd5Osf"
+  - name: "National Parks of the USA"
+    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=1847809766&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
+    link: "https://amzn.to/3oyXlNY"
+  - name: "National Geographic Guide to the National Parks of the United States"
+    imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=0792253221&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
+    link: "https://amzn.to/2LI6yET"
 ---
 
 ## Why start camping
-Sometimes camping and its associated activities present you with challenges; some that not even Google can reliably solve! Often these are challenges not encountered on a daily basis: How to set up a tent or deal with scenarios where you aren’t armed with mod-cons or familiar surrounds.
+Camping can be the antidote the today's chaotic lifestyles. Going camping gives you the opportunity to disconnect from your devices and really be with nature. There is a real satisfaction to be felt once you finish setting up your campsite and take a step back to appreciate the organization and functionality.
 
-In addition, camping often introduces you to new experiences, possibly an activity you’ve been meaning to try but have never got around to. Whatever the case, there is plenty of research that suggests tackling new challenges and experiences can keep our brains healthy, as they force us to think for ourselves. Better yet, they can enhance self-confidence, growth, and happiness, too. 
+If you enjoy solving unique problems, planning and preparing, getting your hands dirty and most importantly enjoy being amongst nature, then camping could be for you.
 
 ## How much will it cost
-Taking your family camping is a great way to take a vacation that everyone can enjoy. But just like any vacation there are costs to consider. You’ll need to buy a tent, sleeping bags, and other camping gear. We’ve broken down the average cost of tent camping, and ways to save so you stay within your budget.
+If you are starting from scratch then there will be a decent up front cost. Expect to pay somewhere between **$500** **and** **$700** to have enough equipment to get by. The bulk of the cost will comes from the tent which will set you back about $200 and the sleeping bag just a little less at $150.
 
-No matter where you’re camping, you’ll need to take into account the cost of fuel for getting there. You’re really not able to control this cost. It will depend entirely on the cost of gas where you live and how far you’re going to be driving. If you want to save on fuel, stay close to home.
+Other costs to think about is gas to and from the campsite or any fees at the site you're camping at.
 
 ## The must-have items
 
@@ -132,9 +132,9 @@ You never know when you're going to need one of those so it's best to be prepare
 Depending in your situation it can also be useful to have a kit containing an epi-pen in case of serious incidents or an emergency blanket if the conditions call for it.
 
 ### Water storage
-Fresh water is not always readily available at certain camp sites so you will want to make sure you're bringing plenty of water for the length of your stay. Whether you're bringing water to be your primary source of drinking water or just for reserve, it's worthwhile having appropriate storage for the camp site as well as for when you're on the go. Even if you know that there is water available at your camp site you should still bring your own water.
+Fresh water is not always readily available at certain campsites so you will want to make sure you're bringing plenty of water for the length of your stay. Whether you're bringing water to be your primary source of drinking water or just for reserve, it's worthwhile having appropriate storage for the campsite as well as for when you're on the go. Even if you know that there is water available at your campsite you should still bring your own water.
 
-For storing water around the camp site you want something that doesn't take up too much room and is super easy to function. Some storage tanks also come with wheels that make for easy transportation.
+For storing water around the campsite you want something that doesn't take up too much room and is super easy to function. Some storage tanks also come with wheels that make for easy transportation.
 
 When it comes to waterbottles I would recommend using a bottle that can contain both hot and cold beverages. You also want your bottle to be well insulated so you can keep those teas hot or the water cool. Try to keep the bottle as light as possible without sacrificing strength.
 
