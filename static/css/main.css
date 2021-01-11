@@ -367,6 +367,10 @@ figure {
   position: relative;
 }
 
+.interest--todo {
+  opacity: 0.5;
+}
+
 .interest__thumb {
   display: block;
   padding-bottom: 100%;
@@ -520,11 +524,14 @@ figure {
 }
 
 .single__hero {
-  padding-bottom: 50vh;
+  padding-bottom: 42.8571%;
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
   background: rgba(0,0,0,0.15);
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .single__hero--slim {

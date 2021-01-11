@@ -5,7 +5,15 @@
   {{ else }}
   <div class="single__hero">
   {{ end }}
+    {{ if .Params.noindex }}
+    <div class="single__placeholder">
+      <h2>Want to write for Takeup?</h2>
+      <p class="double">We are looking for people with experience in {{ .Params.interest }} who enjoy teaching to write articles for the website. If this sounds like you then please get in touch.</p>
+      {{ partial "contact.html" . }}
+    </div>
+    {{ else }}
     <img src="{{ .Params.imageUrl }}" class="" alt="{{ .Params.title }}" loading="lazy" />
+    {{ if not .Params.noindex }}
     <header class="single__header">
       <div class="container">
         <h1 class="title flat">Taking up {{ .Params.interest }}</h1>
@@ -14,15 +22,9 @@
         {{ end }}
       </div>
     </header>
+    {{ end }}
   </div>
   <div class="container">
-    {{ if .Params.noindex }}
-    <div class="single__placeholder">
-      <h2>Want to write for Takeup?</h2>
-      <p class="double">We are looking for people with experience in {{ .Params.interest }} who enjoy teaching to write articles for the website. If this sounds like you then please get in touch.</p>
-      {{ partial "contact.html" . }}
-    </div>
-    {{ else }}
       <div class="single__grid" id="stick-target">
         <div class="single__main">
           <div>

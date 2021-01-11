@@ -3,8 +3,13 @@
   <div class="home">
     <div class="container">
       <div class="interests">
-        {{ range (where (where .Site.RegularPages "Type" "interests") "Type" "!=" "casestudy")  }}
+        {{ $pages := where site.RegularPages "Type" "interests" }}
+        {{ range ($pages.ByParam "noindex").Reverse }}
+        {{ if .Params.noindex }}
+        <a class="interest interest--todo" href="{{ .Permalink  }}">
+        {{ else }}
         <a class="interest" href="{{ .Permalink  }}">
+        {{ end }}
           <div class="interest__thumb">
             {{ if .Params.thumbUrl }}
             <img src="{{ .Params.thumbUrl }}" class="interest__img" alt="{{ .Title }}" loading="lazy" />
