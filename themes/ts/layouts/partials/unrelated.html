@@ -1,5 +1,42 @@
-<ul class="unrelated">
+<ul class="unrelated unstyled">
   {{ range $key, $value := .Site.Taxonomies.categories }}
-  <li><a href="/categories/{{ $key | urlize  }}">{{ $key | humanize }} <span>({{ len $value }})</span></a></li>
+  <li>
+    <a href="/categories/{{ $key | urlize  }}">
+      {{ if eq $key "art" }}
+      <i class="fas fa-paint-brush"></i>
+      {{ end }}
+      {{ if eq $key "beauty" }}
+      <i class="fas fa-lips"></i>
+      {{ end }}
+      {{ if eq $key "building" }}
+      <i class="fas fa-puzzle-piece"></i>
+      {{ end }}
+      {{ if eq $key "food" }}
+      <i class="fas fa-utensils"></i>
+      {{ end }}
+      {{ if eq $key "games" }}
+      <i class="fas fa-puzzle-piece"></i>
+      {{ end }}
+      {{ if eq $key "crafts" }}
+      <i class="fas fa-pencil-ruler"></i>
+      {{ end }}
+      {{ if eq $key "health" }}
+      <i class="fas fa-heartbeat"></i>
+      {{ end }}
+      {{ if eq $key "music" }}
+      <i class="fas fa-music"></i>
+      {{ end }}
+      {{ if eq $key "nature" }}
+      <i class="fas fa-leaf"></i>
+      {{ end }}
+      {{ if eq $key "sport" }}
+      <i class="fas fa-tennis-ball"></i>
+      {{ end }}
+      {{ if eq $key "tech" }}
+      <i class="fas fa-computer-speaker"></i>
+      {{ end }}
+      {{ $key | humanize }} <span>({{ len $value }})</span>
+    </a>
+  </li>
   {{ end }}
 </ul>

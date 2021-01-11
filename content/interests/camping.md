@@ -112,7 +112,7 @@ One of the things people love about camping is that once the sun is down, it's l
 Coffee is not something to comes to mind straight away when you're packing your bags but there really isn't anything quite like a hot cup of coffee while you're out in the wilderness. Not only does it give you that little piece of comfort and an energy kick but it also keeps your bowel movements regulated (while we're on the topic.. pack toiletpaper). which is critical for when you're spending your day out and about, away from camp.
 
 ### Cookware
-For cooking, a fry pan and a dutch oven should have you covered when it comes to most foods. A fry pan will take care of things such as cooking meats or eggs and the dutch oven can be used to boil vegetables or slow cook stews. You can also use your dutch oven to bake pbread or pie.
+For cooking, a fry pan and a dutch oven should have you covered when it comes to most foods. A fry pan will take care of things such as cooking meats or eggs and the dutch oven can be used to boil vegetables or slow cook stews. You can also use your dutch oven to bake bread or pie.
 
 {{< figure src="https://images.unsplash.com/photo-1527667455007-10a82aed3892?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" >}}
 

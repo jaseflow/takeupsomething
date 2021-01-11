@@ -338,7 +338,6 @@ figure {
 .unrelated {
   column-count: 2;
   column-gap: 3rem;
-  margin-left: 1rem;
 }
 
 .unrelated a {
@@ -346,8 +345,22 @@ figure {
   padding: 0.25rem 0;
 }
 
+.unrelated i {
+  width: 1rem;
+  margin-right: 0.5rem;
+  font-size: 0.852rem;
+  color: initial;
+}
+
+.unrelated a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .unrelated span {
   color: #111;
+  font-size: 0.825rem;
+  margin-left: 0.25rem;
 }
 
 .interest {
