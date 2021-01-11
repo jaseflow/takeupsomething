@@ -550,15 +550,14 @@ figure {
 
 .single__placeholder {
   padding: 2rem;
-  font-size: 125%;
+  font-size: 130%;
   background: rgba(10, 7, 28, 0.93);
   color: #fff;
   position: relative;
 }
 
-
 .single__placeholder p {
-  max-width: 700px;
+  max-width: 600px;
   opacity: 0.8;
 }
 
@@ -810,7 +809,6 @@ figure {
 }
 
 @media(min-width: 960px) {
-
 
   .hide-desktop {
     display: none

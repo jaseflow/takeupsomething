@@ -8,8 +8,8 @@
     <img src="{{ .Params.imageUrl }}" class="single__img" alt="{{ .Params.title }}" loading="lazy" />
     {{ if .Params.noindex }}
     <div class="single__placeholder">
-      <h1 class="title">Know a lot about {{ .Params.interest }}?</h1>
-      <p>We are looking for people with experience in {{ .Params.interest }} who enjoy teaching to write guides for the website. If this sounds like you then please get in touch.</p>
+      <h1 class="title">Know somethign about {{ .Params.interest }}?</h1>
+      <p class="double">We're looking for someone experienced in {{ .Params.interest }} who enjoys writing and teaching to create guides for the website.</p>
       {{ partial "contact.html" . }}
     </div>
     {{ else }}
