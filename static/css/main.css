@@ -524,7 +524,7 @@ figure {
 }
 
 .single__hero {
-  padding-bottom: 42.8571%;
+  padding-bottom: 50vh;
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
@@ -769,6 +769,7 @@ figure {
 
 @media(min-width: 960px) {
 
+
   .hide-desktop {
     display: none
   }
@@ -819,6 +820,7 @@ figure {
   .single__hero {
     position: relative;
     margin-bottom: 1.5rem;
+    padding-bottom: 42.8571%;
   }
 
   .single__placeholder {
@@ -964,6 +966,12 @@ figure {
     width: 280px;
   }
 
+}
+
+@media(min-width: 1600px) {
+  .single__hero {
+    padding-bottom: 60vh;
+  }
 }
 
 @media(max-width: 959px) {
