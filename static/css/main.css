@@ -544,10 +544,6 @@ figure img {
   border-radius: 10px;
 }
 
-.contents .active a {
-  font-weight: 700;
-}
-
 .contents .active > ol a {
   font-weight: normal;
 }
@@ -579,6 +575,11 @@ figure img {
   margin-bottom: 4rem;
 }
 
+.single__content p {
+  margin-bottom: 2rem;
+  margin-top: -1rem;
+}
+
 .single__content strong {
   font-weight: 700;
 }
@@ -597,6 +598,10 @@ figure img {
   border-bottom: 1px solid #ddd;
 }
 
+.single__content h2 + p {
+  margin-top: 0;
+}
+
 .single__content h4 {
   margin-bottom: 1rem;
 }
@@ -610,7 +615,7 @@ figure img {
 .single__content h3 {
   font-weight:  700;
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .single__content h2 + h3 {
@@ -629,6 +634,13 @@ figure img {
   max-width: 600px;
   opacity: 0.8;
 }
+
+.single__content h2,
+.single__content h3 {
+  padding-top: calc(126px + 2rem) !important;
+  margin-top: calc(-126px - 2rem) !important;
+}
+
 
 .single__hero {
   padding-bottom: 50vh;
@@ -767,6 +779,10 @@ figure img {
 
 .footer__nav a {
   margin-left: 1rem;
+}
+
+.products {
+  margin-bottom: 3rem;
 }
 
 .product {
@@ -1020,7 +1036,7 @@ figure img {
   .single__grid {
     position: relative;
     overflow: hidden;
-    padding-bottom: 50vh;
+    padding-bottom: 4rem;
   }
 
   .single__header h1 {
