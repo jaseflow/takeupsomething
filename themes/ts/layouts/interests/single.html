@@ -28,8 +28,13 @@
       <div class="single__grid" id="stick-target">
         <div class="single__main">
           <div>
+            <div class="single__subhero">
+              <div class="single__intro">
+                <p class="flat">{{ .Description }}</p>
+              </div>
+            </div>
             {{ if .Params.author }}
-            <div>
+            <div id="author">
               <div class="author">
                 <div class="author__wrap">
                   <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
@@ -46,11 +51,6 @@
               </div>
             </div>
             {{ end }}
-            <div class="single__subhero">
-              <div class="single__intro">
-                <p class="flat">{{ .Description }}</p>
-              </div>
-            </div>
             <aside class="contents">
               <h3 class="hide-mobile">{{ .Params.Title }}</h3>
               <h4 class="small-caps hide-desktop">Table of contents</h4>
