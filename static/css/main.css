@@ -829,6 +829,7 @@ figure img {
   font-size: 1.25rem;
   font-weight: 400;
   color: initial;
+  margin: 0 !important;
 }
 
 .product__price i {
