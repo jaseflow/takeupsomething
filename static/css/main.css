@@ -635,12 +635,6 @@ figure img {
   opacity: 0.8;
 }
 
-.single__content h2,
-.single__content h3 {
-  padding-top: calc(126px + 2rem) !important;
-  margin-top: calc(-126px - 2rem) !important;
-}
-
 
 .single__hero {
   padding-bottom: 50vh;
@@ -1113,6 +1107,12 @@ figure img {
 
   .interest--todo .interest__thumb:after {
     font-size: 1rem;
+  }
+
+  .single__content h2,
+  .single__content h3 {
+    padding-top: calc(126px + 2rem) !important;
+    margin-top: calc(-126px - 2rem) !important;
   }
 
 }
