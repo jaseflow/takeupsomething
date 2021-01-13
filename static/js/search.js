@@ -109,7 +109,7 @@ window.addEventListener("DOMContentLoaded", function(event) {
 
       var element = template.content.cloneNode(true);
       element.querySelector(".summary-title-link").href = doc.uri
-      element.querySelector(".summary-title-link").textContent = doc.title;
+      element.querySelector(".summary-title-link").textContent = doc.interest;
       target.appendChild(element);
     }
     title.scrollIntoView(true);

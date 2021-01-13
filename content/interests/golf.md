@@ -23,7 +23,13 @@ Golf comes with quite an investment if you want to get a quality set of clubs.
 ## Essential Golf equipment
 
 ### Golf bag
-Golf bags play an important part in your game for many reasons. If you're not travelling by buggy then you'll have your bag sat on your shoulder for long periods, while walking. 
+Golf bags play an important part in your game for many reasons. If you're not travelling by buggy then you'll most likely have your bag sat on your shoulder for long periods at a time, and often while walking. So it's important this bag is comfortable rested on your shoulder and also appropriate for your height.
+
+Bags are available in three styles, the first is what is known as a Staff Bag. The Staff Bag is a large bag that you would only use if someone was carrying it around for you, hence the name. It is not the bag you want to pick up when you're just getting started.
+
+Then there are cart bags or stand bags. A cart bag offers plenty of storage and has a flat base designed to be placed in the back of a cart. The zips are often placed to be accessible from the back of a cart where a player would approach from. Where as a stand bag uses a stand to allow the bag to stand by itself just behind the player.
+
+#### 
 
 ### 3 Wood
 Lorem aliquam quae praesentium ipsam minus? Quas deleniti blanditiis quas ex iste repudiandae Dolor laboriosam adipisci sint voluptatibus dolorem. Voluptatibus quaerat itaque ea veniam officia. Dolore in hic at quaerat.
