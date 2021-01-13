@@ -29,15 +29,14 @@
         <div class="single__main">
           <div>
             {{ if .Params.author }}
-            <div hidden>
-              <h3 class="small-caps hide-mobile">Written by</h3>
+            <div>
               <div class="author">
                 <div class="author__wrap">
                   <img class="author__thumb" src="{{ .Params.author.image }}" alt="">
                   <div class="author__content">
                     <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
-                    <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
-                    <p class="flat">@{{ .Params.author.handle }}</p>
+                    <p class="flat ellipsis"><strong>{{ .Params.author.name }}</strong></p>
+                    <p class="flat ellipsis">@{{ .Params.author.handle }}</p>
                     {{ if .Params.author.description }}
                       <p class="pressed hide-mobile author__desc">{{ .Params.author.description }}</p>
                     {{ end }}
