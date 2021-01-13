@@ -1142,6 +1142,11 @@ figure img {
 
 @media(max-width: 959px) {
 
+  .single__subhero {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+
   .form {
     margin-bottom: 2rem;
   }
