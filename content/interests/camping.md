@@ -33,7 +33,7 @@ books:
 ---
 
 ## Why start camping
-Camping can be the antidote the today's chaotic lifestyles. Going camping gives you the opportunity to disconnect from your devices and really be with nature. There is a real satisfaction to be felt once you finish setting up your campsite and take a step back to appreciate the organization and functionality.
+Camping can be the antidote the today's chaotic lifestyles. Going camping gives you the opportunity to disconnect from your devices and really be with nature. There is a real satisfaction to be felt once you finish setting up your campsite and take a step back to appreciate the organization and functionality you have created.
 
 If you enjoy solving unique problems, planning and preparing, getting your hands dirty and most importantly enjoy being amongst nature, then camping could be for you.
 
