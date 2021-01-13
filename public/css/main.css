@@ -8,10 +8,14 @@ img {
   max-width: 100%;
 }
 
+[hidden] {
+  display: none !important;
+}
+
 html {
   color: #111;
   font-family: system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI","Roboto","Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans","Helvetica Neue",sans-serif;
-  font-weight:400;
+  font-weight: 400;
   scroll-behavior:smooth;
   line-height: 1.5;
   overflow-y: scroll;
@@ -31,6 +35,10 @@ p {
   margin-bottom: 1rem;
 }
 
+.double {
+  margin-bottom: 2rem;
+}
+
 h1,
 h2,
 h3 {
@@ -38,15 +46,19 @@ h3 {
 }
 
 h1 {
-  font-size: 1.9rem;
+  font-size: 2rem;
 }
 
 h2 {
-  font-size: 1.35rem;
+  font-size: 1.5rem;
 }
 
 h3 {
   font-size: 1.25rem;
+}
+
+small {
+  font-size: 80%;
 }
 
 a {
@@ -58,6 +70,50 @@ a:hover {
   text-decoration: underline;
 }
 
+figure {
+  margin: 2rem 0;
+}
+
+.text-centered {
+  text-align: center;
+}
+
+.flex {
+  display: flex;
+}
+
+.flex--aligned {
+  align-items: center;
+}
+
+.flex--centered {
+  justify-content: center;
+}
+
+.form {
+  margin: 1rem 0;
+  width: 100%;
+  max-width: 360px;
+}
+
+.form__group {
+  margin-bottom: 1rem;
+}
+
+.form__label {
+  display: block;
+  font-weight: 600;
+  margin-bottom: 0.25rem;
+  font-size: 85%;
+}
+
+.form__status {
+  display: none;
+}
+
+.gap--1 { gap: 1rem; }
+.gap--2 { gap: 1rem; }
+
 .input {
   background: #ddd;
   border: 0;
@@ -66,6 +122,10 @@ a:hover {
   font-size: 100%;
   border-radius: 10px;
   width: 100%;
+}
+
+.input--light {
+  background: #fff;
 }
 
 .btn {
@@ -77,6 +137,20 @@ a:hover {
   border-radius: 10px;
   text-decoration: none;
   text-align: center;
+  border: 0;
+  cursor: pointer;
+}
+
+.btn--large {
+  font-size: 1.15rem;
+  padding: 1rem 4rem;
+}
+
+.btn--submit {
+  height: 50px;
+  padding: 0.4rem 2rem;
+  margin-top: 2rem;
+  width: 100%;
 }
 
 .btn--block {
@@ -88,10 +162,11 @@ a:hover {
 }
 
 .small-caps {
+  display: block;
   font-size: 0.75rem;
   text-transform: uppercase;
   font-weight: 600;
-  margin-bottom: 0;
+  margin-bottom: 0.5rem;
   line-height: 2;
   opacity: 0.6;
 }
@@ -115,7 +190,11 @@ a:hover {
 
 .title {
   font-weight: 700;
-  line-height: 1.2;
+  line-height: 1.1;
+}
+
+.heading {
+  font-weight: 400;
 }
 
 .logo {
@@ -144,8 +223,17 @@ a:hover {
   padding: 3rem 0 1rem 0;
 }
 
+.header .container {
+  position: relative;
+}
+
 .header__icon {
   font-size: 36px;
+}
+
+.header__logo {
+  position: relative;
+  z-index: 10;
 }
 
 .header__search {
@@ -198,20 +286,34 @@ a:hover {
 .container {
   padding: 0 2rem;
   margin: auto;
-  max-width: 71.875rem;
+  max-width: 1400px;
+}
+
+.breadcrumbs {
+  margin-bottom:1rem;
+  color: #fff;
+}
+
+.breadcrumbs__slash {
+  margin: 0 0.5rem;
+  opacity: 0.5;
+}
+
+.breadcrumbs a:last-child {
+  color: initial;
 }
 
 .interests {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
   grid-column-gap: 1rem;
-  grid-row-gap: 1rem;
-  max-width: 1200px;
-  margin: 0 auto;
+  grid-row-gap: 2rem;
+  margin-bottom: 2rem;
 }
 
-.home {
-  padding: 2rem;
+.home,
+.taxonomy {
+  padding: 3rem 0;
 }
 
 .interest,
@@ -233,6 +335,13 @@ a:hover {
   margin-bottom: 2rem;
 }
 
+.other {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-column-gap: 1rem;
+  margin: 2rem 0 2rem 0 !important;
+}
+
 .related--row {
   display: flex;
 }
@@ -244,7 +353,6 @@ a:hover {
 .unrelated {
   column-count: 2;
   column-gap: 3rem;
-  margin-left: 1rem;
 }
 
 .unrelated a {
@@ -252,19 +360,101 @@ a:hover {
   padding: 0.25rem 0;
 }
 
+.unrelated i {
+  width: 1rem;
+  margin-right: 0.5rem;
+  font-size: 0.852rem;
+  color: initial;
+}
+
+.unrelated a:hover {
+  text-decoration: none;
+  font-weight: 600;
+}
+
 .unrelated span {
   color: #111;
+  font-size: 0.825rem;
+  margin-left: 0.25rem;
 }
 
 .interest {
   position: relative;
 }
 
+.interest--todo .interest__thumb:after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  content: "Looking for writers";
+  background: rgba(10, 7, 28, 0.75);
+  padding: 1rem;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  font-weight: 600;
+  text-shadow: 0 1px 1px rgba(0,0,0,0.5);
+  color: #fff;
+  transition: opacity 375ms ease;
+  font-size: 13px;
+}
+
+.interest--writing .interest__thumb:after { content: "Looking for writers" }
+.interest--surfing .interest__thumb:after { content: "Looking for surfers" }
+.interest--soap-making .interest__thumb:after { content: "Looking for soap makers" }
+.interest--snorkeling .interest__thumb:after { content: "Looking for snorkelers" }
+.interest--slack-lining .interest__thumb:after { content: "Looking for slack liners" }
+.interest--skincare .interest__thumb:after { content: "Looking for skincare experts" }
+.interest--skateboarding .interest__thumb:after { content: "Looking for skaters" }
+.interest--sewing .interest__thumb:after { content: "Looking for sewers" }
+.interest--scrapbooking .interest__thumb:after { content: "Looking for scrapbookers" }
+.interest--running .interest__thumb:after { content: "Looking for runners" }
+.interest--rock-climbing .interest__thumb:after { content: "Looking for climbers" }
+.interest--pottery .interest__thumb:after { content: "Looking for potters" }
+.interest--podcasting .interest__thumb:after { content: "Looking for podcasters" }
+.interest--pickling .interest__thumb:after { content: "Looking for picklers" }
+.interest--photography .interest__thumb:after { content: "Looking for photographers" }
+.interest--pc-gaming .interest__thumb:after { content: "Looking for tech heads" }
+.interest--painting .interest__thumb:after { content: "Looking for painters" }
+.interest--origami .interest__thumb:after { content: "Looking for origamists" }
+.interest--model-building .interest__thumb:after { content: "Looking for builders" }
+.interest--mixology .interest__thumb:after { content: "Looking for mixers" }
+.interest--makeup .interest__thumb:after { content: "Looking for makeup artists" }
+.interest--magic .interest__thumb:after { content: "Looking for magicians" }
+.interest--knitting .interest__thumb:after { content: "Looking for knitters" }
+.interest--juggling .interest__thumb:after { content: "Looking for jugglers" }
+.interest--jewelry-making .interest__thumb:after { content: "Looking for jewelers" }
+.interest--home-workouts .interest__thumb:after { content: "Looking for fitness junkies" }
+.interest--home-improvement .interest__thumb:after { content: "Looking for builders" }
+.interest--hiking .interest__thumb:after { content: "Looking for hikers" }
+.interest--graphic-design .interest__thumb:after { content: "Looking for designers" }
+.interest--graffiti .interest__thumb:after { content: "Looking for artists" }
+.interest--golf .interest__thumb:after { content: "Looking for golfers" }
+.interest--gardening .interest__thumb:after { content: "Looking for gardeners" }
+.interest--fishing .interest__thumb:after { content: "Looking for fishers" }
+.interest--electronics .interest__thumb:after { content: "Looking for engineers" }
+.interest--djing .interest__thumb:after { content: "Looking for DJs" }
+.interest--candle-making .interest__thumb:after { content: "Looking for candle makers" }
+.interest--calligraphy .interest__thumb:after { content: "Looking for calligraphists" }
+.interest--boardgames .interest__thumb:after { content: "Looking for tabletop gamers" }
+.interest--birdwatching .interest__thumb:after { content: "Looking for birdwatchers" }
+.interest--beer-brewing .interest__thumb:after { content: "Looking for brewers" }
+.interest--barbecuing .interest__thumb:after { content: "Looking for chefs" }
+.interest--baking .interest__thumb:after { content: "Looking for bakers" }
+.interest--archery .interest__thumb:after { content: "Looking for archers" }
+.interest--beekeeping .interest__thumb:after { content: "Looking for beekeepers" }
+
+.interest--todo:hover .interest__thumb:after {
+  opacity: 0;
+}
+
 .interest__thumb {
   display: block;
   padding-bottom: 100%;
   background: rgba(0,0,0,0.15);
-  margin-bottom: 1rem;
+  margin-bottom: 0.5rem;
   background-size: cover;
   background-position: center;
   border-radius: 10px;
@@ -311,8 +501,31 @@ a:hover {
 
 .contents {
   margin-bottom: 2rem;
-  border-bottom: 1px solid #999;
-  padding-bottom: 2rem;
+}
+
+.contents ol a {
+  font-weight: 600;
+}
+
+.contents ol ol a {
+  font-weight: 400;
+  color: initial;
+}
+
+.contents__tile {
+  display: none;
+}
+
+.contents__tile img {
+  border-radius: 10px;
+}
+
+.contents .active a {
+  font-weight: 700;
+}
+
+.contents .active > ol a {
+  font-weight: normal;
 }
 
 .contents ol {
@@ -321,6 +534,7 @@ a:hover {
 
 .contents a {
   display: inline-block;
+  height: 2.25rem;
   padding: 0.25rem 0;
 }
 
@@ -328,8 +542,21 @@ a:hover {
   padding-bottom: 4rem;
 }
 
+.single__intro {
+  font-size: 125%;
+  margin-bottom: 2rem;
+}
+
+.single__subtitle {
+  font-weight: 700;
+}
+
 .single__content {
   margin-bottom: 4rem;
+}
+
+.single__content strong {
+  font-weight: 700;
 }
 
 .single__content ul,
@@ -340,7 +567,10 @@ a:hover {
 
 .single__content h2 {
   margin-top: 2rem;
-  margin-bottom: 0.5rem;
+  margin-bottom: 1rem;
+  font-weight: 700;
+  padding-bottom: 1rem;
+  border-bottom: 1px solid #ddd;
 }
 
 .single__content h4 {
@@ -354,15 +584,51 @@ a:hover {
 }
 
 .single__content h3 {
+  font-weight:  700;
   margin-top: 2rem;
   margin-bottom: 0.5rem;
 }
 
-.single__hero {
-  padding-bottom: calc(56.25% + 100px);
+.single__content h2 + h3 {
+  margin-top: 1rem;
+}
+
+.single__placeholder {
+  padding: 2rem;
+  font-size: 130%;
+  background: rgba(10, 7, 28, 0.93);
+  color: #fff;
   position: relative;
-  border-radius: 10px;
+}
+
+.single__placeholder p {
+  max-width: 600px;
+  opacity: 0.8;
+}
+
+.single__hero {
+  padding-bottom: 50vh;
+  position: relative;
   overflow: hidden;
+  margin-bottom: 1rem;
+  background: rgba(0,0,0,0.15);
+  max-width: 2000px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.single__hero--slim {
+  padding-bottom: 30vh;
+}
+
+.single__hero--full {
+  margin-bottom: 0;
+  padding-bottom: 0 !important;
+  border-radius: 0;
+  max-width: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .single__header {
@@ -372,17 +638,17 @@ a:hover {
   width: 100%;
   background: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,1));
   color: #fff;
-  padding: 1rem 2rem;
+  padding: 1rem 0;
   padding-top: 6rem;
   line-height: 1.2;
 }
 
 .single__date {
-  margin-top: 0.25rem;
   opacity: 0.7;
+  margin-top: 0.5rem;
 }
 
-.single__hero img {
+.single__img {
   position: absolute;
   top: 0;
   left: 0;
@@ -419,6 +685,12 @@ a:hover {
 .author__wrap {
   display: flex;
   align-items: center;
+}
+
+.author__desc {
+  font-style: italic;
+  opacity: 0.8;
+  max-width: 25rem;
 }
 
 .author__content {
@@ -472,6 +744,19 @@ a:hover {
 
 .product {
   color: inherit;
+  display: block;
+  padding: 0.5rem 1rem;
+  background: #fff;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+  border-radius: 5px;
+  transition: box-shadow 375ms ease;
+}
+
+.product + .product {
+  margin-top: 1rem;
+}
+
+.product__wrap {
   display: flex;
   align-items: center;
 }
@@ -493,10 +778,6 @@ a:hover {
   margin-right: 2rem;
 }
 
-.product:hover img {
-  transform: scale(1.09);
-}
-
 .product__title {
   color: #E34614;
 }
@@ -515,10 +796,6 @@ a:hover {
   text-decoration: none;
 }
 
-.product:hover .product__title {
-  text-decoration: underline;
-}
-
 .product__footer {
   display: flex;
   align-items: center;
@@ -532,20 +809,14 @@ a:hover {
   margin-top: -2px;
 }
 
-.books {
-  border-top: 1px solid #999;
-  padding: 3rem 0;
-}
-
 .books__title {
   margin-bottom: 2rem;
 }
 
 .books__list {
   white-space: nowrap;
-  margin-left: -2rem;
-  margin-right: -2rem;
   overflow-x: auto;
+  margin: 2rem -2rem 0 -2rem !important;
 }
 
 .book {
@@ -584,8 +855,26 @@ a:hover {
 
 @media(min-width: 960px) {
 
+  .hide-desktop {
+    display: none
+  }
+
   body {
-    padding-top: 108px;
+    padding-top: 114px;
+  }
+
+  .form__wrap--row {
+    display: flex;
+    align-items: flex-end;
+  }
+
+  .home {
+    min-height: 70vh;
+  }
+
+  .author__thumb {
+    width: 7rem;
+    height: 7rem;
   }
 
   .header {
@@ -595,12 +884,12 @@ a:hover {
     width: 100%;
     background: #fff;
     z-index: 10;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.05);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.10);
   }
 
   .header__search {
     display: block;
-    width: 320px;
+    width: 400px;
   }
 
   .header .container {
@@ -614,8 +903,14 @@ a:hover {
   }
 
   .single__hero {
-    margin-bottom: 1rem;
     position: relative;
+    margin-bottom: 1.5rem;
+    padding-bottom: 42.8571%;
+  }
+
+  .single__hero--full {
+    height: calc(100vh - 114px);
+    margin: 0;
   }
 
   .author {
@@ -627,12 +922,6 @@ a:hover {
     border: 1px solid #eee;
   }
 
-  .author__thumb {
-    width: 120px;
-    height: 120px;
-    margin-right: 2rem;
-  }
-
   .author__content {
     padding-right: 4rem;
   }
@@ -642,7 +931,7 @@ a:hover {
     grid-template-columns: repeat(2, 1fr);
     grid-column-gap: 2rem;
     grid-row-gap: 2rem;
-    margin: 0;
+    margin: 2rem 0 0 0 !important;
   }
 
   .book a {
@@ -658,26 +947,6 @@ a:hover {
   .book img {
     width: 50px;
     height: 63px;
-    height: auto;
-  }
-
-  .container {
-    padding: 0 4rem;
-  }
-
-  .single__sidebar {
-    position: relative;
-  }
-
-  .single__related {
-    position: absolute;
-    width: 320px;
-    margin-top: -0.5rem;
-  }
-
-  .single--stuck .single__related {
-    position: fixed;
-    top: 120px;
   }
 
   h1 {
@@ -688,38 +957,39 @@ a:hover {
     font-size: 2rem;
   }
 
-  h3 {
-    font-size: 1.25rem;
-  }
-
   .interests {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(5, 1fr);
     grid-row-gap: 2rem;
   }
 
   .main {
-    padding-top: 2rem;
-    padding-bottom: 4rem;
-    min-height: calc(100vh - 214px);
+    min-height: calc(100vh - 114px);
   }
 
   .single__grid {
-    display: grid;
-    grid-template-columns: 1fr 320px;
-    grid-auto-rows: auto;
-    grid-column-gap: 4rem;
+    position: relative;
+    overflow: hidden;
+    padding-bottom: 50vh;
   }
 
   .single__header {
     padding-bottom: 2rem;
   }
 
-  .single__intro {
-    font-size: 125%;
+  .single__header h1 {
+    font-size: 60px;
   }
 
-  .single__intro p {
-    margin-bottom: 2rem;
+  .single__placeholder {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
   }
 
   .item {
@@ -732,26 +1002,81 @@ a:hover {
     align-items: center;
   }
 
-  .interests {
-    grid-template-columns: repeat(5, 1fr);
+  .single__main {
+    padding-top: 0;
+    padding-left: calc(240px + 3rem);
+    display: grid;
+    grid-template-columns: 1fr 280px;
+    grid-column-gap: 3rem;
+  }
+
+  .stuck .contents,
+  .stuck .single__related {
+    position: fixed;
+    top: calc(118px + 1rem);
+  }
+
+  .contents {
+    position: absolute;
+    padding-top: 0;
+    border: 0;
+    transform: translate3d(calc(-100% - 3rem), -3rem, 0);
+    width: 240px;
+    top: 0;
+    transition: all 375ms ease;
+  }
+
+  .contents__tile {
+    display: block;
+    opacity: 0;
+  }
+
+  .stuck .contents {
+    transform: translate3d(calc(-100% - 3rem), 0, 0);
+  }
+
+  .stuck .contents__tile {
+    opacity: 1;
+  }
+
+  .product:hover {
+    box-shadow: 0 8px 12px rgba(0,0,0,0.25);
+  }
+
+  .interest--todo .interest__thumb:after {
+    font-size: 1rem;
   }
 
 }
 
-@media(min-width: 960px) and (min-height: 800px) {
-  .single__related {
-    position: fixed;
+@media(min-width: 1200px) {
+
+  .container {
+    padding: 0 4rem;
   }
+
+  .single__sidebar {
+    position: relative;
+  }
+
+  .single__related {
+    position: absolute;
+    width: 280px;
+  }
+
 }
 
 @media(min-width: 1600px) {
-  .interests {
-    grid-template-columns: repeat(6, 1fr);
-    grid-column-gap: 2rem;
+  .single__hero {
+    padding-bottom: 60vh;
   }
 }
 
 @media(max-width: 959px) {
+
+  .form {
+    margin-bottom: 2rem;
+  }
 
   .footer__copy {
     margin-bottom: 2rem;
@@ -761,12 +1086,6 @@ a:hover {
     display: none;
   }
 
-  .single__hero {
-    margin-left: -2rem;
-    margin-right: -2rem;
-    border-radius: 0;
-  }
-
   .single__related {
     margin: 0 -2rem;
     padding: 2rem;
@@ -774,4 +1093,3 @@ a:hover {
   }
 
 }
-

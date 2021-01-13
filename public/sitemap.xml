@@ -1,122 +1,98 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
-  <url>
-    <loc>https://takeupsomething.com/categories/art/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/</loc>
+      <lastmod>2021-01-08T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/baking/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/interests/</loc>
+      <lastmod>2021-01-08T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/camping/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/nature/</loc>
+      <lastmod>2021-01-08T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/categories/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/camping/</loc>
+      <lastmod>2021-01-07T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/categories/crafts/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/art/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/fishing/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/beauty/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/categories/food/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/building/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/gardening/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/crafts/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/categories/health/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/food/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/home-workouts/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/games/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/interests/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/golf/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/knitting/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/health/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/makeup/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/music/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/categories/nature/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/sport/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/origami/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/painting/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/cooking/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/pc-gaming/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/categories/tech/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/podcasting/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/category/</loc>
+    </url>
   
-  <url>
-    <loc>https://takeupsomething.com/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://takeupsomething.com/categories/tech/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://takeupsomething.com/yoga/</loc>
-    <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-  </url>
-  
-  <url>
-    <loc>https://takeupsomething.com/category/</loc>
-  </url>
-  
-  <url>
-    <loc>https://takeupsomething.com/interests/cooking/</loc>
-  </url>
-  
-  <url>
-    <loc>https://takeupsomething.com/tags/</loc>
-  </url>
+    <url>
+      <loc>https://takeupsomething.com/tags/</loc>
+    </url>
   
 </urlset>
