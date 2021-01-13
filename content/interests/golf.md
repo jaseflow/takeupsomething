@@ -18,7 +18,11 @@ author:
 Golf is a sport for people who enjoy making minor tweaks to their game every other week, whether an improvement or not is another thing. Golf is a very social sport as you can spend up to four hours with a group per game, so plenty of time to catch up on things. It can be enjoyed for a lifetime as the impact on the body is relatively low although it is still possible to injure your back, shoulders or neck. If you like sweating the small things then golf might be the sport for you. Beware though it can be one of the most frustrating things you take up.
 
 ## How much does it cost
-Golf comes with quite an investment if you want to get a quality set of clubs. 
+Golf comes with quite an investment if you want to get a quality set of clubs. To get a quality set of essential clubs you would be looking at around **$500-700**. To keep costs down try and look for second hand clubs. Golf clubs are quite durable so they are often in good shape.
+
+In the long run golf balls will end up being your biggest expense. An decent set of balls will cost you between $30-$30. For the beginner looking to improve a quality ball can make the game more forgiving.
+
+It's also important to consider any course fees or club memberships that you will need to play the game. The price you pay will vary depending on the club you play at so make sure to call around the local clubs to check prices. Practicing at driving ranges also incurs a cost so you can expect to pay $10-20 each time you go.
 
 ## Essential Golf equipment
 
