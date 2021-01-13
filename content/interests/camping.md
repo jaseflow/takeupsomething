@@ -39,7 +39,7 @@ If you enjoy solving unique problems, planning and preparing, getting your hands
 
 {{< figure src="https://images.unsplash.com/photo-1487730116645-74489c95b41b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" >}}
 
-## How much will it cost
+## How much does it cost
 If you are starting from scratch then there will be a decent up front cost. Expect to pay somewhere between **$500** **and** **$700** to have enough equipment to get by. The bulk of the cost will comes from the tent which will set you back about $200 and the sleeping bag just a little less at $150.
 
 Other costs to think about is gas to and from the campsite or any fees at the site you're camping at.

@@ -31,7 +31,7 @@ books:
 ## Why start Cooking?
 There are many reasons someone might want to start cooking. Maybe you want to impress a certain individual, maybe you need to learn since you're out on your own now or perhaps you just find it extremely satisfying? Cooking or food in general brings joy to everybody, so why not learn how to provide that joy in the best way possible.
 
-## How much will it cost
+## How much does it cost
 If you're setting up your kitchen from scratch you can expect to pay between **$400** **and** **$600**. It's important to pay for the quality when it comes to knives, pots and pans. A high quality knife will be upwards of $150, although the Vetroinox brand provides good quality for low price. Pots and pans you should be paying about $100 for each.
 
 ## Essential Cooking items
