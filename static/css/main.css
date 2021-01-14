@@ -602,6 +602,10 @@ figure img {
   margin-top: 0;
 }
 
+.single__content h2 + ul {
+  margin-top: 2rem;
+}
+
 .single__content h4 {
   margin-bottom: 1rem;
 }
@@ -932,7 +936,7 @@ figure img {
   }
 
   .header__logo {
-    width: calc(240px + 3rem);
+    width: calc(260px + 3rem);
   }
 
   .header__author {
@@ -1062,7 +1066,7 @@ figure img {
 
   .single__main {
     padding-top: 0;
-    padding-left: calc(240px + 3rem);
+    padding-left: calc(260px + 3rem);
     display: grid;
     grid-template-columns: 1fr 280px;
     grid-column-gap: 3rem;
@@ -1083,7 +1087,7 @@ figure img {
     padding-top: 0;
     border: 0;
     transform: translate3d(calc(-100% - 3rem), -3rem, 0);
-    width: 240px;
+    width: 260px;
     top: 0;
     transition: all 375ms ease;
   }
