@@ -217,11 +217,7 @@ figure img {
 
 .logo {
   display: inline-block;
-  color: #111;
   text-decoration: none;
-  font-weight: 500;
-  font-size: 1.25rem;
-  line-height: 1.1;
 }
 
 .logo p {
@@ -564,6 +560,8 @@ figure img {
 
 .single__intro {
   font-size: 125%;
+  font-family: 'Merriweather', serif;
+  line-height: 2;
   margin-bottom: 2rem;
 }
 
@@ -573,6 +571,14 @@ figure img {
 
 .single__content {
   margin-bottom: 4rem;
+}
+
+.single__content p,
+.single__content ul,
+.single__content h3,
+.single__content ol {
+  font-family: 'Merriweather', serif;
+  line-height: 2;
 }
 
 .single__content p {
@@ -1145,11 +1151,6 @@ figure img {
 }
 
 @media(max-width: 959px) {
-
-  .single__subhero {
-    display: flex;
-    flex-direction: column-reverse;
-  }
 
   .form {
     margin-bottom: 2rem;

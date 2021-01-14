@@ -29,9 +29,6 @@
         <div class="single__main">
           <div>
             <div class="single__subhero">
-              <div class="single__intro">
-                <p class="flat">{{ .Description }}</p>
-              </div>
               {{ if .Params.author }}
               <div id="author">
                 <div class="author">
@@ -50,6 +47,9 @@
                 </div>
               </div>
               {{ end }}
+              <div class="single__intro">
+                <p class="flat">{{ .Description }}</p>
+              </div>
             </div>
             <aside class="contents">
               <h3 class="hide-mobile">{{ .Params.Title }}</h3>

@@ -36,6 +36,7 @@ When you decide to start playing, consider any course fees or club memberships t
 
 ### Golf bag
 {{< figure src="https://images.unsplash.com/photo-1605465883066-373cd4360a80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1890&q=80" >}}
+
 Golf bags play an important part in your game for many reasons. If you're not travelling by buggy then you'll most likely have your bag sat on your shoulder for long periods at a time, and often while walking. So it's important this bag is comfortable rested on your shoulder and also appropriate for your height.
 
 Bags are available in three styles, the first is what is known as a Staff Bag. The Staff Bag is a large bag that you would only use if someone was carrying it around for you, hence the name. It is not the bag you want to pick up when you're just getting started.
