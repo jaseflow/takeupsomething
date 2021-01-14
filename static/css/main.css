@@ -559,8 +559,8 @@ figure img {
 }
 
 .single__intro {
-  font-size: 125%;
   font-family: 'Merriweather', serif;
+  font-size: 115%;
   line-height: 2;
   margin-bottom: 2rem;
 }
