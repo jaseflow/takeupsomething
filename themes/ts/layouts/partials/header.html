@@ -6,18 +6,8 @@
       </a>
     </div>
     {{ if .Params.author }}
-    <div class="header__author" hidden>
-      <div class="author author--slim flat">
-        <div class="author__wrap">
-          <img class="author__thumb author__thumb--tiny" src="{{ .Params.author.image }}" alt="">
-          <div class="author__content">
-            <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
-            <p class="flat ellipsis"><strong>{{ .Params.author.name }}</strong></p>
-            <p class="flat ellipsis">@{{ .Params.author.handle }}</p>
-          </div>
-        </div>
-        <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn">Follow</a>
-      </div>
+    <div class="header__author">
+      <h4 class="small-caps">Share this guide</h4>
     </div>
     {{ end }}
     <div class="header__search">

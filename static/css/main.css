@@ -134,12 +134,17 @@ figure img {
 
 .input {
   background: #ddd;
-  border: 0;
+  border: 1px solid transparent;
   height: 50px;
   padding: 0 2rem;
   font-size: 100%;
   border-radius: 10px;
   width: 100%;
+  outline: 0;
+}
+
+.input:focus {
+  border-color: #E34614;
 }
 
 .input--light {

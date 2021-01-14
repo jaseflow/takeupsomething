@@ -6,7 +6,7 @@ url: "/golf"
 imageUrl: "/interests/golf.jpg"
 categories:
   - sport
-description: "There's no better sport for bringing people together and, with its winning combination of exercise, personal challenges, competition and social interaction, golf is the perfect tonic for good health and happiness."
+description: "Only Golf can bring people together with a mix of banter, personal competition and plenty of socializing. Golf is one of the main ingredients in life for good health and happiness."
 author:
   image: "/jcobley.jpg"
   name: "James Cobley"
@@ -35,8 +35,6 @@ When you decide to start playing, consider any course fees or club memberships t
 ## Essential Golf equipment
 
 ### Golf bag
-{{< figure src="https://images.unsplash.com/photo-1605465883066-373cd4360a80?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1890&q=80" >}}
-
 Golf bags play an important part in your game for many reasons. If you're not travelling by buggy then you'll most likely have your bag sat on your shoulder for long periods at a time, and often while walking. So it's important this bag is comfortable rested on your shoulder and also appropriate for your height.
 
 Bags are available in three styles, the first is what is known as a Staff Bag. The Staff Bag is a large bag that you would only use if someone was carrying it around for you, hence the name. It is not the bag you want to pick up when you're just getting started.
@@ -44,7 +42,6 @@ Bags are available in three styles, the first is what is known as a Staff Bag. T
 Then there are cart bags or stand bags. A cart bag offers plenty of storage and has a flat base designed to be placed in the back of a cart. The zips are often placed to be accessible from the back of a cart where a player would approach from. Where as a stand bag uses a stand to allow the bag to stand by itself just behind the player.
 
 ### 3-Wood
-{{< figure src="https://golfweek.usatoday.com/wp-content/uploads/sites/87/2019/01/TaylorMade-M6-fairway-wood.jpg?w=1000&h=600&crop=1" >}}
 The reason this guide starts with a 3-wood and excludes a driver is because most instructors would teach you to start with a 3-wood when swinging off the tee. The shaft on the driver and the lower loft makes it much harder to get the hang off. A 3-wood may not go as far as a driver ultimately would but when you're just getting started you want to focus on precision not power.
 
 3-Woods or Fairway Woods are typically used on the fairway but it is perfectly fine to use one off the tee. For many golfers a 3-wood is more reliable than a driver off the tee and can replace it completely.
@@ -62,8 +59,6 @@ Now we're getting into the "mid-irons". The 5-iron typically has a loft of about
 ### 7-Iron
 
 ### 9-Iron
-{{< figure src="https://houseofgolf.com.au/wp-content/uploads/2020/01/callaway-mavrik-max-irons-alt.jpg" >}}
-
 The 9-iron, along with the 8-iron is known as a "short iron", it has a loft of 41-48 degrees, making it ideal for short chip shots. It is the iron with the greatest loft before you start getting into wedges. The lofty face means you will get decent height out of a shot that and an average player should reach about 120 yards. The 9-iron is a very versatile club that can save you from all kinds of prickly situations. From a short distance the 9-iron is the club of choice to end up on the greeen.
 
 
