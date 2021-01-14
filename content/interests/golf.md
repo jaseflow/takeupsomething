@@ -45,9 +45,11 @@ When choosing a 3-wood you want to consider how fast your swing is. The general 
 ### 9-Iron
 {{< figure src="https://houseofgolf.com.au/wp-content/uploads/2020/01/callaway-mavrik-max-irons-alt.jpg" >}}
 
-The 9-iron has a loft of 41-48 degrees, making it ideal for short chip shots. It is the iron with the greatest loft before you start getting into wedges. The lofty face means you will get decent height out of a shot that an average player can get to about 120 yards. The 9-iron is a very versatile club that can save you from all kinds of prickly situations. From a short distance the 9-iron is the club of choice to end up on the greeen.
+The 9-iron, along with the 8-iron is known as a "short iron", it has a loft of 41-48 degrees, making it ideal for short chip shots. It is the iron with the greatest loft before you start getting into wedges. The lofty face means you will get decent height out of a shot that and an average player should reach about 120 yards. The 9-iron is a very versatile club that can save you from all kinds of prickly situations. From a short distance the 9-iron is the club of choice to end up on the greeen.
 
-9-irons come in 
+9-irons come in two designs, a Blade Iron and a Cavity Back Iron. The Blade Iron is designed for skilled players. It has a thin face with a smaller sweet spot meaning more room for error but at the same time providing more feel and better control. The Cavity Back Iron has a cavity at the back of the head, this adds extra weight to the edges of the face which makes it more forgiving. If you are just starting out then a Cavity Back Iron is recommended.
+
+The most common material used for the shafts is steel. Steel is stronger than graphite which means they will hold their shape better and provide more consistent and accurate swings. Graphite shafts are much lighter than steel shafts so they can potentially unlock greater distance in your shots by increasing your swing speed. For beginners, stick to steel, it's cheaper and more reliable.
 
 ### 5 or 7-Iron
 Adipisicing sit exercitationem culpa molestiae doloribus quaerat. Quas nulla ab explicabo asperiores voluptas! Necessitatibus maxime officiis veniam similique unde Laborum officiis error similique eaque consequuntur sit id non accusamus Repellendus
