@@ -37,8 +37,8 @@
                       <img class="author__thumb author__thumb--tiny" src="{{ .Params.author.image }}" alt="">
                       <div class="author__content">
                         <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
-                        <p class="flat ellipsis"><strong>{{ .Params.author.name }}</strong></p>
-                        <p class="flat ellipsis">@{{ .Params.author.handle }}</p>
+                        <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+                        <p class="flat">@{{ .Params.author.handle }}</p>
                       </div>
                     </div>
                     {{ if .Params.author.description }}
@@ -66,8 +66,8 @@
                       <img class="author__thumb author__thumb--tiny" src="{{ .Params.author.image }}" alt="">
                       <div class="author__content">
                         <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
-                        <p class="flat ellipsis"><strong>{{ .Params.author.name }}</strong></p>
-                        <p class="flat ellipsis">@{{ .Params.author.handle }}</p>
+                        <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+                        <p class="flat">@{{ .Params.author.handle }}</p>
                       </div>
                     </div>
                     {{ if .Params.author.description }}
@@ -98,6 +98,9 @@
                   {{ end }}
                 </div>
               {{ end }}
+              <div class="hide-desktop">
+                {{- partial "social.html" }}
+              </div>
             </div>
           </div>
           <div class="single__sidebar">

@@ -7,7 +7,7 @@
     </div>
     {{ if .Params.author }}
     <div class="header__author">
-      <h4 class="small-caps">Share this guide</h4>
+      {{- partial "social.html" . -}}
     </div>
     {{ end }}
     <div class="header__search">

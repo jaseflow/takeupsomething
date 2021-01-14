@@ -134,17 +134,13 @@ figure img {
 
 .input {
   background: #ddd;
-  border: 1px solid transparent;
+  border: 0;
   height: 50px;
   padding: 0 2rem;
   font-size: 100%;
   border-radius: 10px;
   width: 100%;
   outline: 0;
-}
-
-.input:focus {
-  border-color: #E34614;
 }
 
 .input--light {
@@ -261,9 +257,30 @@ figure img {
 
 .header__author {
   display: none;
-  transform: translateY(-200%);
+  transform: translateY(-300%);
   transition: transform 375ms ease;
 }
+
+.social__icons {
+  display: flex;
+  gap: 1rem;
+  margin-left: -0.15rem;
+}
+
+.social__icon {
+  font-size: 1.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
+  text-align: center;
+}
+
+.social__link {
+  color: initial;
+}
+
+.social__link--twitter { color: #1da1f2 }
+.social__link--facebook { color: #3b5998  }
+.social__link--reddit { color: #FF4500 }
 
 .search {
   position: relative;
@@ -942,6 +959,10 @@ figure img {
     min-width: 60px;
   }
 
+  .author__wrap {
+    align-items: flex-end;
+  }
+
   .header {
     position: fixed;
     top: 0;
@@ -958,8 +979,8 @@ figure img {
 
   .header__author {
     flex: 1;
-    display: block;
     padding-right: 3rem;
+    display: flex;
   }
 
   .header__search {
@@ -971,6 +992,16 @@ figure img {
     display: flex;
     align-items: center;
     justify-content: space-between;
+  }
+
+  .social {
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+  }
+
+  .social h4 {
+    margin-bottom: 0;
   }
 
   .footer__copy {
@@ -1098,14 +1129,14 @@ figure img {
     grid-column-gap: 3rem;
   }
 
+  .stuck .header__author {
+    transform: translateY(0);
+  }
+
   .stuck .contents,
   .stuck .single__related {
     position: fixed;
     top: calc(118px + 1rem);
-  }
-
-  .stuck .header__author {
-    transform: translateY(0);
   }
 
   .contents {
