@@ -6,7 +6,7 @@ url: "/golf"
 imageUrl: "/interests/golf.jpg"
 categories:
   - sport
-description: "Only Golf can bring people together with a mix of banter, personal competition and plenty of socializing. Golf is one of the main ingredients in life for good health and happiness."
+description: "Only Golf can bring people together with it's mix of banter, self-competition and plenty of opportunities to be social. Golf is one of the main ingredients in life for good health and happiness."
 author:
   image: "/jcobley.jpg"
   name: "James Cobley"
@@ -48,36 +48,30 @@ The reason this guide starts with a 3-wood and excludes a driver is because most
 
 When choosing a 3-wood you want to consider how fast your swing is. The general rule of thumb is, the faster your swing speed, the less loft you need to get the ball airborne.  If  your swing is faster than 100mph then consider a loft between 13-15 degrees. Any swings slower than that and you want to you will want to get closer to 15-17 degrees of loft.
 
-### 3-Iron or Hybrid
-Adipisicing sit exercitationem culpa molestiae doloribus quaerat. Quas nulla ab explicabo asperiores voluptas! Necessitatibus maxime officiis veniam similique unde Laborum officiis error similique eaque consequuntur sit id non accusamus Repellendus
+### Set of irons
+Purchasing a set of irons generally ends up more economical than purchasing the clubs individually. Even though you should only start off by using the 5-iron, 7-iron and 9-iron, it's still worth while having them in your bag for the day you really get a feel for those three irons.
 
-Adipisicing dolorem veritatis quam quasi illo Odio iure omnis excepturi dolores sint? Commodi consequuntur unde perferendis enim ducimus quod Suscipit cum obcaecati repellat nemo aut corporis! Cumque reprehenderit beatae sint?
-
-### 5-iron
-Now we're getting into the "mid-irons". The 5-iron typically has a loft of about 28 degrees and the average male can expect to hit the ball close to 150 yards. Generally you would use a 5-iron in the fairway, rough or hilly areas where you want to keep the ball at a lower trajectory. A 5-iron is a difficult club to master as it the flatter face does not give the ball much height.
-
-### 7-Iron
-
-### 9-Iron
-The 9-iron, along with the 8-iron is known as a "short iron", it has a loft of 41-48 degrees, making it ideal for short chip shots. It is the iron with the greatest loft before you start getting into wedges. The lofty face means you will get decent height out of a shot that and an average player should reach about 120 yards. The 9-iron is a very versatile club that can save you from all kinds of prickly situations. From a short distance the 9-iron is the club of choice to end up on the greeen.
-
+You can use the 5-iron for fairway shots and even when teeing off a par 3. The 7-iron and 9-iron can be for various approach shots. If you find it hard to get airborne, then consider getting a hybrid set. Hybrid irons are a mixture between woods and irons, sporting a noticabley smaller club head, reduced shaft and more height given to the ball.
 
 ### Sand Wedge
-Adipisicing sit exercitationem culpa molestiae doloribus quaerat. Quas nulla ab explicabo asperiores voluptas! Necessitatibus maxime officiis veniam similique unde Laborum officiis error similique eaque consequuntur sit id non accusamus Repellendus
+Wedges come with the largest loft of all the clubs. The sand wedge has the second most loft just before the Lob Wedge.
 
-Adipisicing dolorem veritatis quam quasi illo Odio iure omnis excepturi dolores sint? Commodi consequuntur unde perferendis enim ducimus quod Suscipit cum obcaecati repellat nemo aut corporis! Cumque reprehenderit beatae sint?
+When you're starting out you will most likely be spending a lot of time in the bunker and bunker play is part of the game you can't run away from. So you want to be using the right tool, aka the Sand Wedge to get out of these sand traps.
+
+The 9-iron is close enough in it's lofted angle to the Pitching Wedge that it can be used in it's place most of the time.
 
 ### Putter
-Adipisicing sit exercitationem culpa molestiae doloribus quaerat. Quas nulla ab explicabo asperiores voluptas! Necessitatibus maxime officiis veniam similique unde Laborum officiis error similique eaque consequuntur sit id non accusamus Repellendus
+The short game as it's known, is the most crucial element to having a good round of golf. Being able to capitalize on a good long game and come in under par is what will win you games.
 
-Adipisicing dolorem veritatis quam quasi illo Odio iure omnis excepturi dolores sint? Commodi consequuntur unde perferendis enim ducimus quod Suscipit cum obcaecati repellat nemo aut corporis! Cumque reprehenderit beatae sint?
+Putting is just as much a mental game as it is anything else. So first of all having a putter that you love the look at, that fills you with confidence when you step on the green. Go for that one. After taking that into consideration you should find a putter that gives you a little room for error. You're looking for a putter that is stable and easy to align, generally you will find this in mallet style putters. They provide a more true shot where they have been optimized center of gravity. This is in contrast to a blade style putter where it is more sensitive to mistakes made during the put.
 
 ### Golf Balls
-Adipisicing sit exercitationem culpa molestiae doloribus quaerat. Quas nulla ab explicabo asperiores voluptas! Necessitatibus maxime officiis veniam similique unde Laborum officiis error similique eaque consequuntur sit id non accusamus Repellendus
+You're going to need balls and lots of them. As mentioned above, golf balls will end being your biggest cost for the entire time you play the sport.
 
-Adipisicing dolorem veritatis quam quasi illo Odio iure omnis excepturi dolores sint? Commodi consequuntur unde perferendis enim ducimus quod Suscipit cum obcaecati repellat nemo aut corporis! Cumque reprehenderit beatae sint?
+It's a balancing act between investing in good enough balls that aren't detrimental to your shots but at the same time not wasting all your money on balls you're just going to lose. Make sure to spend plenty of time at the driving range using balls that belong to someone else so you can confidently purchase balls knowing you will hold on to them.
+
+You will want to be picking up 2 piece balls to start off with. A 2 piece ball is more durable, travels further and will cost you much less than 3 piece balls. This is ideal for beginners as you will not be able to make the most of the spin and control that a 3 piece ball will offer.
+
 
 ### Tees
-Adipisicing sit exercitationem culpa molestiae doloribus quaerat. Quas nulla ab explicabo asperiores voluptas! Necessitatibus maxime officiis veniam similique unde Laborum officiis error similique eaque consequuntur sit id non accusamus Repellendus
-
-Adipisicing dolorem veritatis quam quasi illo Odio iure omnis excepturi dolores sint? Commodi consequuntur unde perferendis enim ducimus quod Suscipit cum obcaecati repellat nemo aut corporis! Cumque reprehenderit beatae sint?
+Tees are a no brainer here, you're going to use more tees than balls, thankfully they cost less. Really no need to get anything fancy here just as long as it keeps your ball of the ground.
