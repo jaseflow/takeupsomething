@@ -11,7 +11,7 @@ author:
   image: "/jcobley.jpg"
   name: "James Cobley"
   handle: "cobley19"
-  description: "A leader in the community. They spend majority of their time fostering and growing the community."
+  description: "James has played golf for over ten years off a single digit handicap."
 ---
 
 ## Why start playing golf?
