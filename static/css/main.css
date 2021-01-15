@@ -669,7 +669,7 @@ figure img {
 
 
 .single__hero {
-  padding-bottom: 50vh;
+  padding-bottom: 70vh;
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
@@ -1011,7 +1011,6 @@ figure img {
   .single__hero {
     position: relative;
     margin-bottom: 1.5rem;
-    padding-bottom: 50vh;
   }
 
   .single__hero--full {
@@ -1019,7 +1018,7 @@ figure img {
     margin: 0;
   }
 
-  .toc {
+  .stuck .toc {
     max-height: calc(100vh - 510px);
     overflow-y: auto;
   }
@@ -1191,9 +1190,9 @@ figure img {
 
 }
 
-@media(min-width: 1600px) {
+@media(min-height: 1200px) {
   .single__hero {
-    padding-bottom: 60vh;
+    padding-bottom: 50vh;
   }
 }
 
