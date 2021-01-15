@@ -33,6 +33,7 @@ When you decide to start playing, consider any course fees or club memberships t
 - The most common material used for the shafts is steel. Steel is stronger than graphite which means they will hold their shape better and provide more consistent and accurate swings. Graphite shafts are much lighter than steel shafts so they can potentially unlock greater distance in your shots by increasing your swing speed. For beginners, stick to steel, it's cheaper and more reliable.
 
 ## Essential Golf equipment
+If you want to know what golf clubs and equipment you should buy as a beginner then check out this list below.
 
 ### Golf bag
 Golf bags play an important part in your game for many reasons. If you're not travelling by buggy then you'll most likely have your bag sat on your shoulder for long periods at a time, and often while walking. So it's important this bag is comfortable rested on your shoulder and also appropriate for your height.
