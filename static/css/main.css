@@ -1019,7 +1019,7 @@ figure img {
   }
 
   .stuck .toc {
-    max-height: calc(100vh - 510px);
+    max-height: calc(100vh - 400px);
     overflow-y: auto;
   }
 
