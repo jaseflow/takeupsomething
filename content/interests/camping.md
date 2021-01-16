@@ -64,11 +64,6 @@ You also want your tent to be easy to assemble. If you have your eyes on a
 particular tent, make sure to Youtube how to pitch it and see what kind of
 effort is involved.
 
-<h4 class="small-caps">Recommendations</h4>
-<div class="products">
-{{% product price="189.95" title="Kelty Grand Mesa Backpacking Tent (2020 Update)" imageUrl="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B082P6XWN2&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US" linkUrl="https://amzn.to/3bn3atV" %}}
-</div>
-
 ### Sleeping Bag / Pad
 
 Camping is no fun if you're not getting a good night's rest. Therefore it's
@@ -90,20 +85,10 @@ Finally, there are two kinds of filling worth looking at:
 
 - **Synthetic** A Synthetic Sleeping Bag is appropriate for wet weather conditions as it is completely water proof. The only downsie is they are often heavier than their down fill counterparts so make sure to consider those extra grams.
 
-<h4 class="small-caps">Recommendations</h4>
-<div class="products">
-{{% product price="145.00" title="Kelty Sleeping-Bags Cosmic 20" imageUrl="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B07MD224VW&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US" linkUrl="https://amzn.to/3s7nK7E" %}}
-</div>
-
 ### Camp Chair
 A camp chair allows you to quickly move around the fire or pull up a seat where ever you choose to read a book. They should be light weight but sturdy enough to you be setting up on all kinds of surfaces and holding your weight. It's up to you what kind of features you need in the chair, some come zipped pockets, bottle openers, even cooling departments.
 
 {{< figure src="https://images.unsplash.com/photo-1532137965533-84bbd6f04371?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1650&q=80" >}}
-
-<h4 class="small-caps">Recommendations</h4>
-<div class="products">
-{{% product price="59.31" title="Kijaro Dual Lock Portable Camping and Sports Chair " imageUrl="//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B004C0QDLO&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US" linkUrl="https://amzn.to/2LxaAjw" %}}
-</div>
 
 ### Lighting
 One of the things people love about camping is that once the sun is down, it's literally lights out. This sounds fun but can make getting around the camp at night unnecessarily difficult. By simply hanging up some lights at key points of the camp, for example on the way or at the toilet or even wearing a headlamp can make life a lot easier.

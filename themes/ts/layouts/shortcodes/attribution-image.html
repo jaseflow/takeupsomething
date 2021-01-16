@@ -1,0 +1,12 @@
+{{/* DEFAULTS */}}
+{{ $alt := "" }}
+{{ $authorUrl := "" }}
+{{ $imageUrl := "" }}
+
+<figure>
+  <img src='{{ .Get "imageUrl"}}' alt="{{ .Get "Caption" }}" />
+  <figcaption>
+    {{ .Get "caption" }}
+    - <span>Photo by <a target="_blank" href="{{ .Get "authorUrl" }}">{{ .Get "author" }}</a></span>
+  </figcaption>
+</figure>

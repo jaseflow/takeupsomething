@@ -80,18 +80,12 @@ a:hover {
 }
 
 figure {
-  margin: 2rem 0;
-  position: relative;
-  padding-bottom: 56.25%;
+  margin: 2rem 0 2.5rem 0;
 }
 
-figure img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
+figcaption {
+  text-align: center;
+  font-size: 0.825rem;
 }
 
 .text-centered {
@@ -661,6 +655,10 @@ figure img {
   margin-top: 1rem;
 }
 
+.single__content h3 + figure {
+  margin-top: 0;
+}
+
 .single__placeholder {
   padding: 2rem;
   font-size: 130%;
@@ -908,7 +906,7 @@ figure img {
 .books__list {
   white-space: nowrap;
   overflow-x: auto;
-  margin: 2rem -2rem 0 -2rem !important;
+  margin: 2rem -2rem 2rem -2rem !important;
 }
 
 .book {
