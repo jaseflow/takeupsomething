@@ -31,7 +31,9 @@ body {
 h1,
 h2,
 h3,
-p {
+p,
+ul,
+ol {
   margin-bottom: 1rem;
 }
 
@@ -395,18 +397,24 @@ figure img {
 .unrelated {
   column-count: 2;
   column-gap: 3rem;
+  margin-bottom: 2rem;
+}
+
+.unrelated:last-child {
+  margin-bottom: 0;
 }
 
 .unrelated a {
   display: inline-block;
   padding: 0.25rem 0;
+  color: #bbb;
 }
 
 .unrelated i {
   width: 1rem;
   margin-right: 0.5rem;
   font-size: 0.852rem;
-  color: initial;
+  color: #fff;
 }
 
 .unrelated a:hover {
@@ -415,7 +423,6 @@ figure img {
 }
 
 .unrelated span {
-  color: #111;
   font-size: 0.825rem;
   margin-left: 0.25rem;
 }
@@ -669,12 +676,12 @@ figure img {
 
 
 .single__hero {
-  padding-bottom: 70vh;
+  padding-bottom: 50vh;
   position: relative;
   overflow: hidden;
   margin-bottom: 1rem;
   background: rgba(0,0,0,0.15);
-  max-width: 2000px;
+  max-width: 1400px;
   margin-left: auto;
   margin-right: auto;
 }
@@ -746,6 +753,11 @@ figure img {
   box-shadow: 0 5px 10px rgba(0,0,0,0.085);
 }
 
+.author--flattop {
+  padding-top: 0;
+  margin-top: 0;
+}
+
 .author__wrap {
   display: flex;
   align-items: center;
@@ -780,7 +792,6 @@ figure img {
 
 .footer {
   background: #242424;
-  padding: 2rem 0;
   color: #999;
 }
 
@@ -788,6 +799,15 @@ figure img {
   display: flex;
   align-items: center;
   margin-left: -1rem;
+}
+
+.footer__top,
+.footer__bottom {
+  padding: 2rem 0;
+}
+
+.footer__bottom {
+  background: #111;
 }
 
 .footer__copy {
@@ -1024,7 +1044,7 @@ figure img {
   }
 
   .author {
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
     border-radius: 10px;
     box-shadow: none;
     display: flex;
@@ -1080,10 +1100,6 @@ figure img {
     grid-row-gap: 2rem;
   }
 
-  .main {
-    min-height: calc(100vh - 114px);
-  }
-
   .single__grid {
     position: relative;
     overflow: hidden;
@@ -1117,10 +1133,8 @@ figure img {
   }
 
   .single__main {
-    padding-top: 0;
-    padding-left: calc(260px + 3rem);
     display: grid;
-    grid-template-columns: 1fr 280px;
+    grid-template-columns: 260px 1fr 280px;
     grid-column-gap: 3rem;
   }
 
@@ -1128,20 +1142,14 @@ figure img {
     transform: translateY(0);
   }
 
-  .stuck .contents,
-  .stuck .single__related {
-    position: fixed;
-    top: calc(118px + 1rem);
+  .contents__wrap {
+    transform: translateY(-3rem);
+    transition: all 375ms ease;
   }
 
-  .contents {
-    position: absolute;
-    padding-top: 0;
-    border: 0;
-    transform: translate3d(calc(-100% - 3rem), -3rem, 0);
-    width: 260px;
-    top: 0;
-    transition: all 375ms ease;
+  .contents__title {
+    opacity: 0;
+    transition: opacity 375ms ease;
   }
 
   .contents__tile {
@@ -1149,8 +1157,12 @@ figure img {
     opacity: 0;
   }
 
-  .stuck .contents {
-    transform: translate3d(calc(-100% - 3rem), 0, 0);
+  .stuck .contents__wrap {
+    transform: translateY(0);
+  }
+
+  .stuck .contents__title {
+    opacity: 1;
   }
 
   .stuck .contents__tile {
@@ -1171,6 +1183,11 @@ figure img {
     margin-top: calc(-126px - 2rem) !important;
   }
 
+  .unrelated {
+    column-count: 4;
+    column-gap: 3rem;
+  }
+
 }
 
 @media(min-width: 1200px) {
@@ -1181,16 +1198,19 @@ figure img {
 
   .single__sidebar {
     position: relative;
+    height: 100%;
   }
 
-  .single__related {
-    position: absolute;
-    width: 280px;
+  .single__sidebar-wrap,
+  .contents__wrap  {
+    position: sticky;
+    top: calc(98px + 1.5rem);
+    margin-bottom: 3rem;
   }
 
 }
 
-@media(min-height: 1200px) {
+@media(min-height: 1200px) and (min-width: 960px) {
   .single__hero {
     padding-bottom: 50vh;
   }

@@ -11,7 +11,7 @@ author:
   image: "/jcobley.jpg"
   name: "James Cobley"
   handle: "cobley19"
-  description: "James has played golf for over ten years off a single digit handicap."
+  description: "A golfing tragic from Brisbane, Australia who has played his fair share of rounds."
 ---
 
 ## Why start playing golf?

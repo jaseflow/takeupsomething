@@ -25,91 +25,93 @@
     {{ end }}
   </div>
   <div class="container">
-      <div class="single__grid" id="stick-target">
-        <div class="single__main">
-          <div>
-            <div class="single__subhero">
-              <div class="hide-desktop">
-                {{ if .Params.author }}
-                <div id="author">
-                  <div class="author">
-                    <div class="author__wrap">
-                      <img class="author__thumb author__thumb--tiny" src="{{ .Params.author.image }}" alt="">
-                      <div class="author__content">
-                        <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
-                        <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
-                        <p class="flat">@{{ .Params.author.handle }}</p>
-                      </div>
-                    </div>
-                    {{ if .Params.author.description }}
-                      <p class="hide-mobile author__desc">{{ .Params.author.description }}</p>
-                      <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn btn--block">Follow</a>
-                    {{ end }}
-                  </div>
+    <div class="single__main" id="stick-target">
+      <div class="single__subhero hide-desktop">
+        {{ if .Params.author }}
+        <div class="hide-desktop">
+          <div id="author">
+            <div class="author">
+              <div class="author__wrap">
+                <img class="author__thumb author__thumb--tiny" src="{{ .Params.author.image }}" alt="">
+                <div class="author__content">
+                  <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
+                  <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+                  <p class="flat">@{{ .Params.author.handle }}</p>
                 </div>
-                {{ end }}
               </div>
-              <div class="single__intro">
-                <p class="flat">{{ .Description }}</p>
-              </div>
-            </div>
-            <aside class="contents">
-              <div class="toc">
-                <h3 class="hide-mobile">{{ .Params.Title }}</h3>
-                <h4 class="small-caps hide-desktop">Table of contents</h4>
-                {{ .TableOfContents }}
-              </div>
-              <div class="hide-mobile">
-                <div id="author">
-                  <div class="author">
-                    <div class="author__wrap">
-                      <img class="author__thumb author__thumb--tiny" src="{{ .Params.author.image }}" alt="">
-                      <div class="author__content">
-                        <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
-                        <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
-                        <p class="flat">@{{ .Params.author.handle }}</p>
-                      </div>
-                    </div>
-                    {{ if .Params.author.description }}
-                      <p class="hide-mobile author__desc">{{ .Params.author.description }}</p>
-                      <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn btn--block">Follow</a>
-                    {{ end }}
-                  </div>
-                </div>
-                {{ end }}
-              </div>
-              {{ if .Params.author }}
-            </aside>
-            <div class="single__content">
-              {{ .Content }}
-              {{ if .Params.books }}
-                <div class="books">
-                  {{ with .Params.books }}
-                  <ul class="books__list">
-                    {{ range . }}
-                      <li class="book">
-                        <a href="{{ .link }}">
-                          <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
-                          <span class="book__title">{{ .name }}</span>
-                        </a>
-                      </li>
-                    {{ end }}
-                  </ul>
-                  {{ end }}
-                </div>
+              {{ if .Params.author.description }}
+                <p class="hide-mobile author__desc">{{ .Params.author.description }}</p>
+                <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn btn--block">Follow</a>
               {{ end }}
-              <div class="hide-desktop">
-                {{- partial "social.html" }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+        <div class="single__intro">
+          <p class="flat">{{ .Description }}</p>
+        </div>
+      </div>
+      <aside class="contents">
+        <div class="contents__wrap">
+          <div class="toc">
+            <h3 class="hide-mobile contents__title">{{ .Params.Title }}</h3>
+            <h4 class="small-caps hide-desktop">Table of contents</h4>
+            {{ .TableOfContents }}
+          </div>
+        </div>
+      </aside>
+      <div>
+        <div class="single__intro hide-mobile">
+          <p class="flat">{{ .Description }}</p>
+        </div>
+        <div class="single__content">
+          {{ .Content }}
+          {{ if .Params.books }}
+            <div class="books">
+              {{ with .Params.books }}
+              <ul class="books__list">
+                {{ range . }}
+                  <li class="book">
+                    <a href="{{ .link }}">
+                      <img class="book__cover" src="{{ .imageUrl }}" alt="{{ .name }}" />
+                      <span class="book__title">{{ .name }}</span>
+                    </a>
+                  </li>
+                {{ end }}
+              </ul>
+              {{ end }}
+            </div>
+          {{ end }}
+          <div class="hide-desktop">
+            {{- partial "social.html" }}
+          </div>
+        </div>
+      </div>
+      <div class="single__sidebar">
+        <div class="single__sidebar-wrap">
+          {{ if .Params.author }}
+          <div class="hide-mobile">
+            <div id="author">
+              <div class="author author--flattop">
+                <div class="author__wrap">
+                  <img class="author__thumb author__thumb--tiny" src="{{ .Params.author.image }}" alt="">
+                  <div class="author__content">
+                    <h3 class="small-caps flat" style="margin-bottom: 0.5rem;">Written by</h3>
+                    <p class="flat"><strong>{{ .Params.author.name }}</strong></p>
+                    <p class="flat">@{{ .Params.author.handle }}</p>
+                  </div>
+                </div>
+                {{ if .Params.author.description }}
+                  <p class="hide-mobile author__desc">{{ .Params.author.description }}</p>
+                  <a href="https://instagram.com/{{ .Params.author.handle }}" class="btn btn--block">Follow</a>
+                {{ end }}
               </div>
             </div>
           </div>
-          <div class="single__sidebar">
-            <div class="single__related">
-            <h3 class="heading">Interests related to {{ .Params.interest }}</h3>
-            {{- partial "related.html" . -}}
-            <h3 class="heading">Other categories</h3>
-            {{- partial "unrelated.html" . -}}
-            </div>
+          {{ end }}
+          <div class="single__related">
+          <h3 class="heading">Interests related to {{ .Params.interest }}</h3>
+          {{- partial "related.html" . -}}
           </div>
         </div>
       </div>

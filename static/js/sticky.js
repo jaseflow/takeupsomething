@@ -12,7 +12,6 @@ window.addEventListener('DOMContentLoaded', function(event) {
     targetTop = Math.floor((target.getBoundingClientRect().top - 140) + document.documentElement.scrollTop)
   }
 
-
   if(window.innerWidth > 959 && target) {
     if (window.scrollY >= targetTop && !isStuck) {
       document.querySelector('body').classList.add('stuck')

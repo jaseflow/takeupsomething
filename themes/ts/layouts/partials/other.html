@@ -1,19 +1,15 @@
 {{ $current := .Params.interest }}
-{{ $related := .Site.RegularPages | first 4 }}
+{{ $related := .Site.RegularPages }}
 {{ with $related }}
-<h2>Other interests</h2>
-<ul class="other">
+<ul class="unstyled unrelated">
   {{ range where . "Params.interest" "!=" $current }}
-  <li class="interest">
+  <li>
     {{ if .Params.nofollow }}
       <a href="{{ .RelPermalink }}" rel="nofollow">
       {{ else }}
       <a href="{{ .RelPermalink }}">
     {{ end }}
-      <div class="interest__thumb">
-        <div class="interest__img" style="background-image: url({{ .Params.imageUrl }})"></div>
-      </div>
-      <p class="interest__title"><small>Take up</small> {{ .Params.interest  }}</p>
+      {{ .Params.interest }}
     </a>
   </li>
   {{ end }}

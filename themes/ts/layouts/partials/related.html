@@ -1,5 +1,5 @@
 {{ $current := .Params.interest }}
-{{ $related := .Site.RegularPages.RelatedIndices . "categories" | first 2 }}
+{{ $related := .Site.RegularPages.RelatedIndices . "categories" | first 4 }}
 {{ with $related }}
 <ul class="related">
   {{ range where . "Params.interest" "!=" $current }}
