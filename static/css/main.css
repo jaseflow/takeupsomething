@@ -569,6 +569,7 @@ figcaption {
 
 .toc ol {
   margin-left: 1em;
+  margin-bottom: 0;
 }
 
 .toc a {
@@ -1037,7 +1038,7 @@ figcaption {
   }
 
   .stuck .toc {
-    max-height: calc(100vh - 400px);
+    max-height: calc(100vh - 178px);
     overflow-y: auto;
   }
 
