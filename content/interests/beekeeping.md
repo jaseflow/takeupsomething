@@ -8,5 +8,5 @@ url: "/beekeeping"
 imageUrl: "/interests/beekeeping.jpg"
 categories:
   - nature
-description: "The main reason people get into Beekeeping is for that sweet golden honey and the versatile bees' wax left behind. But there are plenty of other reasons why you should consider taking up Beekeeping. They will pollinate flowers in your nearby gardens, giving them a boost of vitality. As long as you have adequate safety equipment, Beekeeping can be a fantastic family activity that will fascinate children. Did you know you could also make a tidy profit off Beekeeping if you choose to package and sell the honey or wax at a market?"
+description: "The main reason people get into Beekeeping is for that sweet golden honey and the versatile bees' wax left behind. But there are plenty of other reasons why you should consider taking up Beekeeping. They will pollinate flowers in your nearby gardens, giving them a boost of vitality. As long as you have adequate safety equipment, Beekeeping can also be a fantastic family activity that will fascinate children."
 ---
