@@ -1,5 +1,5 @@
 ---
-title: "Taking up Camping"
+title: "Take up Camping"
 interest: "Camping"
 subtitle: "Preparing yourself for your stay with nature"
 date: 2021-01-07T11:10:26+10:00

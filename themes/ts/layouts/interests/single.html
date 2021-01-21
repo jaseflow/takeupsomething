@@ -16,7 +16,7 @@
     {{ if not .Params.noindex }}
     <header class="single__header">
       <div class="container">
-        <h1 class="title flat">Taking up {{ .Params.interest }}</h1>
+        <h1 class="title flat">Take up {{ .Params.interest }}</h1>
         {{ if not .Params.noindex }}
         <p class="single__date flat">Published {{ .PublishDate.Format "January, 2006" }}</p>
         {{ end }}
@@ -54,7 +54,7 @@
       <aside class="contents">
         <div class="contents__wrap">
           <div class="toc">
-            <h3 class="hide-mobile contents__title">{{ .Params.Title }}</h3>
+            <h3 class="hide-mobile contents__title">Take up {{ .Params.interest }}</h3>
             <h4 class="small-caps hide-desktop">Table of contents</h4>
             {{ .TableOfContents }}
           </div>
