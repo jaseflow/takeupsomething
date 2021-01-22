@@ -26,6 +26,7 @@ html {
 
 body {
   background: #fff;
+  padding-top: 98px;
 }
 
 h1,
@@ -232,6 +233,13 @@ figcaption {
 
 .header {
   padding: 2rem 0 1rem 0;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background: #fff;
+  z-index: 10;
+  box-shadow: 0 5px 10px rgba(0,0,0,0.10);
 }
 
 .header .container {
@@ -351,7 +359,7 @@ figcaption {
 
 .home,
 .taxonomy {
-  padding: 3rem 0;
+  padding: 2rem 0;
 }
 
 .interest,
@@ -950,10 +958,6 @@ figcaption {
     display: none
   }
 
-  body {
-    padding-top: 98px;
-  }
-
   .btn--block {
     width: 100%;
   }
@@ -980,16 +984,6 @@ figcaption {
 
   .author__wrap {
     align-items: flex-end;
-  }
-
-  .header {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    background: #fff;
-    z-index: 10;
-    box-shadow: 0 5px 10px rgba(0,0,0,0.10);
   }
 
   .header__logo {

@@ -12,11 +12,7 @@
         <a class="interest" href="{{ .Permalink  }}">
         {{ end }}
           <div class="interest__thumb">
-            {{ if .Params.thumbUrl }}
-            <img src="{{ .Params.thumbUrl }}" class="interest__img" alt="{{ .Title }}" loading="lazy" />
-            {{ else  }}
-            <img src="{{ .Params.imageUrl }}" class="interest__img" alt="{{ .Title }}" loading="lazy" />
-            {{ end  }}
+            <img src="/interests/{{ lower $dashedInterest }}-bg.jpg" data-src="/interests/{{ lower $dashedInterest }}.jpg" class="lazy interest__img" alt="{{ .Title }}" loading="lazy" />
           </div>
           <h3 class="interest__title"><small>Take up</small> {{ .Params.interest }}</h3>
         </a>
@@ -25,5 +21,12 @@
     </div>
   </div>
 </main>
+<script src="https://cdn.jsdelivr.net/npm/vanilla-lazyload@17.3.0/dist/lazyload.min.js"></script>
+
+<script>
+  const lazyLoadInstance = new LazyLoad({
+    // Your custom settings go here
+  });
+</script>
 {{ end  }}
 
