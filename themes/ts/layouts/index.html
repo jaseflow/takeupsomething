@@ -12,7 +12,7 @@
         <a class="interest" href="{{ .Permalink  }}">
         {{ end }}
           <div class="interest__thumb">
-            <img src="/interests/{{ lower $dashedInterest }}-bg.jpg" data-src="/interests/{{ lower $dashedInterest }}.jpg" class="lazy interest__img" alt="{{ .Title }}" loading="lazy" />
+            <img src="/interests/bgs/{{ lower $dashedInterest }}-bg.jpg" data-src="/interests/thumbs/{{ lower $dashedInterest }}-thumb.jpg" class="lazy interest__img" alt="{{ .Title }}" loading="lazy" />
           </div>
           <h3 class="interest__title"><small>Take up</small> {{ .Params.interest }}</h3>
         </a>
