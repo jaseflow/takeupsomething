@@ -4,7 +4,7 @@ interest: "Cooking"
 subtitle: "Getting started in the kitchen"
 url: "/cooking"
 date: 2020-12-30T11:10:26+10:00
-imageUrl: "/interests/cooking.jpg"
+imageUrl: "interests/cooking.jpg"
 categories:
   - food
 author:

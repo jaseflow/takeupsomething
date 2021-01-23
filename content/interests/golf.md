@@ -3,7 +3,7 @@ title: "Take up Golf"
 interest: "Golf"
 date: 2020-12-30T11:10:26+10:00
 url: "/golf"
-imageUrl: "/interests/golf.jpg"
+imageUrl: "interests/golf.jpg"
 categories:
   - sport
 description: "Only Golf can bring people together with it's mix of banter, self-competition and plenty of opportunities to be social. Golf is one of the main ingredients in life for good health and happiness."
