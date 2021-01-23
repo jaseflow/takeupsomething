@@ -1,4 +1,6 @@
 {{ define "main"  }}
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v9.0&appId=230664684888220&autoLogAppEvents=1" nonce="dqHMPUxq"></script>
 <main aria-role="main" class="main single" id="single">
   {{ if .Params.noindex }}
   <div class="single__hero single__hero--full">
@@ -121,4 +123,5 @@
 {{ end  }}
 {{ define "footer" }}
 <script src="/js/sticky.js"></script>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 {{ end  }}
