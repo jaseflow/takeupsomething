@@ -4,7 +4,7 @@ interest: "Beer Brewing"
 date: 2020-12-30T11:10:26+10:00
 noindex: true
 url: "/beer-brewing"
-imageUrl: "/interests/beer-brewing.jpg"
+imageUrl: "interests/beer-brewing.jpg"
 categories:
   - food
 ---

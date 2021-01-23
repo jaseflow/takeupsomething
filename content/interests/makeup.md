@@ -4,7 +4,7 @@ interest: "Makeup"
 date: 2020-12-30T11:10:26+10:00
 noindex: true
 url: "/makeup"
-imageUrl: "/interests/makeup.jpg"
+imageUrl: "interests/makeup.jpg"
 categories:
   - beauty
 author:

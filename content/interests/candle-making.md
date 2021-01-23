@@ -4,7 +4,7 @@ interest: "Candle Making"
 date: 2020-12-30T11:10:26+10:00
 noindex: true
 url: "/candle-making"
-imageUrl: "/interests/candle-making.jpg"
+imageUrl: "interests/candle-making.jpg"
 categories:
   - crafts
 ---
