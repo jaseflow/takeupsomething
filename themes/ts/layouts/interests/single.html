@@ -5,7 +5,7 @@
   {{ else }}
   <div class="single__hero">
   {{ end }}
-    <img src="{{ .Params.imageUrl }}" class="single__img" alt="{{ .Params.title }}" loading="lazy" />
+    <img src="/{{ .Params.imageUrl }}" class="single__img" alt="{{ .Params.title }}" loading="lazy" />
     {{ if .Params.noindex }}
     <div class="single__placeholder">
       <h1 class="title">Know something about {{ .Params.interest }}?</h1>

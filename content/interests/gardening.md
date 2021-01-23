@@ -3,7 +3,7 @@ title: "Take up Gardening"
 interest: "Gardening"
 date: 2020-12-30T11:10:26+10:00
 url: "/gardening"
-imageUrl: "/interests/gardening.jpg"
+imageUrl: "interests/gardening.jpg"
 description: "Gardening is a great hobby for your physical and mental health. There is nothing more rewarding than seeing your garden in full bloom. Whether it's a garden to eat or a garden to admire, gardening is for everybody."
 categories:
   - nature
