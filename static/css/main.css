@@ -1024,6 +1024,7 @@ figcaption {
   .single__hero {
     position: relative;
     margin-bottom: 1.5rem;
+    padding-bottom: 70vh;
   }
 
   .single__hero--full {
@@ -1205,7 +1206,7 @@ figcaption {
 
 @media(min-height: 1200px) and (min-width: 960px) {
   .single__hero {
-    padding-bottom: 70vh;
+    padding-bottom: 50vh;
   }
 }
 
