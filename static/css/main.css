@@ -1205,7 +1205,7 @@ figcaption {
 
 @media(min-height: 1200px) and (min-width: 960px) {
   .single__hero {
-    padding-bottom: 50vh;
+    padding-bottom: 70vh;
   }
 }
 
