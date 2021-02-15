@@ -244,6 +244,9 @@ figcaption {
 
 .header .container {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__icon {
@@ -267,7 +270,6 @@ figcaption {
 
 .social__icons {
   display: flex;
-  gap: 1rem;
   margin-left: -0.15rem;
 }
 
@@ -276,6 +278,11 @@ figcaption {
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;
+  margin-left: 1rem;
+}
+
+.social__icon:first-child {
+  margin-left: 0;
 }
 
 .social__link {
@@ -285,6 +292,7 @@ figcaption {
 .social__link--twitter { color: #1da1f2 }
 .social__link--facebook { color: #3b5998  }
 .social__link--reddit { color: #FF4500 }
+.social__link--messenger { color: #00C6FF }
 
 .search {
   position: relative;
@@ -1228,6 +1236,10 @@ figcaption {
     margin: 0 -2rem;
     padding: 2rem;
     background: #eee;
+  }
+
+  .social__title {
+    display: none;
   }
 
 }
