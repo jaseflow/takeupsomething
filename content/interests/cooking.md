@@ -28,7 +28,7 @@ books:
     link: "https://amzn.to/2KWLWsN"
 ---
 
-<a href="whatsapp://send?text=The text to share!" data-action="share/whatsapp/share">Share via Whatsapp</a>
+<a href="whatsapp://send?text=https://www.lgiasuper.com.au/familyandfriends?code=dbo0e5" data-action="share/whatsapp/share">Share via Whatsapp</a>
 
 ## Why start Cooking?
 There are many reasons someone might want to start cooking. Maybe you want to impress a certain individual, maybe you need to learn since you're out on your own now or perhaps you just find it extremely satisfying? Cooking or food in general brings joy to everybody, so why not learn how to provide that joy in the best way possible.
