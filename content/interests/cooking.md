@@ -28,8 +28,6 @@ books:
     link: "https://amzn.to/2KWLWsN"
 ---
 
-<a href=”fb-messenger://share/?link='https%3A%2F%2Fdevelopers.facebook.com%2Fdocs%2Fsharing%2Freference%2Fsend-dialog&app_id=123456789'">Send In Messenger</a>
-
 ## Why start Cooking?
 There are many reasons someone might want to start cooking. Maybe you want to impress a certain individual, maybe you need to learn since you're out on your own now or perhaps you just find it extremely satisfying? Cooking or food in general brings joy to everybody, so why not learn how to provide that joy in the best way possible.
 
