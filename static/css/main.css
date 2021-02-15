@@ -270,7 +270,6 @@ figcaption {
 
 .social__icons {
   display: flex;
-  gap: 1rem;
   margin-left: -0.15rem;
 }
 
@@ -279,6 +278,11 @@ figcaption {
   width: 1.5rem;
   height: 1.5rem;
   text-align: center;
+  margin-left: 1rem;
+}
+
+.social__icon:first-child {
+  margin-left: 0;
 }
 
 .social__link {
