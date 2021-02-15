@@ -10,16 +10,21 @@
     </a>
     <div
       class="fb-share-button"
-      data-href="https://takeupsomething.com/golf"
+      data-href="https://takeupsomething.com{{ .Params.url }}"
       data-layout="button"
       data-size="small">
       <a
         target="_blank"
-        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftakeupsomething.com%2Fgolf&amp;src=sdkpreparse"
+        href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Ftakeupsomething.com%2F{{ .Params.Url }}&amp;src=sdkpreparse"
         class="fb-xfbml-parse-ignore social__link social__link--facebook">
         <i class="fab fa-facebook-square social__icon"></i>
       </a>
     </div>
+    <a
+      target="_blank"
+      href="fb-messenger://share/?link=https://takeupsomething.com{{ .Params.url }}&app_id=804668730117775">
+      <i class="fab fa-messenger-square social__icon"></i>
+    </a>
     <a
       href="https://www.reddit.com/submit?url=https%3A%2F%2Ftakeupsomething.com{{ .Params.url }}"
       target="_blank"

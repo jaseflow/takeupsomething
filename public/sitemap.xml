@@ -53,11 +53,6 @@
     </url>
   
     <url>
-      <loc>https://takeupsomething.com/golf/</loc>
-      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
-    </url>
-  
-    <url>
       <loc>https://takeupsomething.com/categories/health/</loc>
       <lastmod>2020-12-30T11:10:26+10:00</lastmod>
     </url>
@@ -73,12 +68,22 @@
     </url>
   
     <url>
-      <loc>https://takeupsomething.com/</loc>
+      <loc>https://takeupsomething.com/cooking/</loc>
       <lastmod>2020-12-30T11:10:26+10:00</lastmod>
     </url>
   
     <url>
-      <loc>https://takeupsomething.com/cooking/</loc>
+      <loc>https://takeupsomething.com/gardening/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://takeupsomething.com/golf/</loc>
+      <lastmod>2020-12-30T11:10:26+10:00</lastmod>
+    </url>
+  
+    <url>
+      <loc>https://takeupsomething.com/</loc>
       <lastmod>2020-12-30T11:10:26+10:00</lastmod>
     </url>
   
