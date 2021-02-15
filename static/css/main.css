@@ -244,6 +244,9 @@ figcaption {
 
 .header .container {
   position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .header__icon {
@@ -1229,6 +1232,10 @@ figcaption {
     margin: 0 -2rem;
     padding: 2rem;
     background: #eee;
+  }
+
+  .social__title {
+    display: none;
   }
 
 }

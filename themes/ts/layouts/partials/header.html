@@ -6,9 +6,7 @@
       </a>
     </div>
     {{ if .Params.author }}
-    <div class="header__author">
       {{- partial "social.html" . -}}
-    </div>
     {{ end }}
     <div class="header__search">
       {{- partial "search.html" . -}}
