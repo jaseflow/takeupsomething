@@ -285,6 +285,7 @@ figcaption {
 .social__link--twitter { color: #1da1f2 }
 .social__link--facebook { color: #3b5998  }
 .social__link--reddit { color: #FF4500 }
+.social__link--messenger { color: #00C6FF }
 
 .search {
   position: relative;
