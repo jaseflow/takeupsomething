@@ -95,6 +95,7 @@ figcaption {
 
 .flex {
   display: flex;
+  flex: 1;
 }
 
 .flex--aligned {
@@ -1222,6 +1223,10 @@ figcaption {
 }
 
 @media(max-width: 959px) {
+
+  .flex--spaced-mobile {
+    justify-content: space-between;
+  }
 
   .form {
     margin-bottom: 2rem;

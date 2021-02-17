@@ -1,13 +1,15 @@
 <header class="header">
   <div class="container">
-    <div class="header__logo">
-      <a href="/" class="logo">
-        <img src="/logo.svg" />
-      </a>
+    <div class="flex flex--aligned flex--spaced-mobile">
+      <div class="header__logo">
+        <a href="/" class="logo">
+          <img src="/logo.svg" />
+        </a>
+      </div>
+      {{ if .Params.author }}
+        {{- partial "social.html" . -}}
+      {{ end }}
     </div>
-    {{ if .Params.author }}
-      {{- partial "social.html" . -}}
-    {{ end }}
     <div class="header__search">
       {{- partial "search.html" . -}}
     </div>

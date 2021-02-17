@@ -12,7 +12,7 @@ author:
   name: "Jason Corbett"
   handle: "jsncbt"
   description: "Jason is a home cook who dreams of one day giving it all up to sell his bean wraps outside the football."
-description: "You don't need much to start getting good meals out the door. The most important pieces of equipment in a kitchen are a good knife, quality pots and pans to cook with and the odd tool to help you get jobs done faster. This guide will provide you with the essential items for your kitchen."
+description: "You don't need much to start getting good meals out the door. The most important pieces of equipment in a kitchen are a good knife, quality pots and pans along with the odd tool to help you get jobs done faster. This guide will provide you with the essential items for your kitchen."
 books:
   - name: "The Food Lab Better Home Cooking Through Science"
     imageUrl: "https://images-na.ssl-images-amazon.com/images/I/41ufhLxL-TL._SX387_BO1,204,203,200_.jpg"
