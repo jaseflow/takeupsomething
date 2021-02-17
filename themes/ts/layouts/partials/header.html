@@ -6,9 +6,9 @@
           <img src="/logo.svg" />
         </a>
       </div>
-      {{ if .Params.author }}
+      {{if not .IsHome}}
         {{- partial "social.html" . -}}
-      {{ end }}
+      {{end}}
     </div>
     <div class="header__search">
       {{- partial "search.html" . -}}
