@@ -280,13 +280,16 @@ figcaption {
   text-align: center;
 }
 
-.social__link {
-  color: initial;
+.social__icons > * {
   margin-left: 1rem;
 }
 
-.social__link:first-child {
+.social__icons > *:first-child {
   margin-left: 0;
+}
+
+.social__link {
+  color: initial;
 }
 
 .social__link--twitter { color: #1da1f2 }
