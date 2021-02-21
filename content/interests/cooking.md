@@ -29,7 +29,7 @@ books:
 ---
 
 ## Why start Cooking?
-There are many reasons someone might want to start cooking. Maybe you want to impress a certain individual, maybe you need to learn since you're out on your own now or perhaps you just find it extremely satisfying? Cooking or food in general brings joy to everybody, so why not learn how to provide that joy in the best way possible.
+There are many reasons someone might want to start cooking. Maybe you want to impress a certain individual, perhaps you need to learn since you're out on your own now or like a lot of people you just find it extremely satisfying? Cooking brings joy to everybody, so why not learn how to provide that joy in the best way possible.
 
 ## How much does it cost
 If you're setting up your kitchen from scratch you can expect to pay between **$400** **and** **$600**. It's important to pay for the quality when it comes to knives, pots and pans. A high quality knife will be upwards of $150, although the Vetroinox brand provides good quality for low price. Pots and pans you should be paying about $100 for each.
@@ -39,7 +39,7 @@ If you're setting up your kitchen from scratch you can expect to pay between **$
 ### A Chef's knife
 {{< attribution-image imageUrl="/posts/cooking/chefs-knife.jpg" caption="A chef's knife slicing an onion" author="Caroline Attwood" authorUrl="https://unsplash.com/@carolineattwood" >}}
 
-When you're just starting out there is no need to go out and get a knife for every day of the week. Pick up one quality Chef's knife and you're good to go. You will want the knife to be sharp AND durable. It's also important to make sure the knife feels good to hold, you're going to be spending a lot of time with it.
+When you're just starting out there is no need to go out and all kinds of different knives. Just pick up one quality Chef's knife and you're good to go. You will want the knife to be sharp AND durable. Try and get down to a cooking store if possible to get a feel for the knife. You're going to be spending a lot of time with this thing in your hand so it's important to make sure the knife feels good in your hand.
 
 ### Skillet / Frying Pan
 Stainless Steel is the name of the game here. You could get cast iron or non-stick but to start off with the Stainless Steel provides variety, durability and is low maintenance.

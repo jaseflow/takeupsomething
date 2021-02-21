@@ -14,8 +14,8 @@ author:
   description: "Exploring Australia's beautiful places and petfriendly spaces! 🐶🏖️
   📍 South Australia looking back at old Tassie pics"
 description: "There is no better way to socially distance this year than by
-getting out with nature and camping. Camping is one of those activities that if
-you turn up unprepared then you're not going have any fun. That's why we've put together this guide on camping to make sure you're as ready as you can be for your next trip."
+getting out with nature and camping. Be warned though, if
+you turn up unprepared then you're not going to have a good time. That's why we've put together this guide on camping to make sure you're as ready as you can be for your next trip."
 books:
   - name: "Bushcraft 101: A Field Guide to the Art of Wilderness Survival "
     imageUrl: "//ws-na.amazon-adsystem.com/widgets/q?_encoding=UTF8&ASIN=B00MIMHPII&Format=_SL160_&ID=AsinImage&MarketPlace=US&ServiceVersion=20070822&WS=1&tag=takeupsomethi-20&language=en_US"
@@ -32,14 +32,14 @@ books:
 ---
 
 ## Why start camping
-Camping can be the antidote the today's chaotic lifestyles. Going camping gives you the opportunity to disconnect from your devices and really be with nature. There is a real satisfaction to be felt once you finish setting up your campsite and take a step back to appreciate the organization and functionality you have created.
+Camping can be the antidote to today's chaotic lifestyles. Going camping gives you the opportunity to disconnect from your devices and really be with nature. There is a real satisfaction to be felt once you finish setting up your campsite and take a step back to appreciate the organization and functionality you have created.
 
 If you enjoy solving unique problems, planning and preparing, getting your hands dirty and most importantly enjoy being amongst nature, then camping could be for you.
 
 {{< figure src="https://images.unsplash.com/photo-1487730116645-74489c95b41b?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80" >}}
 
 ## How much does it cost
-If you are starting from scratch then there will be a decent up front cost. Expect to pay somewhere between **$500** **and** **$700** to have enough equipment to get by. The bulk of the cost will comes from the tent which will set you back about $200 and the sleeping bag just a little less at $150.
+If you are starting from scratch then there will be a decent up front cost. Expect to pay somewhere between **$500** **and** **$700** to have enough equipment to get by. The bulk of the cost will come from the tent, which will set you back about $200 and the sleeping bag just a little less at $150.
 
 Other costs to think about is gas to and from the campsite or any fees at the site you're camping at.
 
